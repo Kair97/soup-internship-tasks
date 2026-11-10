@@ -1,0 +1,28 @@
+2026-11-10T11:28:28.172Z harness start: {"admin_url": "postgresql://USER:PASS@localhost:5432/postgres", "db_name": "jobs_chaos", "jobs": 1500, "workers": 8, "kill_every": 2.0, "freeze_every": 4.0, "lease": 3.0, "duration_ms": [10, 150], "long_rate": 0.03, "long_ms": [500, 3000], "running_cancel_prob": 0.05, "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 300.0, "seed": 1088043387, "inject": "ignore_cancel", "out": "../scratch-results"}
+2026-11-10T11:28:28.219Z platform: Windows-11-10.0.26300-SP0 python 3.12.10 cpus=16
+2026-11-10T11:28:28.535Z postgres: PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-11-10T11:28:30.409Z api up at http://127.0.0.1:57769
+2026-11-10T11:28:32.805Z CHAOS kill -9 worker pid=16648 (kills=1)
+2026-11-10T11:28:35.099Z CHAOS kill -9 worker pid=8680 (kills=2)
+2026-11-10T11:28:36.949Z CHAOS kill -9 worker pid=26144 (kills=3)
+2026-11-10T11:28:39.329Z CHAOS kill -9 worker pid=26048 (kills=4)
+2026-11-10T11:28:41.407Z CHAOS kill -9 worker pid=14080 (kills=5)
+2026-11-10T11:28:42.966Z CHAOS kill -9 worker pid=2612 (kills=6)
+2026-11-10T11:28:45.396Z CHAOS kill -9 worker pid=11096 (kills=7)
+2026-11-10T11:28:47.282Z submitted 1500 jobs in 16.5s; waiting for 306 retries/cancels
+2026-11-10T11:28:47.329Z CHAOS kill -9 worker pid=31484 (kills=8)
+2026-11-10T11:28:49.179Z CHAOS kill -9 worker pid=26868 (kills=9)
+2026-11-10T11:28:50.959Z CHAOS kill -9 worker pid=32452 (kills=10)
+2026-11-10T11:28:51.886Z stats {"queued": 160, "running": 10, "succeeded": 1195, "failed": 18, "cancelled": 117}
+2026-11-10T11:28:52.883Z stats {"queued": 104, "running": 9, "succeeded": 1249, "failed": 20, "cancelled": 118}
+2026-11-10T11:28:53.452Z CHAOS kill -9 worker pid=34656 (kills=11)
+2026-11-10T11:28:53.886Z stats {"queued": 57, "running": 9, "succeeded": 1296, "failed": 20, "cancelled": 118}
+2026-11-10T11:28:54.896Z stats {"queued": 0, "running": 4, "succeeded": 1358, "failed": 20, "cancelled": 118}
+2026-11-10T11:28:55.022Z CHAOS kill -9 worker pid=12400 (kills=12)
+2026-11-10T11:28:55.904Z stats {"queued": 0, "running": 2, "succeeded": 1360, "failed": 20, "cancelled": 118}
+2026-11-10T11:28:56.899Z stats {"queued": 0, "running": 0, "succeeded": 1361, "failed": 21, "cancelled": 118}
+2026-11-10T11:28:57.101Z all frozen workers resumed; grace period 5s for zombie writes
+2026-11-10T11:29:02.271Z stats {"queued": 0, "running": 0, "succeeded": 1361, "failed": 21, "cancelled": 118}
+2026-11-10T11:29:02.351Z metrics {"jobs_in_db": 1500, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 118, "failed:0": 21, "succeeded:1": 1361}, "effects_from_stale_token": 0, "transitions": {"running->succeeded": 1361, "running->cancelled": 5, "queued->cancelled": 113, "running->queued": 9, "queued->running (new token)": 1396, "running->failed": 21}, "cancel_accepted": 136, "cancel_too_late": 41, "final_status": {"cancelled": 118, "failed": 21, "succeeded": 1361}, "executions_total": 1396, "jobs_executed_more_than_once": 9, "max_executions_per_job": 2, "stale_writes_rejected": {}, "requeued_after_lease_expiry": 9, "elapsed_s": 31.8, "seed": 1088043387, "kills": 12, "freezes": 0, "running_cancels_sent": 33, "duplicate_posts": 388, "create_codes": {"201": 1500, "200": 388}, "cancel_codes": {"409": 41, "202": 24, "200": 113}, "client_transport_errors": {}}
+2026-11-10T11:29:02.351Z RESULT: FAIL (1 invariant violations)
+2026-11-10T11:29:02.351Z   VIOLATION CANCEL IGNORED: 18 jobs had cancel accepted (200/202) but finished as Counter({'succeeded': 18})

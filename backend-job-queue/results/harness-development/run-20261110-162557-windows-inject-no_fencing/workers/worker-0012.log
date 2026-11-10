@@ -1,0 +1,3 @@
+2026-11-10 16:26:10,179 INFO kozlaptop:17392:ec87b1: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:26:14,380 INFO kozlaptop:17392:ec87b1: reaped 1 expired lease(s)
+2026-11-10 16:26:21,549 INFO kozlaptop:17392:ec87b1: reaped 1 expired lease(s)

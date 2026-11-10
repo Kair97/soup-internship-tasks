@@ -1,0 +1,2 @@
+2026-11-10 16:28:49,809 INFO kozlaptop:15748:facc85: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 16:28:51,355 INFO kozlaptop:15748:facc85: cancelled 157c55a4-eb25-4d29-971c-d9b7f5a656f7 mid-run

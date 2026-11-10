@@ -1,0 +1,5 @@
+2026-11-10 16:28:00,429 INFO kozlaptop:27056:2c0515: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:28:00,436 INFO kozlaptop:27056:2c0515: reaped 1 expired lease(s)
+2026-11-10 16:28:06,412 INFO kozlaptop:27056:2c0515: cancelled 2cd8bbe5-822d-459b-9146-ce9c4f365fc7 mid-run
+2026-11-10 16:28:11,504 INFO kozlaptop:27056:2c0515: reaped 1 expired lease(s)
+2026-11-10 16:28:16,332 INFO kozlaptop:27056:2c0515: cancelled 372ac7c2-3523-4bfc-be9f-ffd445ed24d8 mid-run

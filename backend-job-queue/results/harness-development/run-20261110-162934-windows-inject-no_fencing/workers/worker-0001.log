@@ -1,0 +1,3 @@
+2026-11-10 16:29:38,103 INFO kozlaptop:11560:a4daca: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:29:42,173 INFO kozlaptop:11560:a4daca: reaped 1 expired lease(s)
+2026-11-10 16:29:43,178 INFO kozlaptop:11560:a4daca: cancelled eeaf0b92-ea20-42f1-ac8f-0edc1f81fe2c mid-run

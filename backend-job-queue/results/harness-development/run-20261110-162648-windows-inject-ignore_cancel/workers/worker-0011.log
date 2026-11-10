@@ -1,0 +1,2 @@
+2026-11-10 16:26:58,214 INFO kozlaptop:34804:ab940e: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 16:27:02,393 INFO kozlaptop:34804:ab940e: reaped 1 expired lease(s)

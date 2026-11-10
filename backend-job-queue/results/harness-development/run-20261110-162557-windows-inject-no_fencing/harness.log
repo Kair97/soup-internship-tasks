@@ -1,0 +1,26 @@
+2026-11-10T11:25:57.476Z harness start: {"admin_url": "postgresql://USER:PASS@localhost:5432/postgres", "db_name": "jobs_chaos", "jobs": 1500, "workers": 8, "kill_every": 2.0, "freeze_every": 4.0, "lease": 3.0, "duration_ms": [10, 150], "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 180.0, "seed": 877059639, "inject": "no_fencing", "out": "../scratch-results"}
+2026-11-10T11:25:57.519Z platform: Windows-11-10.0.26300-SP0 python 3.12.10 cpus=16
+2026-11-10T11:25:59.381Z postgres: PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-11-10T11:26:01.219Z api up at http://127.0.0.1:53253
+2026-11-10T11:26:03.560Z CHAOS kill -9 worker pid=11852 (kills=1)
+2026-11-10T11:26:05.527Z CHAOS kill -9 worker pid=14960 (kills=2)
+2026-11-10T11:26:05.592Z CHAOS freeze worker pid=8952 for 7.0s
+2026-11-10T11:26:07.599Z CHAOS kill -9 worker pid=33420 (kills=3)
+2026-11-10T11:26:09.363Z CHAOS freeze worker pid=19784 for 7.0s
+2026-11-10T11:26:09.439Z CHAOS kill -9 worker pid=17300 (kills=4)
+2026-11-10T11:26:11.113Z CHAOS kill -9 worker pid=22000 (kills=5)
+2026-11-10T11:26:12.588Z CHAOS freeze worker pid=10808 for 7.0s
+2026-11-10T11:26:12.595Z CHAOS resume worker pid=8952 (now a zombie with an expired lease)
+2026-11-10T11:26:12.845Z CHAOS kill -9 worker pid=23360 (kills=6)
+2026-11-10T11:26:14.996Z CHAOS kill -9 worker pid=8952 (kills=7)
+2026-11-10T11:26:16.364Z CHAOS resume worker pid=19784 (now a zombie with an expired lease)
+2026-11-10T11:26:16.811Z CHAOS kill -9 worker pid=21828 (kills=8)
+2026-11-10T11:26:17.566Z CHAOS freeze worker pid=10436 for 7.0s
+2026-11-10T11:26:17.581Z submitted 1500 jobs in 16.0s; waiting for 323 retries/cancels
+2026-11-10T11:26:18.549Z CHAOS kill -9 worker pid=21960 (kills=9)
+2026-11-10T11:26:19.587Z CHAOS resume worker pid=10808 (now a zombie with an expired lease)
+2026-11-10T11:26:20.870Z CHAOS kill -9 worker pid=16608 (kills=10)
+2026-11-10T11:26:21.518Z CHAOS freeze worker pid=19784 for 7.0s
+2026-11-10T11:26:22.332Z stats {"queued": 0, "running": 0, "succeeded": 1447, "failed": 34, "cancelled": 19}
+2026-11-10T11:26:22.513Z metrics {"jobs_in_db": 1500, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 19, "failed:0": 34, "succeeded:1": 1447}, "effects_from_stale_token": 0, "transitions": {"running->cancelled": 1, "queued->cancelled": 18, "running->queued": 9, "queued->running (new token)": 1491, "running->failed": 34, "running->succeeded": 1447}, "cancel_accepted": 19, "cancel_too_late": 132, "final_status": {"cancelled": 19, "failed": 34, "succeeded": 1447}, "executions_total": 1491, "jobs_executed_more_than_once": 9, "max_executions_per_job": 2, "stale_writes_rejected": {}, "requeued_after_lease_expiry": 9, "elapsed_s": 21.1, "seed": 877059639, "kills": 10, "freezes": 5, "duplicate_posts": 385, "create_codes": {"201": 1500, "200": 385}, "cancel_codes": {"409": 132, "202": 1, "200": 18}, "client_transport_errors": {}}
+2026-11-10T11:26:22.513Z RESULT: PASS (no lost jobs, no duplicate effects, nothing stuck, states consistent)

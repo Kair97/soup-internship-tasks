@@ -1,0 +1,28 @@
+2026-11-10T11:26:49.020Z harness start: {"admin_url": "postgresql://USER:PASS@localhost:5432/postgres", "db_name": "jobs_chaos", "jobs": 1500, "workers": 8, "kill_every": 2.0, "freeze_every": 4.0, "lease": 3.0, "duration_ms": [10, 150], "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 180.0, "seed": 1512004142, "inject": "ignore_cancel", "out": "../scratch-results"}
+2026-11-10T11:26:49.059Z platform: Windows-11-10.0.26300-SP0 python 3.12.10 cpus=16
+2026-11-10T11:26:49.389Z postgres: PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-11-10T11:26:51.501Z api up at http://127.0.0.1:57549
+2026-11-10T11:26:53.883Z CHAOS kill -9 worker pid=20336 (kills=1)
+2026-11-10T11:26:55.895Z CHAOS kill -9 worker pid=528 (kills=2)
+2026-11-10T11:26:55.895Z CHAOS freeze worker pid=34344 for 7.0s
+2026-11-10T11:26:57.592Z CHAOS kill -9 worker pid=10584 (kills=3)
+2026-11-10T11:26:59.349Z CHAOS freeze worker pid=11768 for 7.0s
+2026-11-10T11:26:59.409Z CHAOS kill -9 worker pid=18676 (kills=4)
+2026-11-10T11:27:00.965Z CHAOS kill -9 worker pid=33788 (kills=5)
+2026-11-10T11:27:02.895Z CHAOS resume worker pid=34344 (now a zombie with an expired lease)
+2026-11-10T11:27:03.191Z CHAOS freeze worker pid=24480 for 7.0s
+2026-11-10T11:27:03.443Z CHAOS kill -9 worker pid=20264 (kills=6)
+2026-11-10T11:27:05.402Z CHAOS kill -9 worker pid=17512 (kills=7)
+2026-11-10T11:27:06.345Z CHAOS resume worker pid=11768 (now a zombie with an expired lease)
+2026-11-10T11:27:07.414Z submitted 1500 jobs in 15.6s; waiting for 308 retries/cancels
+2026-11-10T11:27:07.910Z CHAOS kill -9 worker pid=34344 (kills=8)
+2026-11-10T11:27:08.029Z CHAOS freeze worker pid=14772 for 7.0s
+2026-11-10T11:27:09.493Z CHAOS kill -9 worker pid=25488 (kills=9)
+2026-11-10T11:27:10.212Z CHAOS resume worker pid=24480 (now a zombie with an expired lease)
+2026-11-10T11:27:11.125Z CHAOS kill -9 worker pid=24480 (kills=10)
+2026-11-10T11:27:12.394Z CHAOS freeze worker pid=12652 for 7.0s
+2026-11-10T11:27:12.400Z stats {"queued": 0, "running": 1, "succeeded": 1432, "failed": 34, "cancelled": 33}
+2026-11-10T11:27:12.861Z CHAOS kill -9 worker pid=15740 (kills=11)
+2026-11-10T11:27:13.410Z stats {"queued": 0, "running": 0, "succeeded": 1433, "failed": 34, "cancelled": 33}
+2026-11-10T11:27:13.500Z metrics {"jobs_in_db": 1500, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 33, "failed:0": 34, "succeeded:1": 1433}, "effects_from_stale_token": 0, "transitions": {"running->succeeded": 1433, "running->queued": 9, "running->failed": 34, "queued->running (new token)": 1476, "queued->cancelled": 33}, "cancel_accepted": 33, "cancel_too_late": 104, "final_status": {"cancelled": 33, "failed": 34, "succeeded": 1433}, "executions_total": 1476, "jobs_executed_more_than_once": 9, "max_executions_per_job": 2, "stale_writes_rejected": {}, "requeued_after_lease_expiry": 9, "elapsed_s": 21.9, "seed": 1512004142, "kills": 11, "freezes": 5, "duplicate_posts": 382, "create_codes": {"201": 1500, "200": 382}, "cancel_codes": {"409": 104, "200": 33}, "client_transport_errors": {}}
+2026-11-10T11:27:13.500Z RESULT: PASS (no lost jobs, no duplicate effects, nothing stuck, states consistent)

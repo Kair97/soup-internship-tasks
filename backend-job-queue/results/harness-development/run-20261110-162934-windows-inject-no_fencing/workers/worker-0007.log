@@ -1,0 +1,2 @@
+2026-11-10 16:29:38,503 INFO kozlaptop:22808:820bc5: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:29:48,493 INFO kozlaptop:22808:820bc5: cancelled dbd5005c-0dd6-4ac2-9aac-8993bdcbab90 mid-run

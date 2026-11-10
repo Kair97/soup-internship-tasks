@@ -1,0 +1,31 @@
+2026-11-10T11:26:23.379Z harness start: {"admin_url": "postgresql://USER:PASS@localhost:5432/postgres", "db_name": "jobs_chaos", "jobs": 1500, "workers": 8, "kill_every": 2.0, "freeze_every": 4.0, "lease": 3.0, "duration_ms": [10, 150], "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 180.0, "seed": 2052541876, "inject": "no_lock", "out": "../scratch-results"}
+2026-11-10T11:26:23.419Z platform: Windows-11-10.0.26300-SP0 python 3.12.10 cpus=16
+2026-11-10T11:26:23.751Z postgres: PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-11-10T11:26:25.612Z api up at http://127.0.0.1:57439
+2026-11-10T11:26:27.979Z CHAOS kill -9 worker pid=22712 (kills=1)
+2026-11-10T11:26:29.802Z CHAOS kill -9 worker pid=31932 (kills=2)
+2026-11-10T11:26:29.939Z CHAOS freeze worker pid=10916 for 7.0s
+2026-11-10T11:26:31.410Z CHAOS kill -9 worker pid=21316 (kills=3)
+2026-11-10T11:26:33.930Z CHAOS kill -9 worker pid=30852 (kills=4)
+2026-11-10T11:26:34.489Z CHAOS freeze worker pid=32228 for 7.0s
+2026-11-10T11:26:35.513Z CHAOS kill -9 worker pid=33104 (kills=5)
+2026-11-10T11:26:36.949Z CHAOS resume worker pid=10916 (now a zombie with an expired lease)
+2026-11-10T11:26:37.165Z CHAOS kill -9 worker pid=21544 (kills=6)
+2026-11-10T11:26:38.592Z CHAOS freeze worker pid=7432 for 7.0s
+2026-11-10T11:26:38.729Z CHAOS kill -9 worker pid=30188 (kills=7)
+2026-11-10T11:26:40.949Z CHAOS kill -9 worker pid=10916 (kills=8)
+2026-11-10T11:26:41.434Z submitted 1500 jobs in 15.5s; waiting for 308 retries/cancels
+2026-11-10T11:26:41.504Z CHAOS resume worker pid=32228 (now a zombie with an expired lease)
+2026-11-10T11:26:42.852Z CHAOS kill -9 worker pid=17532 (kills=9)
+2026-11-10T11:26:43.100Z CHAOS freeze worker pid=5676 for 7.0s
+2026-11-10T11:26:44.615Z CHAOS kill -9 worker pid=32228 (kills=10)
+2026-11-10T11:26:45.581Z CHAOS resume worker pid=7432 (now a zombie with an expired lease)
+2026-11-10T11:26:46.062Z stats {"queued": 49, "running": 7, "succeeded": 1312, "failed": 30, "cancelled": 102}
+2026-11-10T11:26:46.232Z CHAOS kill -9 worker pid=25540 (kills=11)
+2026-11-10T11:26:47.080Z stats {"queued": 0, "running": 1, "succeeded": 1365, "failed": 32, "cancelled": 102}
+2026-11-10T11:26:47.826Z CHAOS kill -9 worker pid=27488 (kills=12)
+2026-11-10T11:26:47.826Z CHAOS freeze worker pid=20388 for 7.0s
+2026-11-10T11:26:48.103Z stats {"queued": 0, "running": 0, "succeeded": 1366, "failed": 32, "cancelled": 102}
+2026-11-10T11:26:48.231Z metrics {"jobs_in_db": 1500, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 102, "failed:0": 32, "succeeded:1": 1366}, "effects_from_stale_token": 0, "transitions": {"running->succeeded": 1366, "running->running (new token)": 326, "running->cancelled": 2, "queued->cancelled": 100, "running->queued": 9, "queued->running (new token)": 1409, "running->failed": 32}, "cancel_accepted": 102, "cancel_too_late": 50, "final_status": {"cancelled": 102, "failed": 32, "succeeded": 1366}, "executions_total": 1735, "jobs_executed_more_than_once": 297, "max_executions_per_job": 5, "stale_writes_rejected": {"failed": 5, "complete": 319}, "requeued_after_lease_expiry": 9, "elapsed_s": 22.5, "seed": 2052541876, "kills": 12, "freezes": 5, "duplicate_posts": 363, "create_codes": {"201": 1500, "200": 363}, "cancel_codes": {"409": 50, "200": 100, "202": 2}, "client_transport_errors": {}}
+2026-11-10T11:26:48.231Z RESULT: FAIL (1 invariant violations)
+2026-11-10T11:26:48.231Z   VIOLATION DOUBLE CLAIM: 326 claims of a job that was already running

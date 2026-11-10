@@ -1,0 +1,86 @@
+{
+  "name": "run-20261110-162934-windows-inject-no_fencing",
+  "result": "FAIL",
+  "violations": [
+    "DUPLICATE SIDE EFFECT: 4 jobs have more than one effect",
+    "SUCCEEDED WITHOUT EXACTLY ONE EFFECT: 4",
+    "ZOMBIE WRITE: 5 effects written with a superseded fencing token"
+  ],
+  "args": {
+    "admin_url": "postgresql://USER:PASS@localhost:5432/postgres",
+    "db_name": "jobs_chaos",
+    "jobs": 1500,
+    "workers": 8,
+    "kill_every": 2.0,
+    "freeze_every": 4.0,
+    "lease": 3.0,
+    "duration_ms": [
+      10,
+      150
+    ],
+    "long_rate": 0.03,
+    "long_ms": [
+      500,
+      3000
+    ],
+    "running_cancel_prob": 0.05,
+    "fail_rate": 0.02,
+    "dup_rate": 0.15,
+    "retry_rate": 0.1,
+    "cancel_rate": 0.1,
+    "concurrency": 48,
+    "timeout": 300.0,
+    "seed": null,
+    "inject": "no_fencing",
+    "out": "../scratch-results"
+  },
+  "metrics": {
+    "jobs_in_db": 1500,
+    "keys_with_more_than_one_id": 0,
+    "stuck_non_terminal": 0,
+    "effects_by_status": {
+      "cancelled:0": 152,
+      "failed:0": 21,
+      "succeeded:1": 1323,
+      "succeeded:2": 3,
+      "succeeded:3": 1
+    },
+    "effects_from_stale_token": 5,
+    "transitions": {
+      "running->succeeded": 1327,
+      "running->cancelled": 37,
+      "queued->cancelled": 115,
+      "running->queued": 10,
+      "queued->running (new token)": 1395,
+      "running->failed": 21
+    },
+    "cancel_accepted": 152,
+    "cancel_too_late": 34,
+    "final_status": {
+      "cancelled": 152,
+      "failed": 21,
+      "succeeded": 1327
+    },
+    "executions_total": 1395,
+    "jobs_executed_more_than_once": 9,
+    "max_executions_per_job": 3,
+    "stale_writes_rejected": {},
+    "requeued_after_lease_expiry": 10,
+    "elapsed_s": 45.3,
+    "seed": 324222310,
+    "kills": 15,
+    "freezes": 8,
+    "running_cancels_sent": 44,
+    "duplicate_posts": 391,
+    "create_codes": {
+      "201": 1500,
+      "200": 391
+    },
+    "cancel_codes": {
+      "409": 34,
+      "202": 38,
+      "200": 115
+    },
+    "client_transport_errors": {}
+  }
+}

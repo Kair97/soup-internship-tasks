@@ -1,0 +1,3 @@
+2026-11-10 16:25:35,359 INFO kozlaptop:22784:687c01: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:25:43,693 INFO kozlaptop:22784:687c01: reaped 1 expired lease(s)
+2026-11-10 16:25:47,909 INFO kozlaptop:22784:687c01: reaped 1 expired lease(s)

@@ -1,0 +1,3 @@
+2026-11-10 16:27:56,073 INFO kozlaptop:21364:9366e2: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:28:07,587 INFO kozlaptop:21364:9366e2: cancelled 1d18e5a4-9c0a-43bb-9dcc-970aa8e0d384 mid-run
+2026-11-10 16:28:09,631 INFO kozlaptop:21364:9366e2: cancelled b0b83e7a-2bd5-4343-9db4-2d33c6b400aa mid-run

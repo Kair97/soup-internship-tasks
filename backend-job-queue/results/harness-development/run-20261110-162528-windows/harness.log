@@ -1,0 +1,19 @@
+2026-11-10T11:25:29.311Z harness start: {"admin_url": "postgresql://USER:PASS@localhost:5432/postgres", "db_name": "jobs_chaos", "jobs": 500, "workers": 4, "kill_every": 2.0, "freeze_every": 10.0, "lease": 3.0, "duration_ms": [10, 150], "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 120.0, "seed": 845351639, "inject": "", "out": "../scratch-results"}
+2026-11-10T11:25:29.348Z platform: Windows-11-10.0.26300-SP0 python 3.12.10 cpus=16
+2026-11-10T11:25:29.665Z postgres: PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-11-10T11:25:34.589Z api up at http://127.0.0.1:53164
+2026-11-10T11:25:36.884Z CHAOS kill -9 worker pid=33060 (kills=1)
+2026-11-10T11:25:39.029Z CHAOS kill -9 worker pid=21544 (kills=2)
+2026-11-10T11:25:40.649Z CHAOS kill -9 worker pid=11016 (kills=3)
+2026-11-10T11:25:40.654Z submitted 500 jobs in 5.8s; waiting for 97 retries/cancels
+2026-11-10T11:25:42.770Z CHAOS kill -9 worker pid=11628 (kills=4)
+2026-11-10T11:25:44.365Z stats {"queued": 84, "running": 5, "succeeded": 366, "failed": 9, "cancelled": 36}
+2026-11-10T11:25:44.824Z CHAOS freeze worker pid=1412 for 7.0s
+2026-11-10T11:25:44.895Z CHAOS kill -9 worker pid=12988 (kills=5)
+2026-11-10T11:25:45.381Z stats {"queued": 40, "running": 5, "succeeded": 410, "failed": 9, "cancelled": 36}
+2026-11-10T11:25:46.372Z stats {"queued": 3, "running": 5, "succeeded": 446, "failed": 10, "cancelled": 36}
+2026-11-10T11:25:47.381Z CHAOS kill -9 worker pid=25832 (kills=6)
+2026-11-10T11:25:47.390Z stats {"queued": 0, "running": 1, "succeeded": 453, "failed": 10, "cancelled": 36}
+2026-11-10T11:25:48.420Z stats {"queued": 0, "running": 0, "succeeded": 454, "failed": 10, "cancelled": 36}
+2026-11-10T11:25:48.542Z metrics {"jobs_in_db": 500, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 36, "failed:0": 10, "succeeded:1": 454}, "effects_from_stale_token": 0, "transitions": {"running->cancelled": 3, "running->failed": 10, "running->succeeded": 454, "queued->running (new token)": 472, "running->queued": 5, "queued->cancelled": 33}, "cancel_accepted": 36, "cancel_too_late": 14, "final_status": {"cancelled": 36, "failed": 10, "succeeded": 454}, "executions_total": 472, "jobs_executed_more_than_once": 5, "max_executions_per_job": 2, "stale_writes_rejected": {}, "requeued_after_lease_expiry": 5, "elapsed_s": 13.9, "seed": 845351639, "kills": 6, "freezes": 1, "duplicate_posts": 128, "create_codes": {"201": 500, "200": 128}, "cancel_codes": {"202": 3, "200": 33, "409": 14}, "client_transport_errors": {}}
+2026-11-10T11:25:48.542Z RESULT: PASS (no lost jobs, no duplicate effects, nothing stuck, states consistent)

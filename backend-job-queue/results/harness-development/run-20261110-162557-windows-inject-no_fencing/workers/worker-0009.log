@@ -1,0 +1,2 @@
+2026-11-10 16:26:04,294 INFO kozlaptop:20264:596f76: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:26:08,453 INFO kozlaptop:20264:596f76: reaped 1 expired lease(s)
