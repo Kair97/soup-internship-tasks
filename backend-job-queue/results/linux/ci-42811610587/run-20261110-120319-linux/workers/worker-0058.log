@@ -1,0 +1,2 @@
+2026-11-10 12:05:06,076 INFO 6fad3ac0a6dc:433:69c25b: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:05:06,080 INFO 6fad3ac0a6dc:433:69c25b: reaped 1 expired lease(s)

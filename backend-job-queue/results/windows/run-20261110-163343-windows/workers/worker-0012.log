@@ -1,0 +1,3 @@
+2026-11-10 16:33:56,844 INFO kozlaptop:8200:1ef5d7: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:01,154 INFO kozlaptop:8200:1ef5d7: cancelled a9dfc292-e239-4d05-81e0-c434d3f9a68d mid-run
+2026-11-10 16:34:03,225 INFO kozlaptop:8200:1ef5d7: reaped 1 expired lease(s)

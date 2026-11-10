@@ -1,0 +1,3 @@
+2026-11-10 16:31:29,978 INFO kozlaptop:25992:582215: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:32,694 INFO kozlaptop:25992:582215: cancelled ad898d3d-7e4d-41e2-92eb-51ddeec21dd7 mid-run
+2026-11-10 16:31:43,872 WARNING kozlaptop:25992:582215: lost lease on 0be999de-0cb8-4ea7-91ad-d1f5d7526ea8 (token 1), abandoning

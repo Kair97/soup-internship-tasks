@@ -1,0 +1,3 @@
+2026-11-10 11:58:48,545 INFO 6fad3ac0a6dc:123:9d1774: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:52,716 INFO 6fad3ac0a6dc:123:9d1774: reaped 1 expired lease(s)
+2026-11-10 11:59:07,990 WARNING 6fad3ac0a6dc:123:9d1774: lost lease on 81b24181-9088-4c4f-a5d0-41fe2a950fb9 (token 1), abandoning

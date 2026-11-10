@@ -1,0 +1,4 @@
+2026-11-10 16:37:09,401 INFO kozlaptop:21232:f1cc87: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:37:36,486 INFO kozlaptop:21232:f1cc87: reaped 1 expired lease(s)
+2026-11-10 16:37:37,538 INFO kozlaptop:21232:f1cc87: reaped 1 expired lease(s)
+2026-11-10 16:37:38,544 INFO kozlaptop:21232:f1cc87: cancelled 00a5ed1a-8f90-4085-8e34-88c70a9b5cbf mid-run

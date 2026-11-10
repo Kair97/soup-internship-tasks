@@ -1,0 +1,2 @@
+2026-11-10 16:56:18,439 INFO kozlaptop:27896:ddd537: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:56:18,632 WARNING kozlaptop:27896:ddd537: result for 7d851114-48bf-4fe0-ad89-b9838b1da749 rejected, lease was taken over (stale token 1)

@@ -1,0 +1,15 @@
+2026-11-10 12:05:49,124 INFO 74f6f081b3f2:749:f2c323: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:05:52,092 WARNING 74f6f081b3f2:749:f2c323: result for 7a06df9f-c3aa-4331-b3fd-777959e6e4fb rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:58,280 WARNING 74f6f081b3f2:749:f2c323: result for 3fb1a3aa-0a7b-4992-985f-a6884d9898fe rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:58,478 INFO 74f6f081b3f2:749:f2c323: reaped 1 expired lease(s)
+2026-11-10 12:06:00,533 INFO 74f6f081b3f2:749:f2c323: cancelled 7105474b-4250-474e-b6da-aa8e50184a87 mid-run
+2026-11-10 12:06:01,831 WARNING 74f6f081b3f2:749:f2c323: result for 8379c3e2-5741-40bd-9f34-05d502183671 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:02,856 WARNING 74f6f081b3f2:749:f2c323: result for b40b858a-0b61-41b9-b024-fe1b34b99f61 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:02,892 WARNING 74f6f081b3f2:749:f2c323: result for 3a833156-23bd-417b-b7ee-9209c5126f2a rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:02,920 WARNING 74f6f081b3f2:749:f2c323: result for 663b750b-73e0-45e0-81df-14e04266c397 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:03,037 WARNING 74f6f081b3f2:749:f2c323: result for 07fbef84-02c8-45d6-ba3a-6e8a2b6d6674 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:03,082 WARNING 74f6f081b3f2:749:f2c323: result for fc96ace2-86a2-4ba1-95a1-8bc183694151 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:03,234 WARNING 74f6f081b3f2:749:f2c323: result for 10a2c57c-e9bc-4083-b592-c1e0400856e7 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:03,368 WARNING 74f6f081b3f2:749:f2c323: result for c4408937-5c9e-4899-8838-7bff432e9629 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:05,057 WARNING 74f6f081b3f2:749:f2c323: result for cc6ec2d3-41b9-42da-8a14-483077e990c4 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:06,534 INFO 74f6f081b3f2:749:f2c323: cancelled 37167250-8565-4835-9dac-7876b28b6226 mid-run

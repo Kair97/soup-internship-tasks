@@ -1,0 +1,2 @@
+2026-11-10 16:54:57,230 INFO kozlaptop:13640:f0dcdc: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:54:57,694 WARNING kozlaptop:13640:f0dcdc: result for ee807566-e1c3-42e2-82d2-ce9cf1e72cac rejected, lease was taken over (stale token 1)

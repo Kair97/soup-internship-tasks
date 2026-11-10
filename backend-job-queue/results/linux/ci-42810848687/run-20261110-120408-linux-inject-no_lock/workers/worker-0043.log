@@ -1,0 +1,11 @@
+2026-11-10 12:05:23,463 INFO 74f6f081b3f2:735:2eb166: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:05:24,773 INFO 74f6f081b3f2:735:2eb166: cancelled 639c13af-998f-4614-b958-2b13b746d0c7 mid-run
+2026-11-10 12:05:25,868 WARNING 74f6f081b3f2:735:2eb166: result for 292ceb6b-e976-4272-80fe-b0dd5c28354e rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:27,741 WARNING 74f6f081b3f2:735:2eb166: result for a9e7a239-f7ca-442d-b4c3-2ca1e401531d rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:27,873 WARNING 74f6f081b3f2:735:2eb166: result for e3bea5dd-5a63-4656-8ccc-20f7c5b1b689 rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:37,021 INFO 74f6f081b3f2:735:2eb166: reaped 1 expired lease(s)
+2026-11-10 12:05:37,624 WARNING 74f6f081b3f2:735:2eb166: result for 94e87d4a-506b-415c-b941-fbe14b434b35 rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:37,768 WARNING 74f6f081b3f2:735:2eb166: result for abebcd03-60af-4f3c-ade9-b37dcec39dfc rejected, lease was taken over (stale token 2)
+2026-11-10 12:05:39,679 WARNING 74f6f081b3f2:735:2eb166: result for 7735fc39-cbe0-4293-93cb-98830ec8df02 rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:39,717 WARNING 74f6f081b3f2:735:2eb166: result for 1e95a9bb-9c67-49cd-b5ba-aa43ce2467a8 rejected, lease was taken over (stale token 1)
+2026-11-10 12:05:39,770 WARNING 74f6f081b3f2:735:2eb166: result for b3e93817-ab11-4c60-8beb-e8f906277d9a rejected, lease was taken over (stale token 1)

@@ -1,0 +1,4 @@
+2026-11-10 16:31:23,692 INFO kozlaptop:20004:0fdaac: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:28,401 INFO kozlaptop:20004:0fdaac: cancelled 8e2afc72-be94-42c2-836b-5d9e65f0c42d mid-run
+2026-11-10 16:31:28,401 INFO kozlaptop:20004:0fdaac: reaped 1 expired lease(s)
+2026-11-10 16:31:39,890 INFO kozlaptop:20004:0fdaac: reaped 1 expired lease(s)

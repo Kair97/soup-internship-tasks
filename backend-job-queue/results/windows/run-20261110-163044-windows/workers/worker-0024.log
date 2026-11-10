@@ -1,0 +1,2 @@
+2026-11-10 16:31:21,798 INFO kozlaptop:27820:8b210a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:21,799 INFO kozlaptop:27820:8b210a: reaped 1 expired lease(s)

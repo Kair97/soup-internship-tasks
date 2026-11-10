@@ -1,0 +1,3 @@
+2026-11-10 11:57:49,054 INFO 6fad3ac0a6dc:82:e80555: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:00,706 WARNING 6fad3ac0a6dc:82:e80555: lost lease on 10cf7703-93bc-43b5-a4c2-09160802d796 (token 1), abandoning
+2026-11-10 11:58:10,030 WARNING 6fad3ac0a6dc:82:e80555: lost lease on 0168adbf-9f89-48e3-b767-61dcaefdb1f0 (token 1), abandoning

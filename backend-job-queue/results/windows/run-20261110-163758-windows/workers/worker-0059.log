@@ -1,0 +1,3 @@
+2026-11-10 16:39:50,659 INFO kozlaptop:32228:48ded7: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:39:59,693 WARNING kozlaptop:32228:48ded7: lost lease on 51189539-0358-47ff-a991-014b793aed39 (token 1), abandoning
+2026-11-10 16:40:11,542 WARNING kozlaptop:32228:48ded7: lost lease on bd8a09fd-bdbc-419c-a033-c02d63e59c80 (token 1), abandoning

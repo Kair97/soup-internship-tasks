@@ -1,0 +1,5 @@
+2026-11-10 16:34:38,436 INFO kozlaptop:30316:b2a093: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:40,973 INFO kozlaptop:30316:b2a093: cancelled 30a39a48-83b4-453c-b0d2-356be572fc23 mid-run
+2026-11-10 16:34:46,905 INFO kozlaptop:30316:b2a093: cancelled 45bde05e-0057-419a-a31b-af7d7f94d81c mid-run
+2026-11-10 16:34:46,905 INFO kozlaptop:30316:b2a093: reaped 1 expired lease(s)
+2026-11-10 16:34:48,955 INFO kozlaptop:30316:b2a093: reaped 1 expired lease(s)

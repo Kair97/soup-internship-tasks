@@ -1,0 +1,6 @@
+2026-11-10 12:12:45,106 INFO 6fad3ac0a6dc:846:f89d36: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:12:49,311 INFO 6fad3ac0a6dc:846:f89d36: reaped 1 expired lease(s)
+2026-11-10 12:12:54,099 INFO 6fad3ac0a6dc:846:f89d36: reaped 1 expired lease(s)
+2026-11-10 12:12:56,274 INFO 6fad3ac0a6dc:846:f89d36: reaped 1 expired lease(s)
+2026-11-10 12:13:04,734 INFO 6fad3ac0a6dc:846:f89d36: reaped 1 expired lease(s)
+2026-11-10 12:13:14,707 INFO 6fad3ac0a6dc:846:f89d36: reaped 1 expired lease(s)

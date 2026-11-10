@@ -1,0 +1,5 @@
+2026-11-10 16:36:20,755 INFO kozlaptop:17560:836f1d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:36:28,939 INFO kozlaptop:17560:836f1d: reaped 1 expired lease(s)
+2026-11-10 16:36:36,209 INFO kozlaptop:17560:836f1d: reaped 1 expired lease(s)
+2026-11-10 16:36:37,215 INFO kozlaptop:17560:836f1d: cancelled b52525b9-f91c-4b1d-93ce-314dbc916c77 mid-run
+2026-11-10 16:36:41,366 INFO kozlaptop:17560:836f1d: cancelled 28e9a4cb-5439-41d0-84c3-17abd04c97ee mid-run

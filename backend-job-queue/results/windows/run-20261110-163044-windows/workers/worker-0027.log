@@ -1,0 +1,11 @@
+2026-11-10 16:31:28,294 INFO kozlaptop:17572:db3f83: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:32,645 INFO kozlaptop:17572:db3f83: cancelled 8b24ddbe-8d50-4dab-905f-b3504906e8fa mid-run
+2026-11-10 16:31:35,712 INFO kozlaptop:17572:db3f83: cancelled 1557e509-8fe5-4213-bd42-c7b2f917c5b3 mid-run
+2026-11-10 16:31:36,707 INFO kozlaptop:17572:db3f83: reaped 1 expired lease(s)
+2026-11-10 16:31:45,345 INFO kozlaptop:17572:db3f83: reaped 1 expired lease(s)
+2026-11-10 16:31:53,390 INFO kozlaptop:17572:db3f83: reaped 1 expired lease(s)
+2026-11-10 16:31:58,462 INFO kozlaptop:17572:db3f83: reaped 1 expired lease(s)
+2026-11-10 16:32:01,385 INFO kozlaptop:17572:db3f83: cancelled b1248bb8-f5a4-4062-b9e6-7eb6c6f0e153 mid-run
+2026-11-10 16:32:06,776 INFO kozlaptop:17572:db3f83: cancelled 8dcdafb2-525c-4015-8550-f16544b94dd6 mid-run
+2026-11-10 16:32:11,972 INFO kozlaptop:17572:db3f83: reaped 1 expired lease(s)
+2026-11-10 16:32:20,505 INFO kozlaptop:17572:db3f83: cancelled cd63839c-760f-4a4e-b08f-4f11023aa24a mid-run

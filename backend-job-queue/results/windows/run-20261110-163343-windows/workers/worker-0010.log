@@ -1,0 +1,6 @@
+2026-11-10 16:33:53,026 INFO kozlaptop:34452:9334d0: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:55,162 INFO kozlaptop:34452:9334d0: reaped 1 expired lease(s)
+2026-11-10 16:34:01,660 INFO kozlaptop:34452:9334d0: reaped 1 expired lease(s)
+2026-11-10 16:34:17,047 INFO kozlaptop:34452:9334d0: reaped 1 expired lease(s)
+2026-11-10 16:34:23,171 INFO kozlaptop:34452:9334d0: reaped 1 expired lease(s)
+2026-11-10 16:34:28,209 INFO kozlaptop:34452:9334d0: cancelled 84d64b0e-2930-4875-85e7-1f41f191e771 mid-run

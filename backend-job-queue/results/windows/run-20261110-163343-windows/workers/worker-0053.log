@@ -1,0 +1,5 @@
+2026-11-10 16:35:20,013 INFO kozlaptop:32888:7f4d91: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:35:33,303 INFO kozlaptop:32888:7f4d91: reaped 1 expired lease(s)
+2026-11-10 16:35:42,739 WARNING kozlaptop:32888:7f4d91: lost lease on ee11148c-6f93-4b31-ab91-801d68fc607e (token 1), abandoning
+2026-11-10 16:35:46,863 INFO kozlaptop:32888:7f4d91: reaped 1 expired lease(s)
+2026-11-10 16:35:59,998 WARNING kozlaptop:32888:7f4d91: lost lease on e2f8db17-94df-46dd-b539-3aeb6a566709 (token 1), abandoning

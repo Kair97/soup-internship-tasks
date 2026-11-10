@@ -1,0 +1,4 @@
+2026-11-10 16:36:13,807 INFO kozlaptop:32964:1ac522: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:36:27,492 WARNING kozlaptop:32964:1ac522: lost lease on 8fa4be0d-85c4-42ff-be1e-5c41be2c89a4 (token 1), abandoning
+2026-11-10 16:36:51,060 WARNING kozlaptop:32964:1ac522: lost lease on 4568ccbd-d3fa-41b4-a1a5-6660698fc029 (token 1), abandoning
+2026-11-10 16:36:53,082 INFO kozlaptop:32964:1ac522: reaped 1 expired lease(s)

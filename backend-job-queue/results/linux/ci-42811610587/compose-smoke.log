@@ -1,0 +1,345 @@
+worker-2  | 2026-11-10 11:57:27,104 INFO 4f5462f45c6a:1:1c9ea0: started (lease=5.0s heartbeat=1.6666666666666667s inject='')
+api-1     | INFO:     Started server process [1]
+api-1     | INFO:     Waiting for application startup.
+api-1     | INFO:     Application startup complete.
+api-1     | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1     | INFO:     127.0.0.1:54608 - "GET /healthz HTTP/1.1" 200 OK
+worker-3  | 2026-11-10 11:57:27,441 INFO abaf98200e2f:1:5cc0e3: started (lease=5.0s heartbeat=1.6666666666666667s inject='')
+worker-3  | 2026-11-10 11:57:36,694 INFO abaf98200e2f:1:5cc0e3: reaped 1 expired lease(s)
+worker-1  | 2026-11-10 11:57:27,060 INFO d5f4f7eed245:1:de2bf3: started (lease=5.0s heartbeat=1.6666666666666667s inject='')
+worker-4  | 2026-11-10 11:57:27,609 INFO 22a34cf2ac22:1:53005d: started (lease=5.0s heartbeat=1.6666666666666667s inject='')
+db-1      | The files belonging to this database system will be owned by user "postgres".
+db-1      | This user must also own the server process.
+db-1      | 
+db-1      | The database cluster will be initialized with locale "en_US.utf8".
+db-1      | The default database encoding has accordingly been set to "UTF8".
+db-1      | The default text search configuration will be set to "english".
+db-1      | 
+db-1      | Data page checksums are disabled.
+db-1      | 
+db-1      | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db-1      | creating subdirectories ... ok
+db-1      | selecting dynamic shared memory implementation ... posix
+db-1      | selecting default max_connections ... 100
+db-1      | selecting default shared_buffers ... 128MB
+db-1      | selecting default time zone ... Etc/UTC
+db-1      | creating configuration files ... ok
+db-1      | running bootstrap script ... ok
+db-1      | performing post-bootstrap initialization ... ok
+db-1      | initdb: warning: enabling "trust" authentication for local connections
+db-1      | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db-1      | syncing data to disk ... ok
+db-1      | 
+db-1      | 
+db-1      | Success. You can now start the database server using:
+db-1      | 
+db-1      |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db-1      | 
+db-1      | waiting for server to start....2026-11-10 11:57:20.949 UTC [47] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-10 11:57:20.950 UTC [47] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+api-1     | INFO:     172.18.0.1:36252 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36262 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36272 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36278 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36290 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36306 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36320 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36328 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36330 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36340 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36346 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36348 - "POST /jobs HTTP/1.1" 201 Created
+db-1      | 2026-11-10 11:57:20.953 UTC [50] LOG:  database system was shut down at 2026-11-10 11:57:20 UTC
+db-1      | 2026-11-10 11:57:20.956 UTC [47] LOG:  database system is ready to accept connections
+db-1      |  done
+db-1      | server started
+db-1      | CREATE DATABASE
+db-1      | 
+db-1      | 
+db-1      | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+db-1      | 
+db-1      | waiting for server to shut down....2026-11-10 11:57:21.135 UTC [47] LOG:  received fast shutdown request
+db-1      | 2026-11-10 11:57:21.135 UTC [47] LOG:  aborting any active transactions
+db-1      | 2026-11-10 11:57:21.138 UTC [47] LOG:  background worker "logical replication launcher" (PID 53) exited with exit code 1
+db-1      | 2026-11-10 11:57:21.138 UTC [48] LOG:  shutting down
+db-1      | 2026-11-10 11:57:21.138 UTC [48] LOG:  checkpoint starting: shutdown immediate
+db-1      | 2026-11-10 11:57:21.313 UTC [48] LOG:  checkpoint complete: wrote 926 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.173 s, sync=0.002 s, total=0.176 s; sync files=301, longest=0.001 s, average=0.001 s; distance=4273 kB, estimate=4273 kB; lsn=0/191F120, redo lsn=0/191F120
+db-1      | 2026-11-10 11:57:21.321 UTC [47] LOG:  database system is shut down
+db-1      |  done
+db-1      | server stopped
+db-1      | 
+db-1      | PostgreSQL init process complete; ready for start up.
+api-1     | INFO:     172.18.0.1:36354 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36366 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36380 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36386 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36400 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36414 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36430 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36436 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36440 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36448 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36452 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36460 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36476 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36488 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36500 - "POST /jobs HTTP/1.1" 201 Created
+db-1      | 
+db-1      | 2026-11-10 11:57:21.356 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-10 11:57:21.356 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db-1      | 2026-11-10 11:57:21.357 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db-1      | 2026-11-10 11:57:21.359 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1      | 2026-11-10 11:57:21.363 UTC [63] LOG:  database system was shut down at 2026-11-10 11:57:21 UTC
+db-1      | 2026-11-10 11:57:21.367 UTC [1] LOG:  database system is ready to accept connections
+api-1     | INFO:     172.18.0.1:36510 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36522 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36524 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36540 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36550 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36556 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36568 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36584 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36586 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36598 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36610 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36616 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36622 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36628 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36642 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36652 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36654 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36666 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36676 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36690 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36704 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36714 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36730 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36740 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36746 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36752 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36760 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36770 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36784 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36788 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36800 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36816 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36830 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36838 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36844 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36852 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36858 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36860 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36866 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36870 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36874 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36890 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36896 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36908 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36914 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36918 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36930 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36932 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36940 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36950 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36954 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36964 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36974 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36990 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:36992 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37000 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37012 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37024 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37036 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37050 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37054 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37056 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37068 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37074 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37084 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37090 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37098 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37108 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37110 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37118 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37132 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37146 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37162 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37168 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37172 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37184 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37200 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37202 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37208 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37216 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37224 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37234 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37248 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37264 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37272 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37280 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37292 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37308 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37320 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37332 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37342 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37348 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37360 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37364 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37368 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37380 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37390 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37404 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37410 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37420 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37428 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37438 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37444 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37460 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37462 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37470 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37480 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37494 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37502 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37508 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37512 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37514 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37516 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37522 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37528 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37530 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37546 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37560 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37572 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37582 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37584 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37596 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37608 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37614 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37624 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37630 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37638 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37646 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37662 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37676 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37678 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37682 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37698 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37708 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37722 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     127.0.0.1:54618 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37736 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37744 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37750 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37754 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37756 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37764 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37778 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37792 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37802 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37812 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37828 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37842 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37858 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37874 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37888 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37892 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37894 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37902 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37914 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37930 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37940 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37956 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37964 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37968 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37980 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:37986 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38002 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38004 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38006 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38020 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38036 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38046 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38056 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38060 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38062 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38068 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38084 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     172.18.0.1:38090 - "POST /jobs HTTP/1.1" 201 Created
+api-1     | INFO:     127.0.0.1:54562 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37448 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37458 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:54568 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37468 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37484 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:54582 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39030 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:47918 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39032 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39048 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:47928 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39064 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:47934 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39074 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:45214 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33102 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:45226 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33112 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:45242 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:45258 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33116 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:45260 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37304 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57222 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37314 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57228 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37328 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37344 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57232 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:37346 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:52186 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:35842 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:35844 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:52198 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:35850 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:35860 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:52214 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:35864 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33710 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:36444 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:36450 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33712 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:36454 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33716 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:36462 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:36472 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:33718 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55088 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57346 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55104 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55106 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57360 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55122 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55126 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:57372 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55276 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:38914 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55278 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55282 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:38922 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55298 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:38938 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:55304 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:59564 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:58516 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:59568 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:59572 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:58532 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:59576 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:58540 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:59578 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39604 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:34578 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39616 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     127.0.0.1:34584 - "GET /healthz HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39618 - "GET /stats HTTP/1.1" 200 OK
+api-1     | INFO:     172.18.0.1:39628 - "GET /stats HTTP/1.1" 200 OK

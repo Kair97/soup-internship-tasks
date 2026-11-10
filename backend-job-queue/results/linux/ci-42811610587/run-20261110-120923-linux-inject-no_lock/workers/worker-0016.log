@@ -1,0 +1,3 @@
+2026-11-10 12:09:44,529 INFO 6fad3ac0a6dc:689:755c9f: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:09:46,897 INFO 6fad3ac0a6dc:689:755c9f: cancelled 2cc1f88e-21ff-43e1-9022-82d589f8a2a0 mid-run
+2026-11-10 12:09:48,653 WARNING 6fad3ac0a6dc:689:755c9f: result for e0682823-f2bd-427a-95c5-9bb07f9fbf2f rejected, lease was taken over (stale token 1)

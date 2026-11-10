@@ -1,0 +1,2 @@
+2026-11-10 11:56:53,636 INFO 74f6f081b3f2:292:226109: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:02,807 WARNING 74f6f081b3f2:292:226109: lost lease on 3b76aa48-6afc-4b9f-916e-ea2df40c2b2e (token 1), abandoning

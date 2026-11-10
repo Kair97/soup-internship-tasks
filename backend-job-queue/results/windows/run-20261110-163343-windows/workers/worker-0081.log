@@ -1,0 +1,4 @@
+2026-11-10 16:36:16,412 INFO kozlaptop:14988:d40e64: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:36:21,577 INFO kozlaptop:14988:d40e64: reaped 1 expired lease(s)
+2026-11-10 16:36:23,650 INFO kozlaptop:14988:d40e64: reaped 1 expired lease(s)
+2026-11-10 16:36:25,654 INFO kozlaptop:14988:d40e64: reaped 1 expired lease(s)

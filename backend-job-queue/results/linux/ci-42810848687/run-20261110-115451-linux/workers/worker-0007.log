@@ -1,0 +1,7 @@
+2026-11-10 11:54:56,879 INFO 74f6f081b3f2:179:b885ec: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:55:00,639 INFO 74f6f081b3f2:179:b885ec: cancelled 495df44d-55ff-4d72-b459-d9c54b819fa0 mid-run
+2026-11-10 11:55:03,839 INFO 74f6f081b3f2:179:b885ec: reaped 1 expired lease(s)
+2026-11-10 11:55:18,430 WARNING 74f6f081b3f2:179:b885ec: lost lease on 665bd777-68b2-4d3d-8f67-6fe3b1e1f8db (token 1), abandoning
+2026-11-10 11:55:24,375 INFO 74f6f081b3f2:179:b885ec: reaped 1 expired lease(s)
+2026-11-10 11:55:33,548 INFO 74f6f081b3f2:179:b885ec: reaped 1 expired lease(s)
+2026-11-10 11:55:44,595 INFO 74f6f081b3f2:179:b885ec: reaped 1 expired lease(s)

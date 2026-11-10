@@ -1,0 +1,4 @@
+2026-11-10 12:06:28,210 INFO 74f6f081b3f2:768:ea4a61: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:06:28,213 INFO 74f6f081b3f2:768:ea4a61: reaped 1 expired lease(s)
+2026-11-10 12:06:34,066 WARNING 74f6f081b3f2:768:ea4a61: result for 95a72461-8395-4551-9fed-b22ff0c3f3bc rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:41,328 WARNING 74f6f081b3f2:768:ea4a61: lost lease on b5ace161-1545-4e15-b267-a3529033e2dc (token 1), abandoning

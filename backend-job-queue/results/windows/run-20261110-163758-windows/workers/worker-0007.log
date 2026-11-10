@@ -1,0 +1,2 @@
+2026-11-10 16:38:02,955 INFO kozlaptop:30552:c5912b: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:20,477 INFO kozlaptop:30552:c5912b: cancelled 60e71efe-9171-4930-a4b1-f6ae97fb26c1 mid-run

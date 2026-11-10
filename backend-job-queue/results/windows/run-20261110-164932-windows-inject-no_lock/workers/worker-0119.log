@@ -1,0 +1,2 @@
+2026-11-10 16:53:29,044 INFO kozlaptop:528:cffed9: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:53:31,381 WARNING kozlaptop:528:cffed9: result for 8ddf315e-64a4-4ff7-a963-f05250b6ea1f rejected, lease was taken over (stale token 1)

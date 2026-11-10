@@ -1,0 +1,2 @@
+2026-11-10 11:54:40,033 INFO 74f6f081b3f2:157:ad53fd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:54:42,165 INFO 74f6f081b3f2:157:ad53fd: reaped 1 expired lease(s)

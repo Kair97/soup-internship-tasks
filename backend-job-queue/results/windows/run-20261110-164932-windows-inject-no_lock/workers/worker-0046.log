@@ -1,0 +1,6 @@
+2026-11-10 16:50:59,097 INFO kozlaptop:7960:ee3e8c: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:51:02,149 INFO kozlaptop:7960:ee3e8c: reaped 1 expired lease(s)
+2026-11-10 16:51:04,616 INFO kozlaptop:7960:ee3e8c: cancelled cbd66281-b358-4453-8ece-4b3117db6bb7 mid-run
+2026-11-10 16:51:05,574 WARNING kozlaptop:7960:ee3e8c: result for 52650dcf-d637-4c8f-85b9-2d4c83c7cd17 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:05,635 INFO kozlaptop:7960:ee3e8c: reaped 1 expired lease(s)
+2026-11-10 16:51:09,720 WARNING kozlaptop:7960:ee3e8c: result for a4a6ce95-e9bc-46b8-bca6-dc05a6d7f246 rejected, lease was taken over (stale token 1)

@@ -1,0 +1,3 @@
+2026-11-10 12:10:14,306 INFO 6fad3ac0a6dc:707:94417e: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:10:14,311 INFO 6fad3ac0a6dc:707:94417e: reaped 1 expired lease(s)
+2026-11-10 12:10:17,019 WARNING 6fad3ac0a6dc:707:94417e: result for 435be381-35c7-4c59-b160-2954ea1092d0 rejected, lease was taken over (stale token 1)

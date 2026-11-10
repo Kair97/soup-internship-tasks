@@ -1,0 +1,2 @@
+2026-11-10 16:42:23,923 INFO kozlaptop:30028:c20c36: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:26,285 INFO kozlaptop:30028:c20c36: reaped 1 expired lease(s)

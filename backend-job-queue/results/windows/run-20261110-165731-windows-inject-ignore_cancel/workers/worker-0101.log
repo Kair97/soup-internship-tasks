@@ -1,0 +1,3 @@
+2026-11-10 17:00:59,171 INFO kozlaptop:8240:00da6a: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:01:13,121 INFO kozlaptop:8240:00da6a: reaped 1 expired lease(s)
+2026-11-10 17:01:28,287 WARNING kozlaptop:8240:00da6a: lost lease on d5f3a95a-0a6b-43b5-97c3-870d96dba349 (token 1), abandoning

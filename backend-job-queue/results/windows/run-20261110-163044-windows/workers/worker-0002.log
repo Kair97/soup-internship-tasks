@@ -1,0 +1,4 @@
+2026-11-10 16:30:47,589 INFO kozlaptop:924:91872d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:04,463 WARNING kozlaptop:924:91872d: lost lease on e8ce2ab9-4148-436c-beab-c6d58ffc3dc2 (token 1), abandoning
+2026-11-10 16:31:13,119 WARNING kozlaptop:924:91872d: lost lease on 6779de10-fb5f-473b-8046-cbb28c4a136c (token 1), abandoning
+2026-11-10 16:31:15,346 INFO kozlaptop:924:91872d: reaped 1 expired lease(s)

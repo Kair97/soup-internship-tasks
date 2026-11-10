@@ -1,0 +1,3 @@
+2026-11-10 12:02:43,258 INFO 6fad3ac0a6dc:302:fa0109: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:02:48,872 INFO 6fad3ac0a6dc:302:fa0109: cancelled 8c5265e1-0083-46d2-97a9-fac7f698fbe1 mid-run
+2026-11-10 12:02:58,502 WARNING 6fad3ac0a6dc:302:fa0109: lost lease on 5dcbd945-63c8-45f4-b3cb-f211fceafed8 (token 1), abandoning

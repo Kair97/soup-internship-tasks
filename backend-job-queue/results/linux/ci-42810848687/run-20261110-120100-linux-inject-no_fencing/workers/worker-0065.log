@@ -1,0 +1,2 @@
+2026-11-10 12:03:00,194 INFO 74f6f081b3f2:604:e43393: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:03:00,198 INFO 74f6f081b3f2:604:e43393: reaped 1 expired lease(s)

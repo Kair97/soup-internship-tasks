@@ -1,0 +1,5 @@
+2026-11-10 16:36:55,674 INFO kozlaptop:24760:45133f: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:37:12,486 INFO kozlaptop:24760:45133f: cancelled ef6a65ab-507a-4886-849c-157638513549 mid-run
+2026-11-10 16:37:13,896 INFO kozlaptop:24760:45133f: cancelled fbb023b5-ba68-42c3-8a6f-29d86cf198d6 mid-run
+2026-11-10 16:37:40,269 WARNING kozlaptop:24760:45133f: lost lease on 4999bb86-ada4-4599-858c-24fd5859cc7b (token 1), abandoning
+2026-11-10 16:37:50,802 INFO kozlaptop:24760:45133f: reaped 1 expired lease(s)

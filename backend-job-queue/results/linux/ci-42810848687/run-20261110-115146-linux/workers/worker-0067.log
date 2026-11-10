@@ -1,0 +1,3 @@
+2026-11-10 11:53:50,108 INFO 74f6f081b3f2:130:cb8de8: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:53:51,117 INFO 74f6f081b3f2:130:cb8de8: cancelled 6e4fe837-0edb-4a0f-b16a-b4fdc7f5161e mid-run
+2026-11-10 11:54:22,401 INFO 74f6f081b3f2:130:cb8de8: reaped 1 expired lease(s)

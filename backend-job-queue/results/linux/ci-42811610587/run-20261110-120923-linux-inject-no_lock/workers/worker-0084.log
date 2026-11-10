@@ -1,0 +1,5 @@
+2026-11-10 12:11:59,246 INFO 6fad3ac0a6dc:767:248455: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:11:59,398 WARNING 6fad3ac0a6dc:767:248455: result for 340e76f8-de45-47e8-9827-d953eaf98825 rejected, lease was taken over (stale token 1)
+2026-11-10 12:12:03,584 INFO 6fad3ac0a6dc:767:248455: cancelled 856663f2-49b0-47d8-868b-b70a3b7f757b mid-run
+2026-11-10 12:12:03,585 INFO 6fad3ac0a6dc:767:248455: reaped 1 expired lease(s)
+2026-11-10 12:12:05,792 INFO 6fad3ac0a6dc:767:248455: cancelled 70579c44-7c54-466b-9112-13c7fbb3bd5c mid-run

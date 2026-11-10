@@ -1,0 +1,6 @@
+2026-11-10 16:48:35,323 INFO kozlaptop:31276:3c8c93: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:48:40,569 INFO kozlaptop:31276:3c8c93: cancelled 95628479-bafc-4c00-b6c0-b39f28189a80 mid-run
+2026-11-10 16:48:51,171 INFO kozlaptop:31276:3c8c93: reaped 1 expired lease(s)
+2026-11-10 16:48:58,627 INFO kozlaptop:31276:3c8c93: reaped 1 expired lease(s)
+2026-11-10 16:49:07,020 INFO kozlaptop:31276:3c8c93: reaped 1 expired lease(s)
+2026-11-10 16:49:09,508 INFO kozlaptop:31276:3c8c93: reaped 1 expired lease(s)

@@ -1,0 +1,4 @@
+2026-11-10 16:35:54,795 INFO kozlaptop:5512:baa497: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:35:54,804 INFO kozlaptop:5512:baa497: reaped 1 expired lease(s)
+2026-11-10 16:35:56,877 INFO kozlaptop:5512:baa497: reaped 1 expired lease(s)
+2026-11-10 16:36:00,820 INFO kozlaptop:5512:baa497: reaped 1 expired lease(s)

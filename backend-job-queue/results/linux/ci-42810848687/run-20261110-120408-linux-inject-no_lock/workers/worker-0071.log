@@ -1,0 +1,17 @@
+2026-11-10 12:06:19,150 INFO 74f6f081b3f2:764:b83b56: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:06:21,141 INFO 74f6f081b3f2:764:b83b56: cancelled 4ea6aca1-04c0-4e86-a262-1d15cfaf7b28 mid-run
+2026-11-10 12:06:25,375 INFO 74f6f081b3f2:764:b83b56: reaped 1 expired lease(s)
+2026-11-10 12:06:26,020 WARNING 74f6f081b3f2:764:b83b56: result for 1a1b0bcd-ebab-4e4c-bca0-e496f8e4ff85 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:35,221 INFO 74f6f081b3f2:764:b83b56: cancelled 36014309-d726-4d43-9cd7-2b400c6dc9e8 mid-run
+2026-11-10 12:06:35,222 INFO 74f6f081b3f2:764:b83b56: reaped 1 expired lease(s)
+2026-11-10 12:06:45,639 INFO 74f6f081b3f2:764:b83b56: cancelled 279aa852-5aa9-4d07-b783-1ee59850009d mid-run
+2026-11-10 12:06:48,994 WARNING 74f6f081b3f2:764:b83b56: result for d8bde324-9117-4d84-990c-eee97c829303 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:49,034 WARNING 74f6f081b3f2:764:b83b56: result for fdcf33b7-65e7-4c6d-a5cc-68b21e4862fd rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:51,827 INFO 74f6f081b3f2:764:b83b56: cancelled fdb5e27e-c4a7-40a2-a341-27ea48f9b580 mid-run
+2026-11-10 12:06:52,213 WARNING 74f6f081b3f2:764:b83b56: result for a85d8dbc-cba8-43ba-bebb-5a85929a11b4 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:52,782 WARNING 74f6f081b3f2:764:b83b56: result for 09aa52b7-1636-44d2-8ad1-fef4453e7d6b rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:52,807 WARNING 74f6f081b3f2:764:b83b56: result for cf6505c5-b53c-4eab-b2c0-0e261beb1b54 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:52,897 WARNING 74f6f081b3f2:764:b83b56: result for 1983a6e5-1925-4dbc-8c56-ed348ea63332 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:53,243 WARNING 74f6f081b3f2:764:b83b56: result for 2c9660eb-2c13-4b6c-90d2-d5780d427eb8 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:54,398 WARNING 74f6f081b3f2:764:b83b56: result for 1bf2c461-73a4-4191-9adb-7f40edc3c441 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:54,979 INFO 74f6f081b3f2:764:b83b56: reaped 1 expired lease(s)

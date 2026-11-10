@@ -1,0 +1,4 @@
+2026-11-10 12:08:22,105 INFO 74f6f081b3f2:888:936e23: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:08:23,708 INFO 74f6f081b3f2:888:936e23: cancelled 262e5bf7-4ded-475e-9418-e65a282a0d4e mid-run
+2026-11-10 12:08:25,912 INFO 74f6f081b3f2:888:936e23: reaped 2 expired lease(s)
+2026-11-10 12:08:48,105 WARNING 74f6f081b3f2:888:936e23: lost lease on b0f878e7-3e11-40b1-8838-31d0402f886d (token 1), abandoning

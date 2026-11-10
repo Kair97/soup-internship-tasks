@@ -1,0 +1,4 @@
+2026-11-10 16:48:47,019 INFO kozlaptop:16244:e1f0fe: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:48:48,259 INFO kozlaptop:16244:e1f0fe: cancelled 61b4d51d-e032-40bc-aa61-7e8d62fcfd5b mid-run
+2026-11-10 16:49:13,924 INFO kozlaptop:16244:e1f0fe: cancelled 214e3173-a1c6-4a1f-a377-8fb43a039927 mid-run
+2026-11-10 16:49:16,586 INFO kozlaptop:16244:e1f0fe: cancelled 25b23124-ee9d-4d97-9c0b-06467812ff5d mid-run

@@ -1,0 +1,9 @@
+2026-11-10 12:07:53,961 INFO 6fad3ac0a6dc:576:2c302c: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:07:57,589 INFO 6fad3ac0a6dc:576:2c302c: reaped 1 expired lease(s)
+2026-11-10 12:07:59,823 INFO 6fad3ac0a6dc:576:2c302c: reaped 1 expired lease(s)
+2026-11-10 12:08:00,875 INFO 6fad3ac0a6dc:576:2c302c: reaped 1 expired lease(s)
+2026-11-10 12:08:02,347 INFO 6fad3ac0a6dc:576:2c302c: cancelled dc9183ca-b3f9-4ce9-8dbe-046c39acfb74 mid-run
+2026-11-10 12:08:03,417 INFO 6fad3ac0a6dc:576:2c302c: cancelled 9008f4ae-1e6f-4b85-9a65-e350f57587e3 mid-run
+2026-11-10 12:08:03,418 INFO 6fad3ac0a6dc:576:2c302c: reaped 1 expired lease(s)
+2026-11-10 12:08:11,783 INFO 6fad3ac0a6dc:576:2c302c: cancelled 84ef1b99-43be-4eb1-b8ea-cdf97cbddc31 mid-run
+2026-11-10 12:08:25,934 INFO 6fad3ac0a6dc:576:2c302c: cancelled 3349de39-2cc7-44c1-8391-2837f6938a6e mid-run

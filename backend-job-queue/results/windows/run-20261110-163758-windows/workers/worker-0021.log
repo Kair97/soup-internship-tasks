@@ -1,0 +1,4 @@
+2026-11-10 16:38:29,557 INFO kozlaptop:20156:d6f08c: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:32,786 INFO kozlaptop:20156:d6f08c: cancelled 17a912b1-efed-4d80-ac0c-fd15ddaecd45 mid-run
+2026-11-10 16:38:39,947 INFO kozlaptop:20156:d6f08c: reaped 1 expired lease(s)
+2026-11-10 16:38:40,952 INFO kozlaptop:20156:d6f08c: cancelled 36356856-1ae2-4fc5-9cf9-5463106b3e11 mid-run

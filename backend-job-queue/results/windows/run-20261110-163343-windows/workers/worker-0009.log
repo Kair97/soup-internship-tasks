@@ -1,0 +1,4 @@
+2026-11-10 16:33:51,359 INFO kozlaptop:15176:d3d700: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:57,129 INFO kozlaptop:15176:d3d700: reaped 1 expired lease(s)
+2026-11-10 16:34:06,818 INFO kozlaptop:15176:d3d700: reaped 1 expired lease(s)
+2026-11-10 16:34:14,206 WARNING kozlaptop:15176:d3d700: lost lease on 9a21852c-e848-488a-9717-f4898653f55e (token 2), abandoning

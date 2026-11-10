@@ -1,0 +1,4 @@
+2026-11-10 16:33:49,051 INFO kozlaptop:30996:2dac2e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:53,350 INFO kozlaptop:30996:2dac2e: reaped 1 expired lease(s)
+2026-11-10 16:33:55,355 INFO kozlaptop:30996:2dac2e: cancelled 1d3dc8f8-20c7-40d2-bcf4-feb7a0ad3dac mid-run
+2026-11-10 16:33:59,423 INFO kozlaptop:30996:2dac2e: reaped 1 expired lease(s)

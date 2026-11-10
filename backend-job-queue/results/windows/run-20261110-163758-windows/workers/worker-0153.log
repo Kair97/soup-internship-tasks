@@ -1,0 +1,3 @@
+2026-11-10 16:43:04,260 INFO kozlaptop:29316:75c91e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:13,204 WARNING kozlaptop:29316:75c91e: lost lease on c4b4b718-39c5-4b1e-b65b-34086fc1f287 (token 1), abandoning
+2026-11-10 16:43:13,204 INFO kozlaptop:29316:75c91e: reaped 1 expired lease(s)

@@ -1,0 +1,4 @@
+2026-11-10 12:07:38,312 INFO 74f6f081b3f2:860:c8bd56: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:07:48,125 WARNING 74f6f081b3f2:860:c8bd56: lost lease on ac27a9ce-ac3e-45ff-9bb1-e1c319231c36 (token 1), abandoning
+2026-11-10 12:07:49,275 INFO 74f6f081b3f2:860:c8bd56: cancelled 9344b869-7b4e-460f-8735-ba9b471729cd mid-run
+2026-11-10 12:07:54,529 INFO 74f6f081b3f2:860:c8bd56: cancelled 58628ba7-7af1-416d-869e-bcd9860a1bb3 mid-run

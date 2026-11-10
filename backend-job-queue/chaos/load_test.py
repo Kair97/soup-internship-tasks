@@ -32,7 +32,8 @@ def pct(xs: list[float], p: float) -> float:
     return xs[min(len(xs) - 1, int(p / 100 * len(xs)))] if xs else float("nan")
 
 
-async def open_loop(base: str, rate: float, seconds: float, duration_ms: int, tag: str):
+async def open_loop(base: str, rate: float, seconds: float, duration_ms: int, tag: str,
+                    endpoint: str = "create"):
     lat, errors, codes = [], 0, {}
     sem = asyncio.Semaphore(1000)
     async with httpx.AsyncClient(base_url=base, timeout=30,
@@ -42,8 +43,11 @@ async def open_loop(base: str, rate: float, seconds: float, duration_ms: int, ta
             async with sem:
                 t = time.perf_counter()
                 try:
-                    r = await c.post("/jobs", json={"duration_ms": duration_ms},
-                                     headers={"Idempotency-Key": f"{tag}-{i}"})
+                    if endpoint == "healthz":   # control: no database write at all
+                        r = await c.get("/healthz")
+                    else:
+                        r = await c.post("/jobs", json={"duration_ms": duration_ms},
+                                         headers={"Idempotency-Key": f"{tag}-{i}"})
                     codes[r.status_code] = codes.get(r.status_code, 0) + 1
                 except httpx.HTTPError:
                     errors += 1
@@ -78,12 +82,16 @@ def main() -> int:
     ap.add_argument("--seconds", type=float, default=30)
     ap.add_argument("--duration-ms", type=int, default=20)
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--api-processes", type=int, default=1)
+    ap.add_argument("--endpoint", choices=["create", "healthz"], default="create")
+    ap.add_argument("--skip-capacity", action="store_true")
     ap.add_argument("--out", default=str(ROOT / "results" / "load"))
     args = ap.parse_args()
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    log = Log(out / f"load-{time.strftime('%Y%m%d-%H%M%S')}.log")
+    log = Log(out / f"load-{time.strftime('%Y%m%d-%H%M%S')}-{args.endpoint}-api{args.api_processes}.log")
+    log(f"args {json.dumps(vars(args))}")
     with psycopg.connect(args.admin_url, autocommit=True) as c:
         c.execute('DROP DATABASE IF EXISTS "jobs_load" WITH (FORCE)')
         c.execute('CREATE DATABASE "jobs_load"')
@@ -93,7 +101,8 @@ def main() -> int:
     env = os.environ | {"DATABASE_URL": db_url, "LEASE_SECONDS": "5", "LOG_LEVEL": "WARNING"}
     port = free_port()
     api = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.api:app", "--port", str(port),
-                            "--log-level", "warning"], cwd=ROOT, env=env)
+                            "--log-level", "warning", "--workers", str(args.api_processes)],
+                           cwd=ROOT, env=env)
     base = f"http://127.0.0.1:{port}"
     for _ in range(100):
         try:
@@ -109,18 +118,20 @@ def main() -> int:
     try:
         # 1. worker capacity: 5,000 zero-duration jobs inserted directly, time to drain.
         with psycopg.connect(db_url, autocommit=True) as c:
+          if not args.skip_capacity:
             c.execute("""INSERT INTO jobs (idempotency_key, payload, payload_hash)
                          SELECT 'cap-' || g, '{"duration_ms":0}', 'x' FROM generate_series(1,5000) g""")
-        t = time.perf_counter()
-        while backlog(db_url):
-            time.sleep(0.1)
-        cap = 5000 / (time.perf_counter() - t)
-        results["worker_capacity_jobs_per_s"] = round(cap, 1)
-        log(f"worker capacity ({args.workers} workers, 0 ms jobs): {cap:.1f} jobs/s")
+            t = time.perf_counter()
+            while backlog(db_url):
+                time.sleep(0.1)
+            cap = 5000 / (time.perf_counter() - t)
+            results["worker_capacity_jobs_per_s"] = round(cap, 1)
+            log(f"worker capacity ({args.workers} workers, 0 ms jobs): {cap:.1f} jobs/s")
 
         # 2. open-loop API load at each rate, jobs of --duration-ms.
         for rate in args.rates:
-            r = asyncio.run(open_loop(base, rate, args.seconds, args.duration_ms, f"r{int(rate)}"))
+            r = asyncio.run(open_loop(base, rate, args.seconds, args.duration_ms, f"r{int(rate)}",
+                                      args.endpoint))
             r["backlog_at_end"] = backlog(db_url)
             t = time.perf_counter()
             while backlog(db_url) and time.perf_counter() - t < 300:
@@ -131,7 +142,8 @@ def main() -> int:
     finally:
         workers.stop_all()
         api.kill()
-    (out / "load-summary.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
+    (out / f"load-summary-{args.endpoint}-api{args.api_processes}.json").write_text(
+        json.dumps(results, indent=2), encoding="utf-8")
     log("summary " + json.dumps(results))
     return 0
 

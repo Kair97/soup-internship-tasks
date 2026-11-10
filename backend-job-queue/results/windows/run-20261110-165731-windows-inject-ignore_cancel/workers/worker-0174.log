@@ -1,0 +1,5 @@
+2026-11-10 17:03:30,821 INFO kozlaptop:24156:5e5e3e: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:03:34,696 INFO kozlaptop:24156:5e5e3e: cancelled 4f177ddc-cd45-4fe6-a647-503104b181bc mid-run
+2026-11-10 17:03:36,864 INFO kozlaptop:24156:5e5e3e: reaped 1 expired lease(s)
+2026-11-10 17:03:49,298 INFO kozlaptop:24156:5e5e3e: reaped 1 expired lease(s)
+2026-11-10 17:03:50,377 INFO kozlaptop:24156:5e5e3e: reaped 1 expired lease(s)

@@ -1,0 +1,5 @@
+2026-11-10 12:01:40,092 INFO 6fad3ac0a6dc:270:260c07: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:01:44,766 INFO 6fad3ac0a6dc:270:260c07: reaped 1 expired lease(s)
+2026-11-10 12:01:50,635 INFO 6fad3ac0a6dc:270:260c07: cancelled 576a309d-cca0-4b60-8446-bc1419a4a201 mid-run
+2026-11-10 12:01:52,648 INFO 6fad3ac0a6dc:270:260c07: cancelled a211f9f7-8337-47cb-af67-92da0c1c0c02 mid-run
+2026-11-10 12:01:54,152 INFO 6fad3ac0a6dc:270:260c07: cancelled 02baf055-2f26-4624-a090-796747f43d98 mid-run

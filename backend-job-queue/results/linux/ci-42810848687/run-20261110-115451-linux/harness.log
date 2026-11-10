@@ -1,0 +1,237 @@
+2026-11-10T11:54:51.104Z harness start: {"admin_url": "postgresql://postgres:postgres@db:5432/postgres", "db_name": "jobs_chaos", "jobs": 10000, "workers": 8, "kill_every": 2.0, "freeze_every": 10.0, "lease": 3.0, "duration_ms": [10, 150], "long_rate": 0.03, "long_ms": [500, 3000], "running_cancel_prob": 0.05, "fail_rate": 0.02, "dup_rate": 0.15, "retry_rate": 0.1, "cancel_rate": 0.1, "concurrency": 48, "timeout": 1200, "seed": 1590053483, "inject": "", "out": "/srv/results/linux"}
+2026-11-10T11:54:51.106Z platform: Linux-7.0.0-1019-azure-x86_64-with-glibc2.41 python 3.12.16 cpus=2
+2026-11-10T11:54:51.201Z postgres: PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+2026-11-10T11:54:52.399Z api up at http://127.0.0.1:46181
+2026-11-10T11:54:54.992Z CHAOS kill -9 worker pid=180 (kills=1)
+2026-11-10T11:54:56.547Z CHAOS kill -9 worker pid=220 (kills=2)
+2026-11-10T11:54:58.973Z CHAOS kill -9 worker pid=221 (kills=3)
+2026-11-10T11:55:00.827Z CHAOS kill -9 worker pid=177 (kills=4)
+2026-11-10T11:55:02.996Z CHAOS freeze busy worker pid=223 for 7.0s
+2026-11-10T11:55:03.246Z CHAOS kill -9 worker pid=175 (kills=5)
+2026-11-10T11:55:05.666Z CHAOS kill -9 worker pid=222 (kills=6)
+2026-11-10T11:55:07.817Z CHAOS kill -9 worker pid=176 (kills=7)
+2026-11-10T11:55:09.446Z CHAOS kill -9 worker pid=225 (kills=8)
+2026-11-10T11:55:10.010Z CHAOS resume worker pid=223 (now a zombie with an expired lease)
+2026-11-10T11:55:11.412Z CHAOS freeze busy worker pid=179 for 7.0s
+2026-11-10T11:55:11.928Z CHAOS kill -9 worker pid=226 (kills=9)
+2026-11-10T11:55:13.707Z CHAOS kill -9 worker pid=173 (kills=10)
+2026-11-10T11:55:15.529Z CHAOS kill -9 worker pid=178 (kills=11)
+2026-11-10T11:55:17.516Z CHAOS kill -9 worker pid=233 (kills=12)
+2026-11-10T11:55:18.426Z CHAOS resume worker pid=179 (now a zombie with an expired lease)
+2026-11-10T11:55:19.654Z CHAOS kill -9 worker pid=237 (kills=13)
+2026-11-10T11:55:22.081Z CHAOS kill -9 worker pid=223 (kills=14)
+2026-11-10T11:55:22.116Z CHAOS freeze busy worker pid=238 for 7.0s
+2026-11-10T11:55:23.991Z CHAOS kill -9 worker pid=240 (kills=15)
+2026-11-10T11:55:26.279Z CHAOS kill -9 worker pid=239 (kills=16)
+2026-11-10T11:55:28.829Z CHAOS kill -9 worker pid=235 (kills=17)
+2026-11-10T11:55:29.127Z CHAOS resume worker pid=238 (now a zombie with an expired lease)
+2026-11-10T11:55:30.454Z CHAOS kill -9 worker pid=242 (kills=18)
+2026-11-10T11:55:32.738Z CHAOS freeze busy worker pid=241 for 7.0s
+2026-11-10T11:55:32.925Z CHAOS kill -9 worker pid=174 (kills=19)
+2026-11-10T11:55:34.708Z CHAOS kill -9 worker pid=238 (kills=20)
+2026-11-10T11:55:36.644Z CHAOS kill -9 worker pid=234 (kills=21)
+2026-11-10T11:55:39.136Z CHAOS kill -9 worker pid=245 (kills=22)
+2026-11-10T11:55:39.746Z CHAOS resume worker pid=241 (now a zombie with an expired lease)
+2026-11-10T11:55:41.155Z CHAOS freeze busy worker pid=244 for 7.0s
+2026-11-10T11:55:41.467Z CHAOS kill -9 worker pid=248 (kills=23)
+2026-11-10T11:55:43.820Z CHAOS kill -9 worker pid=249 (kills=24)
+2026-11-10T11:55:45.775Z CHAOS kill -9 worker pid=179 (kills=25)
+2026-11-10T11:55:47.651Z CHAOS kill -9 worker pid=252 (kills=26)
+2026-11-10T11:55:48.166Z CHAOS resume worker pid=244 (now a zombie with an expired lease)
+2026-11-10T11:55:49.808Z CHAOS freeze busy worker pid=244 for 7.0s
+2026-11-10T11:55:50.087Z CHAOS kill -9 worker pid=250 (kills=27)
+2026-11-10T11:55:52.517Z CHAOS kill -9 worker pid=246 (kills=28)
+2026-11-10T11:55:55.008Z CHAOS kill -9 worker pid=236 (kills=29)
+2026-11-10T11:55:56.656Z CHAOS kill -9 worker pid=251 (kills=30)
+2026-11-10T11:55:56.815Z CHAOS resume worker pid=244 (now a zombie with an expired lease)
+2026-11-10T11:55:58.001Z CHAOS freeze busy worker pid=247 for 7.0s
+2026-11-10T11:55:58.868Z CHAOS kill -9 worker pid=261 (kills=31)
+2026-11-10T11:56:00.512Z CHAOS kill -9 worker pid=241 (kills=32)
+2026-11-10T11:56:02.396Z CHAOS kill -9 worker pid=259 (kills=33)
+2026-11-10T11:56:02.822Z submitted 10000 jobs in 70.3s; waiting for 2021 retries/cancels
+2026-11-10T11:56:03.962Z CHAOS kill -9 worker pid=262 (kills=34)
+2026-11-10T11:56:05.002Z CHAOS resume worker pid=247 (now a zombie with an expired lease)
+2026-11-10T11:56:06.300Z CHAOS kill -9 worker pid=244 (kills=35)
+2026-11-10T11:56:06.951Z stats {"queued": 5492, "running": 7, "succeeded": 3420, "failed": 74, "cancelled": 1007}
+2026-11-10T11:56:07.916Z CHAOS kill -9 worker pid=247 (kills=36)
+2026-11-10T11:56:07.960Z stats {"queued": 5425, "running": 9, "succeeded": 3482, "failed": 75, "cancelled": 1009}
+2026-11-10T11:56:08.283Z CHAOS freeze busy worker pid=253 for 7.0s
+2026-11-10T11:56:08.966Z stats {"queued": 5386, "running": 9, "succeeded": 3517, "failed": 76, "cancelled": 1012}
+2026-11-10T11:56:09.850Z CHAOS kill -9 worker pid=258 (kills=37)
+2026-11-10T11:56:09.981Z stats {"queued": 5349, "running": 9, "succeeded": 3554, "failed": 76, "cancelled": 1012}
+2026-11-10T11:56:10.987Z stats {"queued": 5308, "running": 10, "succeeded": 3591, "failed": 78, "cancelled": 1013}
+2026-11-10T11:56:11.993Z stats {"queued": 5255, "running": 8, "succeeded": 3641, "failed": 78, "cancelled": 1018}
+2026-11-10T11:56:12.170Z CHAOS kill -9 worker pid=266 (kills=38)
+2026-11-10T11:56:12.999Z stats {"queued": 5202, "running": 8, "succeeded": 3694, "failed": 78, "cancelled": 1018}
+2026-11-10T11:56:14.007Z stats {"queued": 5140, "running": 8, "succeeded": 3754, "failed": 79, "cancelled": 1019}
+2026-11-10T11:56:14.145Z CHAOS kill -9 worker pid=269 (kills=39)
+2026-11-10T11:56:15.013Z stats {"queued": 5078, "running": 8, "succeeded": 3813, "failed": 81, "cancelled": 1020}
+2026-11-10T11:56:15.284Z CHAOS resume worker pid=253 (now a zombie with an expired lease)
+2026-11-10T11:56:15.716Z CHAOS kill -9 worker pid=267 (kills=40)
+2026-11-10T11:56:16.022Z stats {"queued": 5012, "running": 9, "succeeded": 3875, "failed": 82, "cancelled": 1022}
+2026-11-10T11:56:17.029Z stats {"queued": 4973, "running": 10, "succeeded": 3913, "failed": 82, "cancelled": 1022}
+2026-11-10T11:56:17.489Z CHAOS freeze busy worker pid=253 for 7.0s
+2026-11-10T11:56:18.035Z stats {"queued": 4951, "running": 9, "succeeded": 3935, "failed": 82, "cancelled": 1023}
+2026-11-10T11:56:18.199Z CHAOS kill -9 worker pid=264 (kills=41)
+2026-11-10T11:56:19.041Z stats {"queued": 4920, "running": 9, "succeeded": 3966, "failed": 82, "cancelled": 1023}
+2026-11-10T11:56:20.047Z stats {"queued": 4875, "running": 8, "succeeded": 4008, "failed": 84, "cancelled": 1025}
+2026-11-10T11:56:20.624Z CHAOS kill -9 worker pid=268 (kills=42)
+2026-11-10T11:56:21.066Z stats {"queued": 4840, "running": 8, "succeeded": 4041, "failed": 85, "cancelled": 1026}
+2026-11-10T11:56:22.072Z stats {"queued": 4790, "running": 8, "succeeded": 4086, "failed": 86, "cancelled": 1030}
+2026-11-10T11:56:22.293Z CHAOS kill -9 worker pid=270 (kills=43)
+2026-11-10T11:56:23.080Z stats {"queued": 4734, "running": 9, "succeeded": 4140, "failed": 86, "cancelled": 1031}
+2026-11-10T11:56:23.859Z CHAOS kill -9 worker pid=271 (kills=44)
+2026-11-10T11:56:24.089Z stats {"queued": 4687, "running": 9, "succeeded": 4185, "failed": 87, "cancelled": 1032}
+2026-11-10T11:56:24.490Z CHAOS resume worker pid=253 (now a zombie with an expired lease)
+2026-11-10T11:56:25.096Z stats {"queued": 4647, "running": 9, "succeeded": 4224, "failed": 87, "cancelled": 1033}
+2026-11-10T11:56:25.732Z CHAOS kill -9 worker pid=274 (kills=45)
+2026-11-10T11:56:26.106Z stats {"queued": 4600, "running": 9, "succeeded": 4270, "failed": 87, "cancelled": 1034}
+2026-11-10T11:56:27.112Z stats {"queued": 4543, "running": 9, "succeeded": 4323, "failed": 88, "cancelled": 1037}
+2026-11-10T11:56:28.001Z CHAOS kill -9 worker pid=260 (kills=46)
+2026-11-10T11:56:28.126Z stats {"queued": 4471, "running": 8, "succeeded": 4395, "failed": 89, "cancelled": 1037}
+2026-11-10T11:56:29.134Z stats {"queued": 4393, "running": 9, "succeeded": 4470, "failed": 89, "cancelled": 1039}
+2026-11-10T11:56:29.672Z CHAOS freeze busy worker pid=263 for 7.0s
+2026-11-10T11:56:29.880Z CHAOS kill -9 worker pid=278 (kills=47)
+2026-11-10T11:56:30.149Z stats {"queued": 4324, "running": 9, "succeeded": 4536, "failed": 92, "cancelled": 1039}
+2026-11-10T11:56:31.164Z stats {"queued": 4249, "running": 9, "succeeded": 4610, "failed": 92, "cancelled": 1040}
+2026-11-10T11:56:31.501Z CHAOS kill -9 worker pid=272 (kills=48)
+2026-11-10T11:56:32.171Z stats {"queued": 4204, "running": 10, "succeeded": 4649, "failed": 94, "cancelled": 1043}
+2026-11-10T11:56:33.177Z stats {"queued": 4140, "running": 8, "succeeded": 4711, "failed": 96, "cancelled": 1045}
+2026-11-10T11:56:33.527Z CHAOS kill -9 worker pid=273 (kills=49)
+2026-11-10T11:56:34.184Z stats {"queued": 4087, "running": 9, "succeeded": 4762, "failed": 97, "cancelled": 1045}
+2026-11-10T11:56:35.191Z stats {"queued": 4020, "running": 8, "succeeded": 4828, "failed": 98, "cancelled": 1046}
+2026-11-10T11:56:35.848Z CHAOS kill -9 worker pid=280 (kills=50)
+2026-11-10T11:56:36.200Z stats {"queued": 3971, "running": 8, "succeeded": 4875, "failed": 100, "cancelled": 1046}
+2026-11-10T11:56:36.674Z CHAOS resume worker pid=263 (now a zombie with an expired lease)
+2026-11-10T11:56:37.208Z stats {"queued": 3914, "running": 9, "succeeded": 4929, "failed": 100, "cancelled": 1048}
+2026-11-10T11:56:37.920Z CHAOS kill -9 worker pid=275 (kills=51)
+2026-11-10T11:56:38.224Z stats {"queued": 3873, "running": 9, "succeeded": 4969, "failed": 100, "cancelled": 1049}
+2026-11-10T11:56:39.231Z stats {"queued": 3837, "running": 9, "succeeded": 5003, "failed": 100, "cancelled": 1051}
+2026-11-10T11:56:39.544Z CHAOS kill -9 worker pid=282 (kills=52)
+2026-11-10T11:56:39.559Z CHAOS freeze busy worker pid=265 for 7.0s
+2026-11-10T11:56:40.237Z stats {"queued": 3792, "running": 10, "succeeded": 5046, "failed": 100, "cancelled": 1052}
+2026-11-10T11:56:41.245Z stats {"queued": 3739, "running": 9, "succeeded": 5097, "failed": 100, "cancelled": 1055}
+2026-11-10T11:56:41.533Z CHAOS kill -9 worker pid=253 (kills=53)
+2026-11-10T11:56:42.251Z stats {"queued": 3685, "running": 10, "succeeded": 5144, "failed": 104, "cancelled": 1057}
+2026-11-10T11:56:43.258Z stats {"queued": 3642, "running": 8, "succeeded": 5186, "failed": 105, "cancelled": 1059}
+2026-11-10T11:56:43.855Z CHAOS kill -9 worker pid=284 (kills=54)
+2026-11-10T11:56:44.267Z stats {"queued": 3604, "running": 8, "succeeded": 5223, "failed": 105, "cancelled": 1060}
+2026-11-10T11:56:45.273Z stats {"queued": 3554, "running": 8, "succeeded": 5270, "failed": 106, "cancelled": 1062}
+2026-11-10T11:56:45.426Z CHAOS kill -9 worker pid=281 (kills=55)
+2026-11-10T11:56:46.280Z stats {"queued": 3500, "running": 9, "succeeded": 5322, "failed": 106, "cancelled": 1063}
+2026-11-10T11:56:46.561Z CHAOS resume worker pid=265 (now a zombie with an expired lease)
+2026-11-10T11:56:46.993Z CHAOS kill -9 worker pid=285 (kills=56)
+2026-11-10T11:56:47.288Z stats {"queued": 3440, "running": 9, "succeeded": 5378, "failed": 108, "cancelled": 1065}
+2026-11-10T11:56:47.908Z CHAOS freeze busy worker pid=288 for 7.0s
+2026-11-10T11:56:48.308Z stats {"queued": 3365, "running": 10, "succeeded": 5447, "failed": 110, "cancelled": 1068}
+2026-11-10T11:56:49.316Z stats {"queued": 3300, "running": 9, "succeeded": 5508, "failed": 113, "cancelled": 1070}
+2026-11-10T11:56:49.423Z CHAOS kill -9 worker pid=265 (kills=57)
+2026-11-10T11:56:50.326Z stats {"queued": 3229, "running": 9, "succeeded": 5575, "failed": 113, "cancelled": 1074}
+2026-11-10T11:56:51.090Z CHAOS kill -9 worker pid=289 (kills=58)
+2026-11-10T11:56:51.337Z stats {"queued": 3155, "running": 8, "succeeded": 5648, "failed": 114, "cancelled": 1075}
+2026-11-10T11:56:52.347Z stats {"queued": 3111, "running": 8, "succeeded": 5690, "failed": 115, "cancelled": 1076}
+2026-11-10T11:56:53.061Z CHAOS kill -9 worker pid=291 (kills=59)
+2026-11-10T11:56:53.355Z stats {"queued": 3064, "running": 8, "succeeded": 5733, "failed": 117, "cancelled": 1078}
+2026-11-10T11:56:54.362Z stats {"queued": 3012, "running": 8, "succeeded": 5782, "failed": 119, "cancelled": 1079}
+2026-11-10T11:56:54.910Z CHAOS resume worker pid=288 (now a zombie with an expired lease)
+2026-11-10T11:56:55.332Z CHAOS kill -9 worker pid=283 (kills=60)
+2026-11-10T11:56:55.373Z stats {"queued": 2946, "running": 9, "succeeded": 5844, "failed": 119, "cancelled": 1082}
+2026-11-10T11:56:55.804Z CHAOS freeze busy worker pid=292 for 7.0s
+2026-11-10T11:56:56.378Z stats {"queued": 2893, "running": 9, "succeeded": 5895, "failed": 121, "cancelled": 1082}
+2026-11-10T11:56:57.385Z stats {"queued": 2841, "running": 9, "succeeded": 5945, "failed": 122, "cancelled": 1083}
+2026-11-10T11:56:57.469Z CHAOS kill -9 worker pid=263 (kills=61)
+2026-11-10T11:56:58.391Z stats {"queued": 2784, "running": 9, "succeeded": 6000, "failed": 124, "cancelled": 1083}
+2026-11-10T11:56:59.186Z CHAOS kill -9 worker pid=288 (kills=62)
+2026-11-10T11:56:59.400Z stats {"queued": 2728, "running": 8, "succeeded": 6055, "failed": 124, "cancelled": 1085}
+2026-11-10T11:57:00.406Z stats {"queued": 2670, "running": 8, "succeeded": 6109, "failed": 127, "cancelled": 1086}
+2026-11-10T11:57:01.412Z stats {"queued": 2635, "running": 8, "succeeded": 6142, "failed": 128, "cancelled": 1087}
+2026-11-10T11:57:01.459Z CHAOS kill -9 worker pid=295 (kills=63)
+2026-11-10T11:57:02.419Z stats {"queued": 2600, "running": 8, "succeeded": 6175, "failed": 129, "cancelled": 1088}
+2026-11-10T11:57:02.805Z CHAOS resume worker pid=292 (now a zombie with an expired lease)
+2026-11-10T11:57:03.075Z CHAOS kill -9 worker pid=296 (kills=64)
+2026-11-10T11:57:03.427Z stats {"queued": 2535, "running": 9, "succeeded": 6236, "failed": 130, "cancelled": 1090}
+2026-11-10T11:57:04.432Z stats {"queued": 2471, "running": 9, "succeeded": 6298, "failed": 131, "cancelled": 1091}
+2026-11-10T11:57:04.994Z CHAOS kill -9 worker pid=279 (kills=65)
+2026-11-10T11:57:05.439Z stats {"queued": 2424, "running": 9, "succeeded": 6344, "failed": 132, "cancelled": 1091}
+2026-11-10T11:57:05.462Z CHAOS freeze busy worker pid=293 for 7.0s
+2026-11-10T11:57:06.446Z stats {"queued": 2350, "running": 10, "succeeded": 6413, "failed": 134, "cancelled": 1093}
+2026-11-10T11:57:07.427Z CHAOS kill -9 worker pid=292 (kills=66)
+2026-11-10T11:57:07.457Z stats {"queued": 2296, "running": 9, "succeeded": 6462, "failed": 138, "cancelled": 1095}
+2026-11-10T11:57:08.465Z stats {"queued": 2257, "running": 9, "succeeded": 6501, "failed": 138, "cancelled": 1095}
+2026-11-10T11:57:09.471Z stats {"queued": 2218, "running": 8, "succeeded": 6536, "failed": 141, "cancelled": 1097}
+2026-11-10T11:57:09.947Z CHAOS kill -9 worker pid=287 (kills=67)
+2026-11-10T11:57:10.480Z stats {"queued": 2191, "running": 8, "succeeded": 6560, "failed": 143, "cancelled": 1098}
+2026-11-10T11:57:11.487Z stats {"queued": 2141, "running": 8, "succeeded": 6607, "failed": 145, "cancelled": 1099}
+2026-11-10T11:57:11.713Z CHAOS kill -9 worker pid=276 (kills=68)
+2026-11-10T11:57:12.463Z CHAOS resume worker pid=293 (now a zombie with an expired lease)
+2026-11-10T11:57:12.493Z stats {"queued": 2086, "running": 10, "succeeded": 6655, "failed": 145, "cancelled": 1104}
+2026-11-10T11:57:13.499Z stats {"queued": 2017, "running": 9, "succeeded": 6723, "failed": 147, "cancelled": 1104}
+2026-11-10T11:57:14.034Z CHAOS kill -9 worker pid=298 (kills=69)
+2026-11-10T11:57:14.509Z stats {"queued": 1951, "running": 8, "succeeded": 6783, "failed": 151, "cancelled": 1107}
+2026-11-10T11:57:15.516Z stats {"queued": 1864, "running": 9, "succeeded": 6865, "failed": 154, "cancelled": 1108}
+2026-11-10T11:57:16.506Z CHAOS kill -9 worker pid=303 (kills=70)
+2026-11-10T11:57:16.523Z stats {"queued": 1799, "running": 9, "succeeded": 6927, "failed": 155, "cancelled": 1110}
+2026-11-10T11:57:17.270Z CHAOS freeze busy worker pid=297 for 7.0s
+2026-11-10T11:57:17.530Z stats {"queued": 1723, "running": 9, "succeeded": 6999, "failed": 157, "cancelled": 1112}
+2026-11-10T11:57:18.383Z CHAOS kill -9 worker pid=301 (kills=71)
+2026-11-10T11:57:18.541Z stats {"queued": 1676, "running": 9, "succeeded": 7045, "failed": 157, "cancelled": 1113}
+2026-11-10T11:57:19.549Z stats {"queued": 1639, "running": 9, "succeeded": 7081, "failed": 157, "cancelled": 1114}
+2026-11-10T11:57:20.304Z CHAOS kill -9 worker pid=290 (kills=72)
+2026-11-10T11:57:20.560Z stats {"queued": 1619, "running": 7, "succeeded": 7103, "failed": 157, "cancelled": 1114}
+2026-11-10T11:57:21.567Z stats {"queued": 1555, "running": 8, "succeeded": 7159, "failed": 160, "cancelled": 1118}
+2026-11-10T11:57:22.533Z CHAOS kill -9 worker pid=299 (kills=73)
+2026-11-10T11:57:22.575Z stats {"queued": 1479, "running": 8, "succeeded": 7232, "failed": 162, "cancelled": 1119}
+2026-11-10T11:57:23.586Z stats {"queued": 1426, "running": 8, "succeeded": 7282, "failed": 162, "cancelled": 1122}
+2026-11-10T11:57:24.271Z CHAOS resume worker pid=297 (now a zombie with an expired lease)
+2026-11-10T11:57:24.592Z stats {"queued": 1355, "running": 9, "succeeded": 7347, "failed": 163, "cancelled": 1126}
+2026-11-10T11:57:24.653Z CHAOS kill -9 worker pid=297 (kills=74)
+2026-11-10T11:57:25.600Z stats {"queued": 1297, "running": 9, "succeeded": 7402, "failed": 164, "cancelled": 1128}
+2026-11-10T11:57:26.369Z CHAOS kill -9 worker pid=307 (kills=75)
+2026-11-10T11:57:26.612Z stats {"queued": 1220, "running": 9, "succeeded": 7475, "failed": 166, "cancelled": 1130}
+2026-11-10T11:57:26.980Z CHAOS freeze busy worker pid=305 for 7.0s
+2026-11-10T11:57:27.618Z stats {"queued": 1178, "running": 10, "succeeded": 7512, "failed": 168, "cancelled": 1132}
+2026-11-10T11:57:28.443Z CHAOS kill -9 worker pid=304 (kills=76)
+2026-11-10T11:57:28.626Z stats {"queued": 1112, "running": 9, "succeeded": 7575, "failed": 170, "cancelled": 1134}
+2026-11-10T11:57:29.632Z stats {"queued": 1059, "running": 10, "succeeded": 7622, "failed": 171, "cancelled": 1138}
+2026-11-10T11:57:30.160Z CHAOS kill -9 worker pid=294 (kills=77)
+2026-11-10T11:57:30.643Z stats {"queued": 1019, "running": 8, "succeeded": 7661, "failed": 172, "cancelled": 1140}
+2026-11-10T11:57:31.649Z stats {"queued": 937, "running": 8, "succeeded": 7739, "failed": 173, "cancelled": 1143}
+2026-11-10T11:57:32.581Z CHAOS kill -9 worker pid=293 (kills=78)
+2026-11-10T11:57:32.659Z stats {"queued": 873, "running": 8, "succeeded": 7800, "failed": 176, "cancelled": 1143}
+2026-11-10T11:57:33.665Z stats {"queued": 847, "running": 7, "succeeded": 7825, "failed": 178, "cancelled": 1143}
+2026-11-10T11:57:33.981Z CHAOS resume worker pid=305 (now a zombie with an expired lease)
+2026-11-10T11:57:34.450Z CHAOS kill -9 worker pid=310 (kills=79)
+2026-11-10T11:57:34.676Z stats {"queued": 782, "running": 8, "succeeded": 7886, "failed": 179, "cancelled": 1145}
+2026-11-10T11:57:35.682Z stats {"queued": 708, "running": 8, "succeeded": 7957, "failed": 180, "cancelled": 1147}
+2026-11-10T11:57:36.169Z CHAOS freeze busy worker pid=308 for 7.0s
+2026-11-10T11:57:36.680Z CHAOS kill -9 worker pid=305 (kills=80)
+2026-11-10T11:57:36.693Z stats {"queued": 657, "running": 8, "succeeded": 8004, "failed": 181, "cancelled": 1150}
+2026-11-10T11:57:37.701Z stats {"queued": 606, "running": 9, "succeeded": 8050, "failed": 183, "cancelled": 1152}
+2026-11-10T11:57:38.707Z stats {"queued": 543, "running": 9, "succeeded": 8112, "failed": 184, "cancelled": 1152}
+2026-11-10T11:57:39.058Z CHAOS kill -9 worker pid=306 (kills=81)
+2026-11-10T11:57:39.713Z stats {"queued": 490, "running": 8, "succeeded": 8163, "failed": 185, "cancelled": 1154}
+2026-11-10T11:57:40.718Z stats {"queued": 435, "running": 8, "succeeded": 8216, "failed": 187, "cancelled": 1154}
+2026-11-10T11:57:40.924Z CHAOS kill -9 worker pid=313 (kills=82)
+2026-11-10T11:57:41.724Z stats {"queued": 399, "running": 9, "succeeded": 8247, "failed": 189, "cancelled": 1156}
+2026-11-10T11:57:42.731Z stats {"queued": 341, "running": 8, "succeeded": 8306, "failed": 189, "cancelled": 1156}
+2026-11-10T11:57:43.044Z CHAOS kill -9 worker pid=300 (kills=83)
+2026-11-10T11:57:43.170Z CHAOS resume worker pid=308 (now a zombie with an expired lease)
+2026-11-10T11:57:43.736Z stats {"queued": 276, "running": 10, "succeeded": 8368, "failed": 190, "cancelled": 1156}
+2026-11-10T11:57:44.607Z CHAOS kill -9 worker pid=315 (kills=84)
+2026-11-10T11:57:44.746Z stats {"queued": 186, "running": 9, "succeeded": 8454, "failed": 192, "cancelled": 1159}
+2026-11-10T11:57:45.752Z stats {"queued": 120, "running": 10, "succeeded": 8518, "failed": 193, "cancelled": 1159}
+2026-11-10T11:57:46.171Z CHAOS kill -9 worker pid=309 (kills=85)
+2026-11-10T11:57:46.763Z stats {"queued": 43, "running": 9, "succeeded": 8591, "failed": 194, "cancelled": 1163}
+2026-11-10T11:57:47.742Z CHAOS freeze busy worker pid=308 for 7.0s
+2026-11-10T11:57:47.769Z stats {"queued": 0, "running": 4, "succeeded": 8634, "failed": 197, "cancelled": 1165}
+2026-11-10T11:57:48.202Z CHAOS kill -9 worker pid=311 (kills=86)
+2026-11-10T11:57:48.778Z stats {"queued": 0, "running": 3, "succeeded": 8635, "failed": 197, "cancelled": 1165}
+2026-11-10T11:57:49.785Z stats {"queued": 0, "running": 1, "succeeded": 8636, "failed": 197, "cancelled": 1166}
+2026-11-10T11:57:50.524Z CHAOS kill -9 worker pid=320 (kills=87)
+2026-11-10T11:57:52.291Z CHAOS kill -9 worker pid=316 (kills=88)
+2026-11-10T11:57:53.827Z stats {"queued": 0, "running": 0, "succeeded": 8636, "failed": 197, "cancelled": 1167}
+2026-11-10T11:57:54.742Z CHAOS resume worker pid=308 (now a zombie with an expired lease)
+2026-11-10T11:57:54.929Z all frozen workers resumed; grace period 5s for zombie writes
+2026-11-10T11:57:59.942Z stats {"queued": 0, "running": 0, "succeeded": 8636, "failed": 197, "cancelled": 1167}
+2026-11-10T11:58:00.086Z metrics {"jobs_in_db": 10000, "keys_with_more_than_one_id": 0, "stuck_non_terminal": 0, "effects_by_status": {"cancelled:0": 1167, "failed:0": 197, "succeeded:1": 8636}, "effects_from_stale_token": 0, "transitions": {"running->succeeded": 8636, "running->cancelled": 223, "queued->cancelled": 944, "running->queued": 48, "queued->running (new token)": 9104, "running->failed": 197}, "cancel_accepted": 1167, "cancel_too_late": 69, "final_status": {"cancelled": 1167, "failed": 197, "succeeded": 8636}, "executions_total": 9104, "jobs_executed_more_than_once": 48, "max_executions_per_job": 2, "stale_writes_rejected": {"heartbeat": 18}, "requeued_after_lease_expiry": 48, "elapsed_s": 187.5, "seed": 1590053483, "kills": 88, "freezes": 18, "running_cancels_sent": 272, "duplicate_posts": 2510, "create_codes": {"201": 10000, "200": 2510}, "cancel_codes": {"200": 945, "409": 69, "202": 239}, "client_transport_errors": {}}
+2026-11-10T11:58:00.086Z RESULT: PASS (no lost jobs, no duplicate effects, nothing stuck, states consistent)

@@ -1,0 +1,3 @@
+2026-11-10 12:07:00,246 INFO 6fad3ac0a6dc:549:0aabf6: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:07:11,047 INFO 6fad3ac0a6dc:549:0aabf6: reaped 1 expired lease(s)
+2026-11-10 12:07:25,377 INFO 6fad3ac0a6dc:549:0aabf6: cancelled c1a887f0-adc1-4dc8-b730-53864859be66 mid-run

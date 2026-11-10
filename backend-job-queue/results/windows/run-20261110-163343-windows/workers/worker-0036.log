@@ -1,0 +1,5 @@
+2026-11-10 16:34:46,670 INFO kozlaptop:4632:5fa428: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:52,858 INFO kozlaptop:4632:5fa428: cancelled 5c56769c-44a3-45eb-9cf2-853d77f43a54 mid-run
+2026-11-10 16:35:02,028 WARNING kozlaptop:4632:5fa428: lost lease on a4f37bd3-824d-4c5e-9f12-3172503be83e (token 1), abandoning
+2026-11-10 16:35:08,894 INFO kozlaptop:4632:5fa428: reaped 1 expired lease(s)
+2026-11-10 16:35:12,755 INFO kozlaptop:4632:5fa428: reaped 1 expired lease(s)

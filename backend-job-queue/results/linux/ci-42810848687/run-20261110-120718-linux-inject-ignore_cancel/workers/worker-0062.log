@@ -1,0 +1,3 @@
+2026-11-10 12:09:11,683 INFO 74f6f081b3f2:913:b71b40: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:09:17,583 INFO 74f6f081b3f2:913:b71b40: cancelled 2553f8bd-7199-4fd1-8d21-ca3d2dee8f72 mid-run
+2026-11-10 12:09:31,160 WARNING 74f6f081b3f2:913:b71b40: lost lease on ef607a9f-d548-448e-85ae-31d87a4b9e26 (token 1), abandoning

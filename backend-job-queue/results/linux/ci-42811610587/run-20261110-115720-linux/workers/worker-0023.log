@@ -1,0 +1,5 @@
+2026-11-10 11:57:53,033 INFO 6fad3ac0a6dc:84:ea981e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:53,038 INFO 6fad3ac0a6dc:84:ea981e: reaped 1 expired lease(s)
+2026-11-10 11:58:04,922 INFO 6fad3ac0a6dc:84:ea981e: reaped 1 expired lease(s)
+2026-11-10 11:58:06,928 INFO 6fad3ac0a6dc:84:ea981e: cancelled 871f9294-a7dc-41df-9175-49520fc277e9 mid-run
+2026-11-10 11:58:06,930 INFO 6fad3ac0a6dc:84:ea981e: reaped 1 expired lease(s)

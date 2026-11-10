@@ -1,0 +1,6 @@
+2026-11-10 12:00:24,219 INFO 6fad3ac0a6dc:185:56ab43: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:00:31,412 INFO 6fad3ac0a6dc:185:56ab43: cancelled 02c52904-4fd3-4464-8840-90aab4000ff0 mid-run
+2026-11-10 12:00:31,414 INFO 6fad3ac0a6dc:185:56ab43: reaped 1 expired lease(s)
+2026-11-10 12:00:36,886 INFO 6fad3ac0a6dc:185:56ab43: cancelled bf20cd22-7d19-41f2-8b9d-b103cbd3218d mid-run
+2026-11-10 12:00:43,677 INFO 6fad3ac0a6dc:185:56ab43: cancelled 570237cf-d564-4c2c-bee6-38f419e63a34 mid-run
+2026-11-10 12:00:47,878 INFO 6fad3ac0a6dc:185:56ab43: reaped 1 expired lease(s)

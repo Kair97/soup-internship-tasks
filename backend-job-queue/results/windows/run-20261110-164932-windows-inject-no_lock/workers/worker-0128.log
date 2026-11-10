@@ -1,0 +1,5 @@
+2026-11-10 16:53:49,179 INFO kozlaptop:34320:66ab0e: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:53:49,339 WARNING kozlaptop:34320:66ab0e: result for 7752823a-4174-4f3e-b3c1-be52cf73e560 rejected, lease was taken over (stale token 1)
+2026-11-10 16:53:50,300 WARNING kozlaptop:34320:66ab0e: result for 878ff738-232c-4c75-a560-4cc70fec31ab rejected, lease was taken over (stale token 1)
+2026-11-10 16:53:52,448 INFO kozlaptop:34320:66ab0e: reaped 1 expired lease(s)
+2026-11-10 16:53:52,865 WARNING kozlaptop:34320:66ab0e: result for 9c6cb2ef-ead7-44ff-a8d3-86266b44b08f rejected, lease was taken over (stale token 1)

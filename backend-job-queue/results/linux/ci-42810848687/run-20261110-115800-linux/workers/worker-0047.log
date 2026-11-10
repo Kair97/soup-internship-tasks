@@ -1,0 +1,6 @@
+2026-11-10 11:59:21,312 INFO 74f6f081b3f2:431:dc003f: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:59:26,536 INFO 74f6f081b3f2:431:dc003f: cancelled 4f6b44e5-78e4-4d40-91f9-1cab09a61974 mid-run
+2026-11-10 11:59:35,406 WARNING 74f6f081b3f2:431:dc003f: lost lease on c29971f0-d8ce-4d74-8362-ce880d533bee (token 1), abandoning
+2026-11-10 11:59:44,784 INFO 74f6f081b3f2:431:dc003f: cancelled 5f7ccaf0-cbdd-47ae-a264-787c46f6a6c4 mid-run
+2026-11-10 11:59:44,784 INFO 74f6f081b3f2:431:dc003f: reaped 1 expired lease(s)
+2026-11-10 11:59:47,829 INFO 74f6f081b3f2:431:dc003f: reaped 1 expired lease(s)

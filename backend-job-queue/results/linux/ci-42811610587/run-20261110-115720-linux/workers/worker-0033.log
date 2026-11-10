@@ -1,0 +1,4 @@
+2026-11-10 11:58:13,553 INFO 6fad3ac0a6dc:99:da2518: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:17,408 INFO 6fad3ac0a6dc:99:da2518: reaped 2 expired lease(s)
+2026-11-10 11:58:18,414 INFO 6fad3ac0a6dc:99:da2518: reaped 1 expired lease(s)
+2026-11-10 11:58:23,397 INFO 6fad3ac0a6dc:99:da2518: cancelled f095371f-b58f-4a0c-9cc7-3d3b5b746331 mid-run

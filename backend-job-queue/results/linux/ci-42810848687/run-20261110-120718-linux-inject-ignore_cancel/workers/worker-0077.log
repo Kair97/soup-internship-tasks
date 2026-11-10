@@ -1,0 +1,3 @@
+2026-11-10 12:09:41,021 INFO 74f6f081b3f2:929:f47117: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:09:47,266 INFO 74f6f081b3f2:929:f47117: reaped 1 expired lease(s)
+2026-11-10 12:10:02,214 WARNING 74f6f081b3f2:929:f47117: lost lease on 6459204e-7d4a-41ad-8606-589d11bf6f1d (token 1), abandoning

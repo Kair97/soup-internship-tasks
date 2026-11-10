@@ -1,0 +1,4 @@
+2026-11-10 12:06:06,988 INFO 74f6f081b3f2:758:ba5366: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:06:06,992 INFO 74f6f081b3f2:758:ba5366: reaped 1 expired lease(s)
+2026-11-10 12:06:17,126 INFO 74f6f081b3f2:758:ba5366: reaped 2 expired lease(s)
+2026-11-10 12:06:17,369 WARNING 74f6f081b3f2:758:ba5366: result for 0e21bf2b-997d-43e9-a0fe-40acb54d1138 rejected, lease was taken over (stale token 1)

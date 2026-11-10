@@ -1,0 +1,2 @@
+2026-11-10 16:33:49,247 INFO kozlaptop:4780:827a8d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:05,725 WARNING kozlaptop:4780:827a8d: lost lease on 650af110-db4b-408c-8d33-95d2cb2605a8 (token 1), abandoning

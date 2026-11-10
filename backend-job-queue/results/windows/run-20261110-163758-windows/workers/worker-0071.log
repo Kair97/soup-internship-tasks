@@ -1,0 +1,2 @@
+2026-11-10 16:40:15,330 INFO kozlaptop:16536:fec813: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:40:18,379 INFO kozlaptop:16536:fec813: reaped 1 expired lease(s)

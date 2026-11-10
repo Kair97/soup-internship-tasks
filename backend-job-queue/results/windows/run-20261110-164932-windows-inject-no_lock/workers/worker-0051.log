@@ -1,0 +1,5 @@
+2026-11-10 16:51:09,247 INFO kozlaptop:3196:ecba3a: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:51:13,987 WARNING kozlaptop:3196:ecba3a: result for 47bba237-27c2-4c30-8661-88bc835e69d1 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:15,191 WARNING kozlaptop:3196:ecba3a: result for c0e1a719-11fe-407e-8b97-36bd7456f260 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:15,535 INFO kozlaptop:3196:ecba3a: reaped 1 expired lease(s)
+2026-11-10 16:51:16,540 WARNING kozlaptop:3196:ecba3a: lost lease on 019c313f-5fc9-468a-af32-fad156a9d5cc (token 2), abandoning

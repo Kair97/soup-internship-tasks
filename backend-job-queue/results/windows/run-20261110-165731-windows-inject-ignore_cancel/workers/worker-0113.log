@@ -1,0 +1,4 @@
+2026-11-10 17:01:23,964 INFO kozlaptop:29860:95e1bc: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:01:25,683 INFO kozlaptop:29860:95e1bc: cancelled 98d74715-a54c-493e-8256-671af169f328 mid-run
+2026-11-10 17:01:38,807 INFO kozlaptop:29860:95e1bc: reaped 1 expired lease(s)
+2026-11-10 17:01:52,093 WARNING kozlaptop:29860:95e1bc: lost lease on e3b67202-a9f6-425a-9fce-9359c1b09c6f (token 1), abandoning

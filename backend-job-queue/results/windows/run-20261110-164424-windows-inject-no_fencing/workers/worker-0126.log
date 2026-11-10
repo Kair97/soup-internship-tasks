@@ -1,0 +1,8 @@
+2026-11-10 16:48:33,709 INFO kozlaptop:4012:c9fbb5: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:48:39,112 INFO kozlaptop:4012:c9fbb5: reaped 1 expired lease(s)
+2026-11-10 16:48:40,117 INFO kozlaptop:4012:c9fbb5: cancelled 608a430f-d971-4527-b49f-c288143dbbba mid-run
+2026-11-10 16:48:52,200 INFO kozlaptop:4012:c9fbb5: cancelled 275a5667-31d4-46d9-a02e-c818109a4e86 mid-run
+2026-11-10 16:48:57,590 INFO kozlaptop:4012:c9fbb5: cancelled 1158e620-d3a0-4810-88e9-a707c8d0fc0e mid-run
+2026-11-10 16:49:00,141 INFO kozlaptop:4012:c9fbb5: cancelled 966e0887-3265-4371-9a2c-425b6b79e37e mid-run
+2026-11-10 16:49:03,933 INFO kozlaptop:4012:c9fbb5: cancelled 037e8279-6761-4c13-a84d-0b778bbcd121 mid-run
+2026-11-10 16:49:13,561 INFO kozlaptop:4012:c9fbb5: cancelled 6b0fc61f-3529-4474-9141-6658f2fba80e mid-run

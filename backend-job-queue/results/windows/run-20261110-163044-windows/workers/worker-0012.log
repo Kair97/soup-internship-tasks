@@ -1,0 +1,2 @@
+2026-11-10 16:30:56,232 INFO kozlaptop:14320:3dc747: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:30:57,256 INFO kozlaptop:14320:3dc747: reaped 1 expired lease(s)

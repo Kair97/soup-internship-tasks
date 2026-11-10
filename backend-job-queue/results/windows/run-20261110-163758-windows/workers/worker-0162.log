@@ -1,0 +1,2 @@
+2026-11-10 16:43:23,277 INFO kozlaptop:7720:a241ad: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:33,673 WARNING kozlaptop:7720:a241ad: lost lease on 39f4b78b-07be-411b-98bb-cf87dc9800b0 (token 1), abandoning

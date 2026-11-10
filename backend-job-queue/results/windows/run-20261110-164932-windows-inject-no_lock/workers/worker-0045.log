@@ -1,0 +1,15 @@
+2026-11-10 16:50:56,748 INFO kozlaptop:10632:4c8271: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:50:56,756 INFO kozlaptop:10632:4c8271: reaped 1 expired lease(s)
+2026-11-10 16:50:56,916 WARNING kozlaptop:10632:4c8271: result for de23d70b-7e26-4d61-a8ae-4899da73e90d rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:58,643 WARNING kozlaptop:10632:4c8271: lost lease on c76eefe4-6e7f-4c03-b113-f1f580b3435d (token 1), abandoning
+2026-11-10 16:51:06,212 WARNING kozlaptop:10632:4c8271: lost lease on 0ae7d7a4-d124-4e25-a8d8-2c0edcd52aeb (token 1), abandoning
+2026-11-10 16:51:06,911 WARNING kozlaptop:10632:4c8271: result for 402e46cb-153a-4f13-8f19-c6f2b2cf2d65 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:10,235 WARNING kozlaptop:10632:4c8271: result for f00dca78-0716-4b4d-8b1f-6c716b21a788 rejected, lease was taken over (stale token 2)
+2026-11-10 16:51:16,797 WARNING kozlaptop:10632:4c8271: result for 791252d7-809f-4fd9-9260-9df79944b731 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:18,071 WARNING kozlaptop:10632:4c8271: result for 8bb9e1f2-68d7-4ad9-9f85-f8cba0f7fe6e rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:20,283 WARNING kozlaptop:10632:4c8271: result for 457630a5-d8af-49ba-8af3-0922c7508057 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:28,094 WARNING kozlaptop:10632:4c8271: lost lease on 33fc1585-cdea-4384-8517-6a268753c4e9 (token 3), abandoning
+2026-11-10 16:51:29,578 WARNING kozlaptop:10632:4c8271: result for ed867f67-5ce0-48f1-82d8-07f103c5fa7f rejected, lease was taken over (stale token 2)
+2026-11-10 16:51:31,018 WARNING kozlaptop:10632:4c8271: result for 89e385fd-284c-4c2a-8c4c-7b7437b35a55 rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:32,412 WARNING kozlaptop:10632:4c8271: result for 31124b0e-89b1-4326-ab62-dc15af966a1f rejected, lease was taken over (stale token 1)
+2026-11-10 16:51:39,485 WARNING kozlaptop:10632:4c8271: result for f272bf89-8257-4dc3-ae11-1bd4e8298ac5 rejected, lease was taken over (stale token 1)

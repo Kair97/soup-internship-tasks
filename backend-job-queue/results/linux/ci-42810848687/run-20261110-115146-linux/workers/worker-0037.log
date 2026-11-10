@@ -1,0 +1,4 @@
+2026-11-10 11:52:49,186 INFO 74f6f081b3f2:98:3f2c4a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:52:57,263 WARNING 74f6f081b3f2:98:3f2c4a: lost lease on 55a675a1-6868-4467-b870-6480a51d1b85 (token 1), abandoning
+2026-11-10 11:52:57,264 INFO 74f6f081b3f2:98:3f2c4a: reaped 1 expired lease(s)
+2026-11-10 11:53:01,604 INFO 74f6f081b3f2:98:3f2c4a: cancelled ca0e4a13-c15f-4856-960c-cb8c4f64c1bd mid-run

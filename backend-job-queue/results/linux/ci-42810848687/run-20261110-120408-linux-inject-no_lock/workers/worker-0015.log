@@ -1,0 +1,3 @@
+2026-11-10 12:04:25,845 INFO 74f6f081b3f2:702:615372: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:04:26,720 WARNING 74f6f081b3f2:702:615372: result for f2164671-070c-406d-8361-42e9350a5145 rejected, lease was taken over (stale token 1)
+2026-11-10 12:04:28,560 WARNING 74f6f081b3f2:702:615372: result for 252f6df4-0327-46d0-ba44-23b49ce904f2 rejected, lease was taken over (stale token 1)

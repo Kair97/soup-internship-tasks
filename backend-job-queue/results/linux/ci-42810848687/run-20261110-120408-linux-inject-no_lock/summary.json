@@ -1,0 +1,87 @@
+{
+  "name": "run-20261110-120408-linux-inject-no_lock",
+  "result": "FAIL",
+  "violations": [
+    "DOUBLE CLAIM: 602 claims of a job that was already running"
+  ],
+  "args": {
+    "admin_url": "postgresql://postgres:postgres@db:5432/postgres",
+    "db_name": "jobs_chaos",
+    "jobs": 10000,
+    "workers": 8,
+    "kill_every": 2.0,
+    "freeze_every": 10.0,
+    "lease": 3.0,
+    "duration_ms": [
+      10,
+      150
+    ],
+    "long_rate": 0.03,
+    "long_ms": [
+      500,
+      3000
+    ],
+    "running_cancel_prob": 0.05,
+    "fail_rate": 0.02,
+    "dup_rate": 0.15,
+    "retry_rate": 0.1,
+    "cancel_rate": 0.1,
+    "concurrency": 48,
+    "timeout": 1200,
+    "seed": null,
+    "inject": "no_lock",
+    "out": "/srv/results/linux"
+  },
+  "metrics": {
+    "jobs_in_db": 10000,
+    "keys_with_more_than_one_id": 0,
+    "stuck_non_terminal": 0,
+    "effects_by_status": {
+      "cancelled:0": 1201,
+      "failed:0": 185,
+      "succeeded:1": 8614
+    },
+    "effects_from_stale_token": 0,
+    "transitions": {
+      "running->succeeded": 8614,
+      "running->running (new token)": 602,
+      "running->cancelled": 217,
+      "queued->cancelled": 984,
+      "running->queued": 51,
+      "queued->running (new token)": 9067,
+      "running->failed": 185
+    },
+    "cancel_accepted": 1201,
+    "cancel_too_late": 49,
+    "final_status": {
+      "cancelled": 1201,
+      "failed": 185,
+      "succeeded": 8614
+    },
+    "executions_total": 9668,
+    "jobs_executed_more_than_once": 627,
+    "max_executions_per_job": 4,
+    "stale_writes_rejected": {
+      "failed": 7,
+      "heartbeat": 34,
+      "complete": 571
+    },
+    "requeued_after_lease_expiry": 51,
+    "elapsed_s": 188.5,
+    "seed": 276975524,
+    "kills": 88,
+    "freezes": 18,
+    "running_cancels_sent": 264,
+    "duplicate_posts": 2497,
+    "create_codes": {
+      "201": 10000,
+      "200": 2497
+    },
+    "cancel_codes": {
+      "200": 985,
+      "409": 49,
+      "202": 231
+    },
+    "client_transport_errors": {}
+  }
+}

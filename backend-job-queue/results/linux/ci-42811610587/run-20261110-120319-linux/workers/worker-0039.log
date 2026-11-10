@@ -1,0 +1,5 @@
+2026-11-10 12:04:27,900 INFO 6fad3ac0a6dc:413:8dc96b: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:04:29,674 INFO 6fad3ac0a6dc:413:8dc96b: cancelled b38c71a4-abfb-4257-9d00-9ed86d7dc1f3 mid-run
+2026-11-10 12:04:33,872 INFO 6fad3ac0a6dc:413:8dc96b: cancelled 3c31109f-10ce-4c36-b1ac-563ea736a9a8 mid-run
+2026-11-10 12:04:50,860 WARNING 6fad3ac0a6dc:413:8dc96b: lost lease on a6dfcee7-7b45-4612-a57f-2981e42b60e0 (token 1), abandoning
+2026-11-10 12:04:50,861 INFO 6fad3ac0a6dc:413:8dc96b: reaped 1 expired lease(s)

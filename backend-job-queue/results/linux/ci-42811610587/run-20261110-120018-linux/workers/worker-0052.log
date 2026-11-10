@@ -1,0 +1,5 @@
+2026-11-10 12:01:50,715 INFO 6fad3ac0a6dc:275:e98a86: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:01:51,815 INFO 6fad3ac0a6dc:275:e98a86: cancelled 6b9511ed-b286-4537-899c-a667dc5a34d5 mid-run
+2026-11-10 12:01:54,808 INFO 6fad3ac0a6dc:275:e98a86: cancelled 82cd8a51-3fb9-47c5-94e6-188c9ec9253b mid-run
+2026-11-10 12:01:56,977 INFO 6fad3ac0a6dc:275:e98a86: cancelled a7699b9a-f010-46aa-b53e-d2f34bedd4d5 mid-run
+2026-11-10 12:02:00,303 INFO 6fad3ac0a6dc:275:e98a86: cancelled 7c9ac813-9763-42ae-b75b-253afe974bb4 mid-run

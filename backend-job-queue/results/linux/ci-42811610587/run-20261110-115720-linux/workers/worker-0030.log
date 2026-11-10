@@ -1,0 +1,5 @@
+2026-11-10 11:58:06,543 INFO 6fad3ac0a6dc:95:c30470: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:25,077 INFO 6fad3ac0a6dc:95:c30470: reaped 1 expired lease(s)
+2026-11-10 11:58:28,267 INFO 6fad3ac0a6dc:95:c30470: cancelled 73e58f98-503e-4db0-8538-b4b51b5518b7 mid-run
+2026-11-10 11:58:28,268 INFO 6fad3ac0a6dc:95:c30470: reaped 1 expired lease(s)
+2026-11-10 11:58:38,548 WARNING 6fad3ac0a6dc:95:c30470: lost lease on 8a221b80-88b9-446b-ac7f-449d02ac0271 (token 1), abandoning

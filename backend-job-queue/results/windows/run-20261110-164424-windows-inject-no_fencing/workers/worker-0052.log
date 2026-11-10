@@ -1,0 +1,3 @@
+2026-11-10 16:46:01,065 INFO kozlaptop:30080:6bd7ce: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:46:19,779 INFO kozlaptop:30080:6bd7ce: cancelled 9e3a98e3-ebf9-43cf-a96c-5b531d5c9023 mid-run
+2026-11-10 16:46:23,815 INFO kozlaptop:30080:6bd7ce: reaped 1 expired lease(s)

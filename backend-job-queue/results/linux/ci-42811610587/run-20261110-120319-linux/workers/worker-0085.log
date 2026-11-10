@@ -1,0 +1,4 @@
+2026-11-10 12:05:59,938 INFO 6fad3ac0a6dc:461:e664fd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:06:04,733 INFO 6fad3ac0a6dc:461:e664fd: reaped 1 expired lease(s)
+2026-11-10 12:06:06,872 INFO 6fad3ac0a6dc:461:e664fd: reaped 1 expired lease(s)
+2026-11-10 12:06:09,004 INFO 6fad3ac0a6dc:461:e664fd: reaped 1 expired lease(s)

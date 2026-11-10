@@ -1,0 +1,2 @@
+2026-11-10 16:32:31,411 INFO kozlaptop:32468:c70957: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:31,421 INFO kozlaptop:32468:c70957: reaped 1 expired lease(s)

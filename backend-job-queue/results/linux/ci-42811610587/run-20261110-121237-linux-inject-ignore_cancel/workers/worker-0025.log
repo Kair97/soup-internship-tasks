@@ -1,0 +1,9 @@
+2026-11-10 12:13:17,128 INFO 6fad3ac0a6dc:863:624c22: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:13:27,478 WARNING 6fad3ac0a6dc:863:624c22: lost lease on 166dfa32-f685-44da-a071-114f76023357 (token 1), abandoning
+2026-11-10 12:13:30,533 INFO 6fad3ac0a6dc:863:624c22: cancelled 2a9997d5-d594-40d6-b037-c13ab82afd91 mid-run
+2026-11-10 12:13:39,022 INFO 6fad3ac0a6dc:863:624c22: reaped 1 expired lease(s)
+2026-11-10 12:13:45,310 INFO 6fad3ac0a6dc:863:624c22: reaped 1 expired lease(s)
+2026-11-10 12:13:49,768 INFO 6fad3ac0a6dc:863:624c22: cancelled 9f4f874f-5b75-407b-8507-8dcd78ee97c5 mid-run
+2026-11-10 12:13:54,361 INFO 6fad3ac0a6dc:863:624c22: cancelled 8c0928ef-cc0e-4282-a7fb-d409ff0dac6c mid-run
+2026-11-10 12:13:57,099 INFO 6fad3ac0a6dc:863:624c22: cancelled ccff90bc-5e2a-4597-87ac-2d9ae5397f37 mid-run
+2026-11-10 12:14:15,097 INFO 6fad3ac0a6dc:863:624c22: reaped 1 expired lease(s)

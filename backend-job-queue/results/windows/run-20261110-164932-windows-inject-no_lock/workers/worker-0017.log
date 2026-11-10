@@ -1,0 +1,4 @@
+2026-11-10 16:49:58,216 INFO kozlaptop:4660:61eab9: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:50:06,892 WARNING kozlaptop:4660:61eab9: lost lease on 7e9c3d28-d1ae-4b9f-9568-533ca317d5dc (token 1), abandoning
+2026-11-10 16:50:11,843 WARNING kozlaptop:4660:61eab9: result for 00e8960d-3afc-4d69-b9c4-6548bc8100a0 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:11,899 WARNING kozlaptop:4660:61eab9: result for 18872ee2-d2e4-4b4e-8188-66bc6d567fa3 rejected, lease was taken over (stale token 1)

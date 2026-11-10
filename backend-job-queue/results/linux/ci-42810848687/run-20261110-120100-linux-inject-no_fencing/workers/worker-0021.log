@@ -1,0 +1,6 @@
+2026-11-10 12:01:31,958 INFO 74f6f081b3f2:556:820b32: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:01:42,249 INFO 74f6f081b3f2:556:820b32: reaped 1 expired lease(s)
+2026-11-10 12:01:44,544 INFO 74f6f081b3f2:556:820b32: reaped 2 expired lease(s)
+2026-11-10 12:01:46,597 INFO 74f6f081b3f2:556:820b32: reaped 1 expired lease(s)
+2026-11-10 12:01:48,782 INFO 74f6f081b3f2:556:820b32: reaped 1 expired lease(s)
+2026-11-10 12:01:52,936 INFO 74f6f081b3f2:556:820b32: reaped 1 expired lease(s)

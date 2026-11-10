@@ -1,0 +1,2 @@
+2026-11-10 16:54:54,461 INFO kozlaptop:29276:4951ce: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:54:55,154 WARNING kozlaptop:29276:4951ce: result for 04c9106e-e131-4068-b919-e78d330a2e7d rejected, lease was taken over (stale token 1)

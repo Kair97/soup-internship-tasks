@@ -1,0 +1,5 @@
+2026-11-10 16:38:02,714 INFO kozlaptop:17740:82b3ee: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:14,001 INFO kozlaptop:17740:82b3ee: reaped 1 expired lease(s)
+2026-11-10 16:38:15,940 INFO kozlaptop:17740:82b3ee: reaped 1 expired lease(s)
+2026-11-10 16:38:25,197 INFO kozlaptop:17740:82b3ee: cancelled 03020aa9-417b-4581-9e2d-bcb9ba8a1c1b mid-run
+2026-11-10 16:38:28,265 INFO kozlaptop:17740:82b3ee: reaped 1 expired lease(s)

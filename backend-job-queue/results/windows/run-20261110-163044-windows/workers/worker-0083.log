@@ -1,0 +1,3 @@
+2026-11-10 16:33:24,886 INFO kozlaptop:876:cc228f: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:27,369 INFO kozlaptop:876:cc228f: cancelled ae03d9bf-96b8-4d9b-bee9-8a911db4cc47 mid-run
+2026-11-10 16:33:37,370 WARNING kozlaptop:876:cc228f: lost lease on 220cbfa6-600c-4e84-82f3-d55e699d237c (token 1), abandoning

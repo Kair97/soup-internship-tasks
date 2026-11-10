@@ -1,0 +1,2 @@
+2026-11-10 16:37:00,392 INFO kozlaptop:31628:20acfd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:37:03,460 INFO kozlaptop:31628:20acfd: reaped 1 expired lease(s)

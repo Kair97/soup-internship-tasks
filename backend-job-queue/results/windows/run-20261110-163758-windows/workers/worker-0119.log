@@ -1,0 +1,4 @@
+2026-11-10 16:41:53,472 INFO kozlaptop:28788:28295f: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:06,035 INFO kozlaptop:28788:28295f: reaped 1 expired lease(s)
+2026-11-10 16:42:07,462 INFO kozlaptop:28788:28295f: cancelled 2ec53f64-b561-4d90-a1bd-e0824a2b8448 mid-run
+2026-11-10 16:42:39,450 INFO kozlaptop:28788:28295f: reaped 1 expired lease(s)

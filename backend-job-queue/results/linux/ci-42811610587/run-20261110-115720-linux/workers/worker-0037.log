@@ -1,0 +1,6 @@
+2026-11-10 11:58:20,750 INFO 6fad3ac0a6dc:103:b78900: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:29,016 WARNING 6fad3ac0a6dc:103:b78900: lost lease on df3497be-e366-4e3e-8da1-f3edcea75709 (token 1), abandoning
+2026-11-10 11:58:32,294 INFO 6fad3ac0a6dc:103:b78900: reaped 1 expired lease(s)
+2026-11-10 11:58:34,460 INFO 6fad3ac0a6dc:103:b78900: reaped 2 expired lease(s)
+2026-11-10 11:58:35,595 INFO 6fad3ac0a6dc:103:b78900: reaped 1 expired lease(s)
+2026-11-10 11:58:36,598 INFO 6fad3ac0a6dc:103:b78900: cancelled 579c0ea2-5b14-485a-90cc-3b47d89c8b0e mid-run

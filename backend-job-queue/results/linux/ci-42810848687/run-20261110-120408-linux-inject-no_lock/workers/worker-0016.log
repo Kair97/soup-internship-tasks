@@ -1,0 +1,3 @@
+2026-11-10 12:04:28,410 INFO 74f6f081b3f2:703:e759ec: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:04:30,197 INFO 74f6f081b3f2:703:e759ec: cancelled 4a99630b-c6cc-4196-814f-753a14a33b20 mid-run
+2026-11-10 12:04:30,450 WARNING 74f6f081b3f2:703:e759ec: result for dd34dd71-b6f9-443d-84e9-919fdd88ac7e rejected, lease was taken over (stale token 1)

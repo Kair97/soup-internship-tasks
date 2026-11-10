@@ -1,0 +1,3 @@
+2026-11-10 16:55:55,043 INFO kozlaptop:23876:b364a8: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:55:59,817 INFO kozlaptop:23876:b364a8: reaped 1 expired lease(s)
+2026-11-10 16:56:02,316 WARNING kozlaptop:23876:b364a8: result for 4095920a-76cf-4885-b7c4-b15f7e69a93e rejected, lease was taken over (stale token 1)

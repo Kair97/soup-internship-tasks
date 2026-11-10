@@ -1,0 +1,4 @@
+2026-11-10 11:59:27,224 INFO 6fad3ac0a6dc:143:f7ccc8: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:59:27,227 INFO 6fad3ac0a6dc:143:f7ccc8: reaped 1 expired lease(s)
+2026-11-10 11:59:38,562 INFO 6fad3ac0a6dc:143:f7ccc8: reaped 1 expired lease(s)
+2026-11-10 11:59:45,156 INFO 6fad3ac0a6dc:143:f7ccc8: cancelled d53ed47d-b266-4dfc-a197-c72dc142e4cf mid-run

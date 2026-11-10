@@ -1,0 +1,4 @@
+2026-11-10 16:42:20,078 INFO kozlaptop:27412:5ce5a7: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:28,109 INFO kozlaptop:27412:5ce5a7: reaped 1 expired lease(s)
+2026-11-10 16:42:29,115 INFO kozlaptop:27412:5ce5a7: cancelled 5abbeeaf-b40b-4f92-a0cc-40ffda13ea8b mid-run
+2026-11-10 16:42:31,262 INFO kozlaptop:27412:5ce5a7: cancelled e05833cc-b3e5-4e83-b641-c3ee87494715 mid-run

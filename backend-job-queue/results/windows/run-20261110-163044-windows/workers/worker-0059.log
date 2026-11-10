@@ -1,0 +1,3 @@
+2026-11-10 16:32:36,099 INFO kozlaptop:22040:e2474e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:46,425 INFO kozlaptop:22040:e2474e: reaped 1 expired lease(s)
+2026-11-10 16:32:56,493 INFO kozlaptop:22040:e2474e: reaped 1 expired lease(s)

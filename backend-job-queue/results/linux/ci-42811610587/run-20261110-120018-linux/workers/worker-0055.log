@@ -1,0 +1,3 @@
+2026-11-10 12:01:57,017 INFO 6fad3ac0a6dc:278:122bd8: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:02:03,743 INFO 6fad3ac0a6dc:278:122bd8: cancelled b1f04f10-3bdb-45d2-bdfc-ecb7bb15a106 mid-run
+2026-11-10 12:02:03,744 INFO 6fad3ac0a6dc:278:122bd8: reaped 1 expired lease(s)

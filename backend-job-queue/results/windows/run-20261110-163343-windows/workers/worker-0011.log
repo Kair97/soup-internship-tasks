@@ -1,0 +1,2 @@
+2026-11-10 16:33:54,579 INFO kozlaptop:18960:3df354: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:00,797 INFO kozlaptop:18960:3df354: reaped 1 expired lease(s)

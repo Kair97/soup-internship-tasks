@@ -1,0 +1,5 @@
+2026-11-10 11:56:50,029 INFO 74f6f081b3f2:290:c5dfb9: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:56:52,890 INFO 74f6f081b3f2:290:c5dfb9: cancelled 79427740-0808-4b36-82e9-d0fa21e03c9f mid-run
+2026-11-10 11:57:02,269 INFO 74f6f081b3f2:290:c5dfb9: cancelled 690c353b-cd4a-401c-b88e-342886739800 mid-run
+2026-11-10 11:57:02,270 INFO 74f6f081b3f2:290:c5dfb9: reaped 1 expired lease(s)
+2026-11-10 11:57:18,847 INFO 74f6f081b3f2:290:c5dfb9: reaped 1 expired lease(s)

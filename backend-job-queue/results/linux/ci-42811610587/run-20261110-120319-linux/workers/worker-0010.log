@@ -1,0 +1,8 @@
+2026-11-10 12:03:26,570 INFO 6fad3ac0a6dc:380:cc097a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:03:36,120 INFO 6fad3ac0a6dc:380:cc097a: cancelled d4585d47-8270-4165-83cc-55afad9a77eb mid-run
+2026-11-10 12:03:37,127 INFO 6fad3ac0a6dc:380:cc097a: cancelled 4e4c2bd2-bc09-429f-b0f8-485d11e0f732 mid-run
+2026-11-10 12:03:54,286 INFO 6fad3ac0a6dc:380:cc097a: cancelled ea318145-0cb6-4d76-a059-cce9c26cd14b mid-run
+2026-11-10 12:04:00,501 INFO 6fad3ac0a6dc:380:cc097a: reaped 1 expired lease(s)
+2026-11-10 12:04:06,816 INFO 6fad3ac0a6dc:380:cc097a: reaped 1 expired lease(s)
+2026-11-10 12:04:22,969 INFO 6fad3ac0a6dc:380:cc097a: reaped 1 expired lease(s)
+2026-11-10 12:04:25,042 INFO 6fad3ac0a6dc:380:cc097a: reaped 1 expired lease(s)

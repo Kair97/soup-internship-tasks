@@ -1,0 +1,5 @@
+2026-11-10 16:38:25,914 INFO kozlaptop:25752:700a3e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:25,921 INFO kozlaptop:25752:700a3e: reaped 2 expired lease(s)
+2026-11-10 16:38:35,162 INFO kozlaptop:25752:700a3e: reaped 1 expired lease(s)
+2026-11-10 16:38:44,204 INFO kozlaptop:25752:700a3e: reaped 1 expired lease(s)
+2026-11-10 16:38:48,267 INFO kozlaptop:25752:700a3e: reaped 1 expired lease(s)

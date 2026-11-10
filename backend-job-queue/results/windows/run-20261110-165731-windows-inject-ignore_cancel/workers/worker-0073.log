@@ -1,0 +1,4 @@
+2026-11-10 17:00:03,892 INFO kozlaptop:25384:871cb0: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:00:30,118 INFO kozlaptop:25384:871cb0: cancelled 423eee40-82d6-4383-82e8-b7b9fc97f590 mid-run
+2026-11-10 17:01:24,739 INFO kozlaptop:25384:871cb0: reaped 1 expired lease(s)
+2026-11-10 17:01:39,496 INFO kozlaptop:25384:871cb0: cancelled 0b7cb9c6-4165-49d4-8cdc-fe3093221d01 mid-run

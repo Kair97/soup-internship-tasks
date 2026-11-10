@@ -1,0 +1,11 @@
+2026-11-10 16:55:12,829 INFO kozlaptop:34108:14c5cd: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:55:13,034 WARNING kozlaptop:34108:14c5cd: result for f118cfbe-a44d-40c5-b5fc-90ef2061e924 rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:13,158 WARNING kozlaptop:34108:14c5cd: result for 0446680d-3ea9-4df8-9a01-efcc1f045b3b rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:13,846 WARNING kozlaptop:34108:14c5cd: result for da0431c2-f631-484b-b851-29c3e2f0e25c rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:14,894 WARNING kozlaptop:34108:14c5cd: result for becfacf4-5886-493f-b68f-7d220f22f0fb rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:19,205 WARNING kozlaptop:34108:14c5cd: result for 05771999-4bf7-4ed2-9a26-f28ef030b22c rejected, lease was taken over (stale token 2)
+2026-11-10 16:55:20,611 WARNING kozlaptop:34108:14c5cd: result for fe004959-1049-42dd-8ead-a440f12e4bc3 rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:23,537 WARNING kozlaptop:34108:14c5cd: result for ea528973-97bf-40bd-87d1-7729e2e39157 rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:32,059 WARNING kozlaptop:34108:14c5cd: lost lease on 93455eb2-0458-4596-a08a-75a036a36031 (token 1), abandoning
+2026-11-10 16:55:32,196 WARNING kozlaptop:34108:14c5cd: result for 0cf367f0-f756-481f-88da-517eb260bd09 rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:35,939 WARNING kozlaptop:34108:14c5cd: result for 8381254a-8ecd-4dac-89c9-6ca7ae702c5e rejected, lease was taken over (stale token 1)

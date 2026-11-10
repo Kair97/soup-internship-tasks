@@ -1,0 +1,16 @@
+2026-11-10 12:10:53,547 INFO 6fad3ac0a6dc:732:f45818: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:10:54,291 WARNING 6fad3ac0a6dc:732:f45818: result for 5c745336-6f80-45d3-abb8-18906d38989a rejected, lease was taken over (stale token 1)
+2026-11-10 12:10:54,948 WARNING 6fad3ac0a6dc:732:f45818: result for d8b71eca-cede-490f-9d2e-61bb73374487 rejected, lease was taken over (stale token 1)
+2026-11-10 12:10:56,941 WARNING 6fad3ac0a6dc:732:f45818: result for fe134af6-809f-4f26-bc42-c8e32a9d1856 rejected, lease was taken over (stale token 2)
+2026-11-10 12:10:57,700 INFO 6fad3ac0a6dc:732:f45818: reaped 1 expired lease(s)
+2026-11-10 12:10:59,892 INFO 6fad3ac0a6dc:732:f45818: reaped 1 expired lease(s)
+2026-11-10 12:11:00,669 WARNING 6fad3ac0a6dc:732:f45818: result for 0a2e74ab-1a56-4323-a6b4-5e49aa215346 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:00,970 WARNING 6fad3ac0a6dc:732:f45818: result for aacf2015-364c-4e87-8497-d0f376b2701c rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:00,971 INFO 6fad3ac0a6dc:732:f45818: reaped 1 expired lease(s)
+2026-11-10 12:11:01,974 WARNING 6fad3ac0a6dc:732:f45818: lost lease on 64705c5c-537e-409a-92c6-b22daec737da (token 2), abandoning
+2026-11-10 12:11:02,628 WARNING 6fad3ac0a6dc:732:f45818: result for dbde98a4-34a3-4c54-8035-b3ff7a6e7706 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:02,738 WARNING 6fad3ac0a6dc:732:f45818: result for 8562f40b-6ced-4c50-a6c1-052d3f7523cb rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:03,429 WARNING 6fad3ac0a6dc:732:f45818: result for f57701bb-0112-491f-885b-fba21716d0bc rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:03,505 WARNING 6fad3ac0a6dc:732:f45818: result for 6fb1704b-794e-4cb7-9b08-e3523d747132 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:03,594 WARNING 6fad3ac0a6dc:732:f45818: result for d68db4ca-cfe1-4582-91fe-f96723a5d26d rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:05,594 INFO 6fad3ac0a6dc:732:f45818: cancelled 82a2e2d8-304e-488e-a05c-7aa9e96f2e58 mid-run

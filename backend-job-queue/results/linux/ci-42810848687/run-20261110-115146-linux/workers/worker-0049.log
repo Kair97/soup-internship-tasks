@@ -1,0 +1,3 @@
+2026-11-10 11:53:14,855 INFO 74f6f081b3f2:111:201158: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:53:14,858 INFO 74f6f081b3f2:111:201158: reaped 1 expired lease(s)
+2026-11-10 11:53:21,991 WARNING 74f6f081b3f2:111:201158: result for d13d8c03-cb20-4553-b5d7-a5ad74e10011 rejected, lease was taken over (stale token 1)

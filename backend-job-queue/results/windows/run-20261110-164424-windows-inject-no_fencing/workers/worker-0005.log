@@ -1,0 +1,4 @@
+2026-11-10 16:44:28,569 INFO kozlaptop:11220:4c93da: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:44:37,688 INFO kozlaptop:11220:4c93da: reaped 1 expired lease(s)
+2026-11-10 16:44:45,721 INFO kozlaptop:11220:4c93da: cancelled 21d8f16c-0c7e-4180-a300-c0b4e71f7af1 mid-run
+2026-11-10 16:44:49,832 INFO kozlaptop:11220:4c93da: reaped 1 expired lease(s)

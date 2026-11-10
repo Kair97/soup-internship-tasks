@@ -1,0 +1,2 @@
+2026-11-10 16:52:14,643 INFO kozlaptop:28096:cfc3e9: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:52:24,927 WARNING kozlaptop:28096:cfc3e9: result for d659182c-55c9-408e-9e11-b6bb63bc3f66 rejected, lease was taken over (stale token 1)

@@ -1,0 +1,2 @@
+2026-11-10 16:58:07,009 INFO kozlaptop:31748:425c9d: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 16:58:17,963 WARNING kozlaptop:31748:425c9d: lost lease on d1c97db8-e9b2-436a-b492-601a67090119 (token 1), abandoning

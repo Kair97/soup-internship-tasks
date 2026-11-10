@@ -1,0 +1,5 @@
+2026-11-10 17:03:55,631 INFO kozlaptop:28156:8085a8: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:03:57,687 INFO kozlaptop:28156:8085a8: reaped 1 expired lease(s)
+2026-11-10 17:03:59,769 INFO kozlaptop:28156:8085a8: reaped 1 expired lease(s)
+2026-11-10 17:04:08,444 INFO kozlaptop:28156:8085a8: reaped 1 expired lease(s)
+2026-11-10 17:04:09,451 INFO kozlaptop:28156:8085a8: cancelled 5fe33e98-44ee-4775-a5f9-e7fc275b9e78 mid-run

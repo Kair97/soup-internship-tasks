@@ -1,0 +1,4 @@
+2026-11-10 12:13:08,964 INFO 6fad3ac0a6dc:858:7a254c: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:13:18,513 WARNING 6fad3ac0a6dc:858:7a254c: lost lease on 5f7df3e9-2ccf-455c-bf30-c6ce7f480d68 (token 1), abandoning
+2026-11-10 12:13:31,411 INFO 6fad3ac0a6dc:858:7a254c: cancelled 2569b5f4-c09e-4b8b-9285-d58352c0b2cd mid-run
+2026-11-10 12:13:34,510 INFO 6fad3ac0a6dc:858:7a254c: reaped 1 expired lease(s)

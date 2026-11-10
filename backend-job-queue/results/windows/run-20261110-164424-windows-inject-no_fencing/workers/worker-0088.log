@@ -1,0 +1,2 @@
+2026-11-10 16:47:15,353 INFO kozlaptop:16584:6943af: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:47:17,315 INFO kozlaptop:16584:6943af: cancelled 959ec7b7-9342-41a9-a236-e9c0856ee109 mid-run

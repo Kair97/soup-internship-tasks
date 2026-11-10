@@ -1,0 +1,5 @@
+2026-11-10 16:32:24,657 INFO kozlaptop:13176:2cd95d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:27,780 INFO kozlaptop:13176:2cd95d: reaped 1 expired lease(s)
+2026-11-10 16:32:32,659 INFO kozlaptop:13176:2cd95d: cancelled 698e5ce2-f61f-4cfc-8396-4bdb54a4c0ae mid-run
+2026-11-10 16:32:33,683 INFO kozlaptop:13176:2cd95d: reaped 1 expired lease(s)
+2026-11-10 16:32:39,505 INFO kozlaptop:13176:2cd95d: reaped 1 expired lease(s)

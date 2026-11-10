@@ -1,0 +1,7 @@
+2026-11-10 16:32:14,519 INFO kozlaptop:11560:898c42: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:14,529 INFO kozlaptop:11560:898c42: reaped 1 expired lease(s)
+2026-11-10 16:32:16,644 INFO kozlaptop:11560:898c42: cancelled 4371aaa4-83d3-44b8-b017-8496c2f14e2d mid-run
+2026-11-10 16:32:16,644 INFO kozlaptop:11560:898c42: reaped 1 expired lease(s)
+2026-11-10 16:32:21,830 INFO kozlaptop:11560:898c42: reaped 1 expired lease(s)
+2026-11-10 16:32:26,382 INFO kozlaptop:11560:898c42: cancelled d0b479df-079e-4464-b62c-79075289431d mid-run
+2026-11-10 16:32:28,893 INFO kozlaptop:11560:898c42: reaped 1 expired lease(s)

@@ -1,0 +1,2 @@
+2026-11-10 16:38:56,793 INFO kozlaptop:28060:fb20cc: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:39:00,662 INFO kozlaptop:28060:fb20cc: cancelled f82c7d0f-97b7-4e8d-a16f-400adddfd71c mid-run

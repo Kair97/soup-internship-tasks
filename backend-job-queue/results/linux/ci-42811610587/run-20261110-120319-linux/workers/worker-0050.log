@@ -1,0 +1,2 @@
+2026-11-10 12:04:50,403 INFO 6fad3ac0a6dc:424:e43535: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:04:59,819 WARNING 6fad3ac0a6dc:424:e43535: lost lease on 0b09a6a3-34d2-4032-9729-f3da9553a313 (token 1), abandoning

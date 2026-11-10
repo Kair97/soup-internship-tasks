@@ -1,0 +1,2 @@
+2026-11-10 16:41:08,152 INFO kozlaptop:8200:8c45ba: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:41:08,161 INFO kozlaptop:8200:8c45ba: reaped 1 expired lease(s)

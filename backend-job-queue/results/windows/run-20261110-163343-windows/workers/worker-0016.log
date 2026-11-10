@@ -1,0 +1,7 @@
+2026-11-10 16:34:04,935 INFO kozlaptop:11920:1a535e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:34:09,893 INFO kozlaptop:11920:1a535e: reaped 1 expired lease(s)
+2026-11-10 16:34:13,174 INFO kozlaptop:11920:1a535e: reaped 1 expired lease(s)
+2026-11-10 16:34:17,610 INFO kozlaptop:11920:1a535e: reaped 1 expired lease(s)
+2026-11-10 16:34:33,102 WARNING kozlaptop:11920:1a535e: lost lease on 31c0093d-2092-4d8f-80f0-1695c3990e87 (token 1), abandoning
+2026-11-10 16:34:44,344 WARNING kozlaptop:11920:1a535e: lost lease on c610a1a7-392c-4d3b-8967-94104625d1d3 (token 1), abandoning
+2026-11-10 16:34:48,693 INFO kozlaptop:11920:1a535e: cancelled de0eca36-b37f-486e-8eaa-3a82529a1e63 mid-run

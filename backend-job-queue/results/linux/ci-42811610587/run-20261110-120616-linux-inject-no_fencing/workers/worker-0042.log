@@ -1,0 +1,5 @@
+2026-11-10 12:07:30,860 INFO 6fad3ac0a6dc:565:d1dd8b: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:07:30,865 INFO 6fad3ac0a6dc:565:d1dd8b: reaped 1 expired lease(s)
+2026-11-10 12:07:32,846 INFO 6fad3ac0a6dc:565:d1dd8b: cancelled 983b9305-c62f-4826-b3ef-f3ada39ee1c3 mid-run
+2026-11-10 12:07:41,842 INFO 6fad3ac0a6dc:565:d1dd8b: cancelled b4f8045b-9fcb-4ca9-ae72-c986376588b7 mid-run
+2026-11-10 12:07:49,943 INFO 6fad3ac0a6dc:565:d1dd8b: reaped 1 expired lease(s)

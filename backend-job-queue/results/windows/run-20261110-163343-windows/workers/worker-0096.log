@@ -1,0 +1,6 @@
+2026-11-10 16:36:48,796 INFO kozlaptop:21540:33e561: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:36:50,842 INFO kozlaptop:21540:33e561: reaped 1 expired lease(s)
+2026-11-10 16:36:59,961 INFO kozlaptop:21540:33e561: reaped 1 expired lease(s)
+2026-11-10 16:37:01,910 INFO kozlaptop:21540:33e561: cancelled b1671a34-c21f-4204-8df1-75f4caca8324 mid-run
+2026-11-10 16:37:05,225 INFO kozlaptop:21540:33e561: cancelled c79ae929-d6e9-49a1-925c-7ecafcd66969 mid-run
+2026-11-10 16:37:07,876 INFO kozlaptop:21540:33e561: cancelled 12b31096-1a99-4129-b3bd-976d2dcffef8 mid-run

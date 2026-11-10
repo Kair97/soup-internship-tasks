@@ -1,0 +1,5 @@
+2026-11-10 16:38:38,238 INFO kozlaptop:18676:899fbd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:59,409 WARNING kozlaptop:18676:899fbd: lost lease on 3017778a-d506-497f-be6e-1ce270a7b76d (token 1), abandoning
+2026-11-10 16:38:59,410 INFO kozlaptop:18676:899fbd: reaped 1 expired lease(s)
+2026-11-10 16:39:16,716 INFO kozlaptop:18676:899fbd: reaped 1 expired lease(s)
+2026-11-10 16:39:22,882 INFO kozlaptop:18676:899fbd: reaped 2 expired lease(s)

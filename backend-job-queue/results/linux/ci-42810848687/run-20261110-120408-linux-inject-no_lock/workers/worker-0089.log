@@ -1,0 +1,10 @@
+2026-11-10 12:06:56,054 INFO 74f6f081b3f2:783:ecca55: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:07:02,015 WARNING 74f6f081b3f2:783:ecca55: result for f5c938ac-7859-475b-ad5e-d67a6d79fa2a rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:02,042 WARNING 74f6f081b3f2:783:ecca55: result for 49defd8c-cbc1-4719-aa0a-d4bb6cc92f3b rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:02,107 WARNING 74f6f081b3f2:783:ecca55: result for dbd85d25-e647-4277-ad6e-61a6cdf98d49 rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:02,231 WARNING 74f6f081b3f2:783:ecca55: result for 8ad9eb28-a66d-4d73-912f-aecb2e40245d rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:02,306 WARNING 74f6f081b3f2:783:ecca55: result for 711610e3-ff66-48c8-b776-e65e16a406df rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:04,120 WARNING 74f6f081b3f2:783:ecca55: result for 52b3b6c3-9e82-4657-8570-ea0427c96e3a rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:04,237 WARNING 74f6f081b3f2:783:ecca55: result for 87ae7852-7245-4a36-ad9c-40ee2825b11c rejected, lease was taken over (stale token 1)
+2026-11-10 12:07:04,785 INFO 74f6f081b3f2:783:ecca55: reaped 1 expired lease(s)
+2026-11-10 12:07:08,010 INFO 74f6f081b3f2:783:ecca55: cancelled bbbcb1a8-36e0-4a8f-ad6f-32fc27444d02 mid-run

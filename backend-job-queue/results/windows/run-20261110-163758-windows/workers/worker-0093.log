@@ -1,0 +1,3 @@
+2026-11-10 16:41:01,396 INFO kozlaptop:30092:e78078: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:41:12,164 INFO kozlaptop:30092:e78078: reaped 1 expired lease(s)
+2026-11-10 16:41:17,742 INFO kozlaptop:30092:e78078: reaped 1 expired lease(s)

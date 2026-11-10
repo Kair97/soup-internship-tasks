@@ -1,0 +1,5 @@
+2026-11-10 16:40:28,075 INFO kozlaptop:32368:951520: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:40:32,177 INFO kozlaptop:32368:951520: reaped 1 expired lease(s)
+2026-11-10 16:40:58,981 INFO kozlaptop:32368:951520: reaped 1 expired lease(s)
+2026-11-10 16:41:12,518 WARNING kozlaptop:32368:951520: lost lease on 212d6530-8001-41ea-a38b-970e3ca0f043 (token 1), abandoning
+2026-11-10 16:41:13,631 INFO kozlaptop:32368:951520: reaped 1 expired lease(s)

@@ -1,0 +1,4 @@
+2026-11-10 16:35:25,822 INFO kozlaptop:19804:f1e225: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:35:58,851 INFO kozlaptop:19804:f1e225: reaped 1 expired lease(s)
+2026-11-10 16:36:02,969 INFO kozlaptop:19804:f1e225: cancelled 80a8179f-a467-4384-97c1-904b8341b8d4 mid-run
+2026-11-10 16:36:15,707 INFO kozlaptop:19804:f1e225: reaped 1 expired lease(s)

@@ -1,0 +1,3 @@
+2026-11-10 12:00:40,178 INFO 74f6f081b3f2:475:735a80: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:00:51,740 WARNING 74f6f081b3f2:475:735a80: lost lease on 7c51e096-1898-41be-9801-1fd05ab14adc (token 1), abandoning
+2026-11-10 12:00:54,479 INFO 74f6f081b3f2:475:735a80: cancelled d491e8c2-e99d-4fc0-857a-54dac30dde66 mid-run

@@ -1,0 +1,4 @@
+2026-11-10 12:11:15,243 INFO 6fad3ac0a6dc:743:77c4e2: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:11:15,246 INFO 6fad3ac0a6dc:743:77c4e2: reaped 1 expired lease(s)
+2026-11-10 12:11:17,046 WARNING 6fad3ac0a6dc:743:77c4e2: result for 70cea09f-d6af-4cf1-9985-7ff403535792 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:18,595 INFO 6fad3ac0a6dc:743:77c4e2: cancelled b6b27e0e-14bf-4918-a064-8c6bb080fb37 mid-run

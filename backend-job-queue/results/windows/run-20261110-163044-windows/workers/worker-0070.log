@@ -1,0 +1,5 @@
+2026-11-10 16:32:57,789 INFO kozlaptop:31856:e90098: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:07,444 WARNING kozlaptop:31856:e90098: lost lease on a6c84f94-884d-4450-a036-11a0bbd767ff (token 1), abandoning
+2026-11-10 16:33:11,564 INFO kozlaptop:31856:e90098: reaped 1 expired lease(s)
+2026-11-10 16:33:19,961 INFO kozlaptop:31856:e90098: cancelled d6e9f1a5-c28a-4f85-bcd2-5892dc25cbc4 mid-run
+2026-11-10 16:33:23,153 INFO kozlaptop:31856:e90098: reaped 1 expired lease(s)

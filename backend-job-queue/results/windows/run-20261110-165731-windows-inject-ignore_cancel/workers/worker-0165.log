@@ -1,0 +1,2 @@
+2026-11-10 17:03:11,471 INFO kozlaptop:31436:5777c3: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:03:29,150 INFO kozlaptop:31436:5777c3: cancelled 8086f974-df74-4196-9349-37b07f37747b mid-run

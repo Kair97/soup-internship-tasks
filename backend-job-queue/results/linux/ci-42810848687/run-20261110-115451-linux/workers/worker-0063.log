@@ -1,0 +1,4 @@
+2026-11-10 11:56:46,017 INFO 74f6f081b3f2:288:ff44a7: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:56:54,912 WARNING 74f6f081b3f2:288:ff44a7: lost lease on fea3c1ef-db60-4c07-996a-e3fae2cb0f6b (token 1), abandoning
+2026-11-10 11:56:58,120 INFO 74f6f081b3f2:288:ff44a7: reaped 1 expired lease(s)
+2026-11-10 11:56:59,124 INFO 74f6f081b3f2:288:ff44a7: cancelled 3b76aa48-6afc-4b9f-916e-ea2df40c2b2e mid-run

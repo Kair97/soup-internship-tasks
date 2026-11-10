@@ -1,0 +1,3 @@
+2026-11-10 16:32:52,231 INFO kozlaptop:2008:5311c0: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:00,925 INFO kozlaptop:2008:5311c0: cancelled bec772f9-b862-41f8-bde0-32ca11a68bf3 mid-run
+2026-11-10 16:33:02,021 INFO kozlaptop:2008:5311c0: reaped 1 expired lease(s)

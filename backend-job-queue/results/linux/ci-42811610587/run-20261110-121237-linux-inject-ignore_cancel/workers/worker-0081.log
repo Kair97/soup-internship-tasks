@@ -1,0 +1,4 @@
+2026-11-10 12:15:06,846 INFO 6fad3ac0a6dc:921:616e18: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:15:20,135 INFO 6fad3ac0a6dc:921:616e18: cancelled aa1b016d-951e-46e9-b228-2d3e9cc16bc4 mid-run
+2026-11-10 12:15:27,893 INFO 6fad3ac0a6dc:921:616e18: cancelled 02cbf922-6617-400a-8ca6-a6835239d34b mid-run
+2026-11-10 12:15:30,961 INFO 6fad3ac0a6dc:921:616e18: reaped 1 expired lease(s)

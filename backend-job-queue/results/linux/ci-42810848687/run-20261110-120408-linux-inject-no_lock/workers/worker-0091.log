@@ -1,0 +1,3 @@
+2026-11-10 12:07:00,174 INFO 74f6f081b3f2:785:ee238f: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:07:02,651 INFO 74f6f081b3f2:785:ee238f: cancelled 0d5df940-0ed3-4343-8e02-4eba4d64963f mid-run
+2026-11-10 12:07:03,509 WARNING 74f6f081b3f2:785:ee238f: result for 0e4439ab-671d-4dae-ba49-717294893a5d rejected, lease was taken over (stale token 1)

@@ -1,0 +1,3 @@
+2026-11-10 16:35:40,074 INFO kozlaptop:33292:2282f2: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:35:40,082 INFO kozlaptop:33292:2282f2: reaped 1 expired lease(s)
+2026-11-10 16:35:51,066 WARNING kozlaptop:33292:2282f2: lost lease on 698562aa-2385-4450-a99e-0ad31d66c470 (token 1), abandoning

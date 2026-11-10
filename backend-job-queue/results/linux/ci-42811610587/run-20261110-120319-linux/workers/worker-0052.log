@@ -1,0 +1,5 @@
+2026-11-10 12:04:54,267 INFO 6fad3ac0a6dc:426:a698e2: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:04:54,270 INFO 6fad3ac0a6dc:426:a698e2: reaped 1 expired lease(s)
+2026-11-10 12:05:01,357 INFO 6fad3ac0a6dc:426:a698e2: cancelled 9d30a95d-f5ae-4b2a-8f73-4d180b4883b3 mid-run
+2026-11-10 12:05:04,670 INFO 6fad3ac0a6dc:426:a698e2: reaped 1 expired lease(s)
+2026-11-10 12:05:13,207 INFO 6fad3ac0a6dc:426:a698e2: cancelled 4627dcbb-ca59-479b-ba5f-7342c10e04ba mid-run

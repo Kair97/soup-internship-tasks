@@ -1,0 +1,4 @@
+2026-11-10 16:59:30,136 INFO kozlaptop:22392:a0cba5: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 16:59:41,456 WARNING kozlaptop:22392:a0cba5: lost lease on 1a5f02a7-e7bf-43ac-bfef-1e99c25b504a (token 1), abandoning
+2026-11-10 16:59:45,561 INFO kozlaptop:22392:a0cba5: reaped 1 expired lease(s)
+2026-11-10 16:59:49,760 INFO kozlaptop:22392:a0cba5: reaped 1 expired lease(s)

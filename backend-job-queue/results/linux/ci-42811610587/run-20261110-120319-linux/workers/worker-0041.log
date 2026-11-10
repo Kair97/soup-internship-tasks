@@ -1,0 +1,11 @@
+2026-11-10 12:04:31,505 INFO 6fad3ac0a6dc:415:6b916e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:04:31,508 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:04:40,870 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:04:56,712 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:04:57,768 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:05:02,628 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:05:04,031 INFO 6fad3ac0a6dc:415:6b916e: cancelled dee53151-4924-443c-9b7c-5c270699fd86 mid-run
+2026-11-10 12:05:10,621 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:05:18,295 WARNING 6fad3ac0a6dc:415:6b916e: lost lease on 788a2b49-93f2-42a4-b5c4-0bcd2dc575b5 (token 1), abandoning
+2026-11-10 12:05:18,296 INFO 6fad3ac0a6dc:415:6b916e: reaped 1 expired lease(s)
+2026-11-10 12:05:27,448 WARNING 6fad3ac0a6dc:415:6b916e: lost lease on 96c3a510-6654-4d6e-9caf-feae79e4a6fd (token 1), abandoning

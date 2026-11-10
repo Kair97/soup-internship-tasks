@@ -1,0 +1,4 @@
+2026-11-10 12:10:39,589 INFO 6fad3ac0a6dc:725:2de30a: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:10:44,522 WARNING 6fad3ac0a6dc:725:2de30a: lost lease on add5bbce-4572-4885-963f-ca8cf0f14813 (token 1), abandoning
+2026-11-10 12:10:44,655 WARNING 6fad3ac0a6dc:725:2de30a: result for 82a88ed2-eb6c-4c4f-bc9d-586733394a9b rejected, lease was taken over (stale token 1)
+2026-11-10 12:10:48,225 INFO 6fad3ac0a6dc:725:2de30a: reaped 1 expired lease(s)

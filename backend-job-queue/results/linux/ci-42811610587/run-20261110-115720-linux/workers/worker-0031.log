@@ -1,0 +1,2 @@
+2026-11-10 11:58:09,222 INFO 6fad3ac0a6dc:97:606e32: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:58:14,869 INFO 6fad3ac0a6dc:97:606e32: cancelled 8b8195db-5b26-4a9d-a458-2fa5698ceb75 mid-run

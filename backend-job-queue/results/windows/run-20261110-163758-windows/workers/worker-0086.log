@@ -1,0 +1,2 @@
+2026-11-10 16:40:46,132 INFO kozlaptop:22544:da9625: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:40:53,752 INFO kozlaptop:22544:da9625: cancelled b604726f-d963-4ab6-a9b9-3b525a3c1c54 mid-run

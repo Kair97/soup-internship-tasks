@@ -1,0 +1,4 @@
+2026-11-10 16:40:30,135 INFO kozlaptop:16912:397bde: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:40:30,142 INFO kozlaptop:16912:397bde: reaped 1 expired lease(s)
+2026-11-10 16:41:30,377 INFO kozlaptop:16912:397bde: reaped 1 expired lease(s)
+2026-11-10 16:41:39,060 WARNING kozlaptop:16912:397bde: lost lease on 069fd6c3-7761-4445-b72b-2d13b479be31 (token 2), abandoning

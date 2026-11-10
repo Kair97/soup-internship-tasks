@@ -1,0 +1,3 @@
+2026-11-10 12:15:16,179 INFO 6fad3ac0a6dc:925:1fe51e: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:15:25,096 WARNING 6fad3ac0a6dc:925:1fe51e: lost lease on e416240c-5139-4c9c-966e-4bdd8931888b (token 1), abandoning
+2026-11-10 12:15:27,565 INFO 6fad3ac0a6dc:925:1fe51e: cancelled b509a05b-e32d-4216-b9cd-0ece9dbe3a71 mid-run

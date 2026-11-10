@@ -1,0 +1,2 @@
+2026-11-10 17:00:26,108 INFO kozlaptop:12352:2fd53c: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:00:35,042 INFO kozlaptop:12352:2fd53c: cancelled d62253f6-cfcb-4993-beb8-4b52cdb5b8e8 mid-run

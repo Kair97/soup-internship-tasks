@@ -1,0 +1,4 @@
+2026-11-10 12:12:52,134 INFO 6fad3ac0a6dc:850:4fadaa: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:13:08,345 WARNING 6fad3ac0a6dc:850:4fadaa: lost lease on b8f540c8-c944-4562-a9f2-4aa7a2b79400 (token 1), abandoning
+2026-11-10 12:13:08,346 INFO 6fad3ac0a6dc:850:4fadaa: reaped 1 expired lease(s)
+2026-11-10 12:13:20,372 INFO 6fad3ac0a6dc:850:4fadaa: reaped 1 expired lease(s)

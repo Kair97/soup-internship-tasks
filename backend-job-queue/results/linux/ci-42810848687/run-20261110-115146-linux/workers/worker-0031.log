@@ -1,0 +1,3 @@
+2026-11-10 11:52:36,330 INFO 74f6f081b3f2:90:cae266: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:52:37,842 INFO 74f6f081b3f2:90:cae266: cancelled 0b863f5d-b507-49d9-bd9e-68eeef8e12e7 mid-run
+2026-11-10 11:52:37,843 INFO 74f6f081b3f2:90:cae266: reaped 1 expired lease(s)

@@ -1,0 +1,8 @@
+2026-11-10 16:49:37,938 INFO kozlaptop:26824:a3ccdb: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:49:39,594 WARNING kozlaptop:26824:a3ccdb: result for 71063cda-691e-4184-b4cf-099a912fc024 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,705 WARNING kozlaptop:26824:a3ccdb: result for f1408926-cb36-49b9-af3f-e44cb6f38614 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,833 WARNING kozlaptop:26824:a3ccdb: result for 6bf3ce71-98a3-4a96-8eda-d508bf335735 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,986 WARNING kozlaptop:26824:a3ccdb: result for 1b48e3ba-b225-4502-a282-d3ec3bdc2cf2 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:45,080 WARNING kozlaptop:26824:a3ccdb: result for 1fb5ec7e-5117-435e-bf7d-28099c7a474e rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:47,146 INFO kozlaptop:26824:a3ccdb: cancelled 25db1320-c38a-4634-a1ad-eff4058788df mid-run
+2026-11-10 16:49:53,879 WARNING kozlaptop:26824:a3ccdb: result for 201d3ced-9601-4823-8026-229a402f1fe6 rejected, lease was taken over (stale token 2)

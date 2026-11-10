@@ -1,0 +1,5 @@
+2026-11-10 17:03:41,097 INFO kozlaptop:24236:bae75d: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:03:48,742 INFO kozlaptop:24236:bae75d: cancelled 8c4310f6-29c5-4d93-9fa2-3a1ce17609c0 mid-run
+2026-11-10 17:03:53,631 INFO kozlaptop:24236:bae75d: cancelled 54fb545d-13f3-487c-a96a-65191df1f005 mid-run
+2026-11-10 17:03:53,631 INFO kozlaptop:24236:bae75d: reaped 1 expired lease(s)
+2026-11-10 17:04:14,326 WARNING kozlaptop:24236:bae75d: lost lease on 652f8274-5921-45dd-a71e-318aaf8ee68f (token 1), abandoning

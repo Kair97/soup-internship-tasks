@@ -1,0 +1,8 @@
+2026-11-10 16:35:04,432 INFO kozlaptop:12820:a06084: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:35:16,393 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)
+2026-11-10 16:35:17,395 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)
+2026-11-10 16:35:30,253 WARNING kozlaptop:12820:a06084: lost lease on d2b5a5b3-d38a-4ebd-9c3c-cc38f9a725c7 (token 1), abandoning
+2026-11-10 16:35:38,169 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)
+2026-11-10 16:35:42,364 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)
+2026-11-10 16:35:44,465 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)
+2026-11-10 16:35:48,675 INFO kozlaptop:12820:a06084: reaped 1 expired lease(s)

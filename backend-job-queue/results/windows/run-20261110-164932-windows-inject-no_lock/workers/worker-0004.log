@@ -1,0 +1,18 @@
+2026-11-10 16:49:37,786 INFO kozlaptop:34396:54a8f7: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:49:39,363 WARNING kozlaptop:34396:54a8f7: result for f45d8607-7bb1-4dde-8030-b9ff80a9c82d rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,520 WARNING kozlaptop:34396:54a8f7: result for f40ca675-30ab-409b-acc9-1f73c3e7d045 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,553 WARNING kozlaptop:34396:54a8f7: result for b5e35e14-1f91-4892-bcb2-7facff1aad35 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:39,672 WARNING kozlaptop:34396:54a8f7: result for d844e84d-1267-4997-8254-7f22be905578 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:43,227 WARNING kozlaptop:34396:54a8f7: result for 687720a5-bb82-4a5b-b176-9474e1c0633a rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:46,647 INFO kozlaptop:34396:54a8f7: reaped 1 expired lease(s)
+2026-11-10 16:49:47,655 INFO kozlaptop:34396:54a8f7: cancelled ae30f72f-42a3-44d3-999c-f4142a747bb8 mid-run
+2026-11-10 16:49:50,697 INFO kozlaptop:34396:54a8f7: reaped 1 expired lease(s)
+2026-11-10 16:49:52,693 INFO kozlaptop:34396:54a8f7: cancelled e0cd365a-cb7d-47e8-914b-f6aac8d14a11 mid-run
+2026-11-10 16:49:53,597 WARNING kozlaptop:34396:54a8f7: result for 8a2ff73b-1f45-4af5-9dd9-8323ab9f36f5 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:53,726 WARNING kozlaptop:34396:54a8f7: result for 9c1731d2-c4f6-4c45-8009-99bd5c8bfe39 rejected, lease was taken over (stale token 2)
+2026-11-10 16:49:54,696 WARNING kozlaptop:34396:54a8f7: result for 32e3fb0b-0995-4de1-9eeb-efaca18cb318 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:56,408 WARNING kozlaptop:34396:54a8f7: result for 147a8d0c-f44a-4cf8-8ce6-d5158fa414e8 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:57,524 WARNING kozlaptop:34396:54a8f7: result for a0793f90-cf3d-499b-85bb-6a2112322d67 rejected, lease was taken over (stale token 1)
+2026-11-10 16:49:57,891 INFO kozlaptop:34396:54a8f7: reaped 1 expired lease(s)
+2026-11-10 16:50:03,843 WARNING kozlaptop:34396:54a8f7: result for 749eb104-e678-4226-a91b-559693a472ca rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:18,550 WARNING kozlaptop:34396:54a8f7: result for 1f43d8dd-5d7c-43a2-8307-db1e9c8496bf rejected, lease was taken over (stale token 1)

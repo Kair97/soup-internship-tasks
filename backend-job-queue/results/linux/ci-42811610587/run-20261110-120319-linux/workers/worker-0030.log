@@ -1,0 +1,7 @@
+2026-11-10 12:04:08,764 INFO 6fad3ac0a6dc:404:f1f174: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:04:08,769 INFO 6fad3ac0a6dc:404:f1f174: reaped 1 expired lease(s)
+2026-11-10 12:04:26,422 INFO 6fad3ac0a6dc:404:f1f174: cancelled 12a74cce-1432-4bf6-98a4-3c5595d6d878 mid-run
+2026-11-10 12:04:30,733 INFO 6fad3ac0a6dc:404:f1f174: cancelled 54337c36-08ac-466c-a679-afcb34642e7f mid-run
+2026-11-10 12:04:38,757 WARNING 6fad3ac0a6dc:404:f1f174: lost lease on ba1f5b92-f665-4150-aea2-45745cf80e01 (token 1), abandoning
+2026-11-10 12:04:38,757 INFO 6fad3ac0a6dc:404:f1f174: reaped 1 expired lease(s)
+2026-11-10 12:04:42,284 INFO 6fad3ac0a6dc:404:f1f174: reaped 1 expired lease(s)

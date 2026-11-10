@@ -1,0 +1,2 @@
+2026-11-10 12:06:49,107 INFO 74f6f081b3f2:778:58a9a6: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:06:49,199 WARNING 74f6f081b3f2:778:58a9a6: result for 3bc0867f-7b60-44aa-8434-f65d26bed4f3 rejected, lease was taken over (stale token 1)

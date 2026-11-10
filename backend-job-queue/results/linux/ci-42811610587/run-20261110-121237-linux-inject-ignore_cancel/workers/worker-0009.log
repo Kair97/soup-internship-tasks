@@ -1,0 +1,4 @@
+2026-11-10 12:12:43,857 INFO 6fad3ac0a6dc:845:faf548: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:12:46,996 INFO 6fad3ac0a6dc:845:faf548: reaped 1 expired lease(s)
+2026-11-10 12:12:49,498 INFO 6fad3ac0a6dc:845:faf548: cancelled 931bf546-1c67-41a5-913d-ef00ce4c264b mid-run
+2026-11-10 12:13:03,257 INFO 6fad3ac0a6dc:845:faf548: cancelled 97060130-a738-404d-8d0d-fe30065d06d9 mid-run

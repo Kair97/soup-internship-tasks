@@ -1,0 +1,12 @@
+2026-11-10 11:57:25,910 INFO 6fad3ac0a6dc:24:6f1d98: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:35,899 INFO 6fad3ac0a6dc:24:6f1d98: cancelled e16e60a4-68f6-4a07-9152-72fe6ffed64e mid-run
+2026-11-10 11:57:43,243 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)
+2026-11-10 11:57:44,247 INFO 6fad3ac0a6dc:24:6f1d98: cancelled e805f708-ab33-488c-9e50-6a72abb38ab8 mid-run
+2026-11-10 11:57:47,350 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)
+2026-11-10 11:57:49,357 INFO 6fad3ac0a6dc:24:6f1d98: cancelled 794e7622-f81d-46a2-9996-551fa14c6cca mid-run
+2026-11-10 11:57:49,358 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)
+2026-11-10 11:57:52,663 INFO 6fad3ac0a6dc:24:6f1d98: cancelled 5d18e089-b773-4caf-abf1-3fe12d29845e mid-run
+2026-11-10 11:57:54,996 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)
+2026-11-10 11:57:57,030 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)
+2026-11-10 11:57:58,565 INFO 6fad3ac0a6dc:24:6f1d98: cancelled 728ed5ae-2422-4295-bf83-02eeb6651022 mid-run
+2026-11-10 11:58:00,622 INFO 6fad3ac0a6dc:24:6f1d98: reaped 1 expired lease(s)

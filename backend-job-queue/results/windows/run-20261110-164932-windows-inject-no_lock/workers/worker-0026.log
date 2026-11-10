@@ -1,0 +1,15 @@
+2026-11-10 16:50:17,547 INFO kozlaptop:26448:007b2c: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:50:18,300 WARNING kozlaptop:26448:007b2c: result for 1143e48c-4c9c-43f8-8b33-6c8f684099b8 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:19,743 INFO kozlaptop:26448:007b2c: cancelled b65797ff-f355-453d-9cef-a2ff4054e8ef mid-run
+2026-11-10 16:50:21,470 WARNING kozlaptop:26448:007b2c: result for c642d8be-0aee-4edb-9784-2967222f8e55 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:23,015 WARNING kozlaptop:26448:007b2c: result for 6709acc3-446c-4d69-b915-2ecd138402af rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:25,836 WARNING kozlaptop:26448:007b2c: result for 23d35dc0-b96f-48f1-b480-3a152770659b rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:25,970 WARNING kozlaptop:26448:007b2c: result for 143d17c1-5113-4e27-9313-a7bc348dea98 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:26,283 WARNING kozlaptop:26448:007b2c: result for 5a68fa0b-2e8b-4e1e-9713-8eac24584411 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:26,343 WARNING kozlaptop:26448:007b2c: result for 87f7a491-16bf-4251-8cab-872857620bdd rejected, lease was taken over (stale token 3)
+2026-11-10 16:50:26,359 WARNING kozlaptop:26448:007b2c: result for 2205dfd7-97e5-41e9-b5d8-e6062c20b83e rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:27,697 WARNING kozlaptop:26448:007b2c: lost lease on 3f5c2c6a-5c80-4f85-b40f-97f359c68316 (token 1), abandoning
+2026-11-10 16:50:31,663 WARNING kozlaptop:26448:007b2c: result for 68a561e5-8736-4e81-9e14-42b7bebeca5c rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:35,287 WARNING kozlaptop:26448:007b2c: result for 8fc5b2bb-1b95-4c74-999a-d12e3e55ba95 rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:35,303 WARNING kozlaptop:26448:007b2c: result for 8b9c2bd5-9d58-4164-a4b6-0aff0a9989ad rejected, lease was taken over (stale token 1)
+2026-11-10 16:50:36,877 WARNING kozlaptop:26448:007b2c: result for 9a30658e-648b-43d0-ac4f-3f2d068902a2 rejected, lease was taken over (stale token 1)

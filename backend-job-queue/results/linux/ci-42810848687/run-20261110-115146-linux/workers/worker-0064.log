@@ -1,0 +1,4 @@
+2026-11-10 11:53:44,475 INFO 74f6f081b3f2:127:b44199: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:53:50,852 INFO 74f6f081b3f2:127:b44199: reaped 1 expired lease(s)
+2026-11-10 11:54:05,174 WARNING 74f6f081b3f2:127:b44199: lost lease on 6ef3f453-6b4a-4d91-83ae-0d0a4d31662e (token 1), abandoning
+2026-11-10 11:54:09,470 INFO 74f6f081b3f2:127:b44199: cancelled cc9a0b77-6e1f-40b3-8502-ac5130d56eb5 mid-run

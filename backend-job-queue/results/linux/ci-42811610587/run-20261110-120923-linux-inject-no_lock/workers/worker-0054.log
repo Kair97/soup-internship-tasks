@@ -1,0 +1,9 @@
+2026-11-10 12:10:59,227 INFO 6fad3ac0a6dc:735:fb389c: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:10:59,231 INFO 6fad3ac0a6dc:735:fb389c: reaped 1 expired lease(s)
+2026-11-10 12:10:59,713 WARNING 6fad3ac0a6dc:735:fb389c: result for 08d047bb-a65f-4d50-bc1e-1233b93b79b5 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:00,417 WARNING 6fad3ac0a6dc:735:fb389c: result for 2e50e836-d245-43f3-833d-5024241cf4ed rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:00,548 WARNING 6fad3ac0a6dc:735:fb389c: result for 49d5a737-bf1d-4661-9258-b1db500f24ff rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:11,074 WARNING 6fad3ac0a6dc:735:fb389c: lost lease on 23327828-ef9e-4735-a541-0891dc589801 (token 1), abandoning
+2026-11-10 12:11:17,439 INFO 6fad3ac0a6dc:735:fb389c: cancelled d66d509f-9320-470c-85c3-0d54f04b82b2 mid-run
+2026-11-10 12:11:19,542 INFO 6fad3ac0a6dc:735:fb389c: cancelled c842e723-f522-450d-8770-4d193cf7352d mid-run
+2026-11-10 12:11:21,166 WARNING 6fad3ac0a6dc:735:fb389c: lost lease on 23909c8c-563e-47e6-aa34-5b81aae0e3bc (token 1), abandoning

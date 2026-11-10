@@ -1,0 +1,4 @@
+2026-11-10 12:00:48,123 INFO 6fad3ac0a6dc:241:dbf7d0: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:00:53,977 INFO 6fad3ac0a6dc:241:dbf7d0: reaped 1 expired lease(s)
+2026-11-10 12:00:59,700 INFO 6fad3ac0a6dc:241:dbf7d0: cancelled 7319dda1-26cc-4089-a992-1aa411850eb6 mid-run
+2026-11-10 12:01:11,920 WARNING 6fad3ac0a6dc:241:dbf7d0: lost lease on e3c3bc37-b0d8-4109-9b5f-786bf37c1b7e (token 1), abandoning

@@ -1,0 +1,4 @@
+2026-11-10 16:43:46,471 INFO kozlaptop:18316:798764: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:50,313 INFO kozlaptop:18316:798764: cancelled e524b68c-1566-464d-87e2-0d5387fad401 mid-run
+2026-11-10 16:43:51,315 INFO kozlaptop:18316:798764: reaped 1 expired lease(s)
+2026-11-10 16:43:52,372 INFO kozlaptop:18316:798764: reaped 1 expired lease(s)

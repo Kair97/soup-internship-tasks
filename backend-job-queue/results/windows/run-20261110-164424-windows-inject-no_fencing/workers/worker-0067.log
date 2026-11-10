@@ -1,0 +1,4 @@
+2026-11-10 16:46:32,022 INFO kozlaptop:10436:427403: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:46:42,031 INFO kozlaptop:10436:427403: cancelled bb1235e7-3b8c-4f48-8959-42900c95ff08 mid-run
+2026-11-10 16:46:46,160 INFO kozlaptop:10436:427403: reaped 1 expired lease(s)
+2026-11-10 16:46:48,182 INFO kozlaptop:10436:427403: reaped 1 expired lease(s)

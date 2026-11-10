@@ -1,0 +1,3 @@
+2026-11-10 12:10:57,406 INFO 6fad3ac0a6dc:734:156322: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:11:02,404 WARNING 6fad3ac0a6dc:734:156322: result for 5401803f-1c11-4fe5-b1c4-0e0aacf88618 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:02,530 WARNING 6fad3ac0a6dc:734:156322: result for ad2105c8-7bd6-4c93-8f02-486922ba1ea9 rejected, lease was taken over (stale token 1)

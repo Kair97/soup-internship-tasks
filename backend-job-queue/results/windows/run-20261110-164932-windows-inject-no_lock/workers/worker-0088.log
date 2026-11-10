@@ -1,0 +1,4 @@
+2026-11-10 16:52:22,022 INFO kozlaptop:29288:2a444d: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:52:23,008 WARNING kozlaptop:29288:2a444d: result for 2412d692-8908-4419-9e49-e23681456054 rejected, lease was taken over (stale token 1)
+2026-11-10 16:52:26,231 INFO kozlaptop:29288:2a444d: cancelled b7721221-968e-471d-b113-4b1e7d3ad116 mid-run
+2026-11-10 16:52:26,453 WARNING kozlaptop:29288:2a444d: result for 877d8de1-fad9-4133-979e-076153d071fc rejected, lease was taken over (stale token 1)

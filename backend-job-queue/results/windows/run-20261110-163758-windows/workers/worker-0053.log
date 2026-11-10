@@ -1,0 +1,4 @@
+2026-11-10 16:39:37,434 INFO kozlaptop:5404:5a1139: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:39:43,647 INFO kozlaptop:5404:5a1139: reaped 1 expired lease(s)
+2026-11-10 16:39:48,203 INFO kozlaptop:5404:5a1139: cancelled 87e2d907-1a01-416a-90eb-7bb691eabd79 mid-run
+2026-11-10 16:39:52,263 INFO kozlaptop:5404:5a1139: reaped 1 expired lease(s)

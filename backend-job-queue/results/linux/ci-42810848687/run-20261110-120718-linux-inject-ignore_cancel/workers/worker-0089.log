@@ -1,0 +1,3 @@
+2026-11-10 12:10:04,844 INFO 74f6f081b3f2:942:2f443c: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:10:04,848 INFO 74f6f081b3f2:942:2f443c: reaped 1 expired lease(s)
+2026-11-10 12:10:13,633 WARNING 74f6f081b3f2:942:2f443c: lost lease on c2e8d8c0-b7c9-420e-a006-f835f33d0402 (token 1), abandoning

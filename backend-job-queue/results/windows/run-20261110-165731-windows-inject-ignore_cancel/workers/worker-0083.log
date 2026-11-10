@@ -1,0 +1,3 @@
+2026-11-10 17:00:23,212 INFO kozlaptop:28972:cf4f09: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:01:00,327 INFO kozlaptop:28972:cf4f09: cancelled 210ee619-9b6f-4760-b38d-b2567f830c50 mid-run
+2026-11-10 17:01:03,854 INFO kozlaptop:28972:cf4f09: cancelled 0facfbdf-4a86-464f-b9a1-64c95081568f mid-run

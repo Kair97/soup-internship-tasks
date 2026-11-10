@@ -1,0 +1,4 @@
+2026-11-10 12:06:14,780 INFO 74f6f081b3f2:762:8738b1: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:06:16,134 WARNING 74f6f081b3f2:762:8738b1: result for 0070b15a-379b-4f1d-ab02-585285dc4b73 rejected, lease was taken over (stale token 1)
+2026-11-10 12:06:21,138 WARNING 74f6f081b3f2:762:8738b1: lost lease on 4ea6aca1-04c0-4e86-a262-1d15cfaf7b28 (token 1), abandoning
+2026-11-10 12:06:21,257 WARNING 74f6f081b3f2:762:8738b1: result for 17cf82c1-5b9c-4a06-b348-9b94c883d22f rejected, lease was taken over (stale token 1)

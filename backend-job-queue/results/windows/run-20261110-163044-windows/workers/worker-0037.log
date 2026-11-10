@@ -1,0 +1,2 @@
+2026-11-10 16:31:49,636 INFO kozlaptop:1408:a453b6: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:04,209 WARNING kozlaptop:1408:a453b6: lost lease on aff7b75b-b71c-439f-aa5e-0cc36d8e82ab (token 1), abandoning

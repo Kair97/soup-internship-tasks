@@ -1,0 +1,3 @@
+2026-11-10 17:01:18,221 INFO kozlaptop:14324:2393db: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:01:26,179 INFO kozlaptop:14324:2393db: reaped 1 expired lease(s)
+2026-11-10 17:01:50,652 INFO kozlaptop:14324:2393db: cancelled 2f48ccc2-4f75-4388-b194-7585f1a30ff7 mid-run

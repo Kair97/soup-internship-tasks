@@ -1,0 +1,5 @@
+2026-11-10 16:32:44,442 INFO kozlaptop:7376:c6af0e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:44,450 INFO kozlaptop:7376:c6af0e: reaped 1 expired lease(s)
+2026-11-10 16:32:57,589 WARNING kozlaptop:7376:c6af0e: lost lease on e6d631cc-e4e2-45ba-834d-0911eebde0b6 (token 1), abandoning
+2026-11-10 16:32:59,719 INFO kozlaptop:7376:c6af0e: cancelled 523389f7-1cfc-4431-bcd2-2da0a04113b9 mid-run
+2026-11-10 16:33:02,050 INFO kozlaptop:7376:c6af0e: cancelled 73cebcaf-92f6-427a-8df8-84104bc189d4 mid-run

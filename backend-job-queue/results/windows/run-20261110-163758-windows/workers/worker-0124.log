@@ -1,0 +1,6 @@
+2026-11-10 16:42:03,866 INFO kozlaptop:11628:735e34: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:08,229 INFO kozlaptop:11628:735e34: cancelled 352d6172-1a17-486d-a707-951058628f96 mid-run
+2026-11-10 16:42:08,229 INFO kozlaptop:11628:735e34: reaped 1 expired lease(s)
+2026-11-10 16:42:17,919 INFO kozlaptop:11628:735e34: cancelled f35fe390-d493-4b18-a38b-130140490a77 mid-run
+2026-11-10 16:42:34,571 INFO kozlaptop:11628:735e34: reaped 1 expired lease(s)
+2026-11-10 16:42:47,924 WARNING kozlaptop:11628:735e34: lost lease on dd26e810-ee95-483e-94b8-c8fe1907abb1 (token 1), abandoning

@@ -1,0 +1,5 @@
+2026-11-10 12:00:32,045 INFO 74f6f081b3f2:470:db9638: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:00:36,141 INFO 74f6f081b3f2:470:db9638: cancelled db2f8024-9a1d-426b-87dc-5bc25828222b mid-run
+2026-11-10 12:00:39,697 INFO 74f6f081b3f2:470:db9638: cancelled 425db40c-7bcf-42bd-89f0-2e5f7de8f653 mid-run
+2026-11-10 12:00:48,487 INFO 74f6f081b3f2:470:db9638: reaped 1 expired lease(s)
+2026-11-10 12:00:52,251 INFO 74f6f081b3f2:470:db9638: reaped 1 expired lease(s)

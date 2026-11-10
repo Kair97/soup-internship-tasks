@@ -1,0 +1,3 @@
+2026-11-10 16:36:18,806 INFO kozlaptop:12208:589380: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:36:39,692 WARNING kozlaptop:12208:589380: lost lease on 161d1637-63c7-49a7-8fe6-df47c611017a (token 1), abandoning
+2026-11-10 16:37:04,911 INFO kozlaptop:12208:589380: cancelled 803e83bf-4826-41eb-b7af-01425d7877f0 mid-run

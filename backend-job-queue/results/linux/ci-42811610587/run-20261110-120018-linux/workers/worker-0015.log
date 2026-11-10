@@ -1,0 +1,3 @@
+2026-11-10 12:00:35,409 INFO 6fad3ac0a6dc:234:bbf0e2: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:00:45,181 INFO 6fad3ac0a6dc:234:bbf0e2: cancelled 162c9ff2-0126-4997-84c4-89adff3756ae mid-run
+2026-11-10 12:00:46,604 INFO 6fad3ac0a6dc:234:bbf0e2: cancelled 6d86ce5b-5338-439b-86e9-71d01f1dc404 mid-run

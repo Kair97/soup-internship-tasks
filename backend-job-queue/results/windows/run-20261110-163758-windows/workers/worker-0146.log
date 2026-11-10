@@ -1,0 +1,3 @@
+2026-11-10 16:42:50,643 INFO kozlaptop:28100:3eb82f: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:58,174 INFO kozlaptop:28100:3eb82f: cancelled 3d295ade-6441-4f2f-b41f-c9a1277ca9f3 mid-run
+2026-11-10 16:43:09,133 INFO kozlaptop:28100:3eb82f: reaped 1 expired lease(s)

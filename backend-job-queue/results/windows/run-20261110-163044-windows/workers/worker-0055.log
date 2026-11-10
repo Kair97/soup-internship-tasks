@@ -1,0 +1,3 @@
+2026-11-10 16:32:26,782 INFO kozlaptop:8136:fcb45a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:39,824 INFO kozlaptop:8136:fcb45a: cancelled d2805a13-8e89-4e37-b2dc-cd4d46751bc6 mid-run
+2026-11-10 16:32:41,956 INFO kozlaptop:8136:fcb45a: reaped 1 expired lease(s)

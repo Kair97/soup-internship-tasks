@@ -1,0 +1,2 @@
+2026-11-10 16:30:50,095 INFO kozlaptop:13900:5b65e2: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:20,679 INFO kozlaptop:13900:5b65e2: cancelled c9eaaf41-2adf-4b60-9fd0-b3b8bfbe78d1 mid-run

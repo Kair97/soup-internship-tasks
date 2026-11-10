@@ -1,0 +1,4 @@
+2026-11-10 16:55:35,994 INFO kozlaptop:22800:1954ee: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:55:36,870 WARNING kozlaptop:22800:1954ee: result for e8e68631-aabd-4ad5-82b5-4ec90d4ca88c rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:38,741 WARNING kozlaptop:22800:1954ee: result for 21be7667-8520-43e5-912c-2bf2a7ec5773 rejected, lease was taken over (stale token 1)
+2026-11-10 16:55:39,456 WARNING kozlaptop:22800:1954ee: result for b153b66a-25c0-42a4-bffb-46a0349ea636 rejected, lease was taken over (stale token 1)

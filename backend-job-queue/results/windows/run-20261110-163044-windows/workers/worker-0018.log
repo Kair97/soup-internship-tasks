@@ -1,0 +1,4 @@
+2026-11-10 16:31:08,720 INFO kozlaptop:23328:021752: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:10,116 INFO kozlaptop:23328:021752: cancelled 9fe0c527-e610-43d5-ab3a-c3604bbe4842 mid-run
+2026-11-10 16:31:34,803 INFO kozlaptop:23328:021752: reaped 1 expired lease(s)
+2026-11-10 16:31:40,834 INFO kozlaptop:23328:021752: cancelled dbd7c2c2-351c-4a79-b2f8-70c1c73cd4a1 mid-run

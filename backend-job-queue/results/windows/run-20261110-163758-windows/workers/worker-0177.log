@@ -1,0 +1,2 @@
+2026-11-10 16:43:55,060 INFO kozlaptop:29788:00c1cd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:57,183 INFO kozlaptop:29788:00c1cd: cancelled 754d7360-d2dd-4f61-b21b-ff489bb72800 mid-run

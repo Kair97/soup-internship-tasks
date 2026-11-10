@@ -1,0 +1,8 @@
+2026-11-10 11:57:45,629 INFO 6fad3ac0a6dc:80:a48f94: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:49,411 INFO 6fad3ac0a6dc:80:a48f94: cancelled 9dccd72c-e7c2-412b-9096-c3e732c4003c mid-run
+2026-11-10 11:57:50,448 INFO 6fad3ac0a6dc:80:a48f94: reaped 1 expired lease(s)
+2026-11-10 11:58:03,108 INFO 6fad3ac0a6dc:80:a48f94: reaped 1 expired lease(s)
+2026-11-10 11:58:06,405 INFO 6fad3ac0a6dc:80:a48f94: cancelled 9022ed76-0a17-4d00-a410-21830f3ded43 mid-run
+2026-11-10 11:58:08,547 INFO 6fad3ac0a6dc:80:a48f94: reaped 1 expired lease(s)
+2026-11-10 11:58:12,917 INFO 6fad3ac0a6dc:80:a48f94: reaped 1 expired lease(s)
+2026-11-10 11:58:15,805 INFO 6fad3ac0a6dc:80:a48f94: cancelled 3be9a34b-92a3-4cd5-badb-f1de74d70794 mid-run

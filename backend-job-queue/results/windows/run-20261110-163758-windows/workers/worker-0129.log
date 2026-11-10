@@ -1,0 +1,3 @@
+2026-11-10 16:42:13,254 INFO kozlaptop:30788:9448bd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:42:20,552 INFO kozlaptop:30788:9448bd: reaped 1 expired lease(s)
+2026-11-10 16:42:35,578 INFO kozlaptop:30788:9448bd: cancelled 4735c54b-2122-4559-806b-0b143c8f01e9 mid-run

@@ -1,0 +1,34 @@
+{
+  "200rps": {
+    "target_rps": 200.0,
+    "sent": 4000,
+    "achieved_send_rps": 199.7,
+    "p50_ms": 7935.3,
+    "p95_ms": 33159.8,
+    "p99_ms": 43632.1,
+    "max_ms": 51177.3,
+    "mean_ms": 10819.2,
+    "errors": 0,
+    "codes": {
+      "201": 4000
+    },
+    "backlog_at_end": 0,
+    "drain_s_after_end": 0.0
+  },
+  "400rps": {
+    "target_rps": 400.0,
+    "sent": 8000,
+    "achieved_send_rps": 399.1,
+    "p50_ms": 9142.9,
+    "p95_ms": 40131.6,
+    "p99_ms": 59425.9,
+    "max_ms": 103778.1,
+    "mean_ms": 13066.4,
+    "errors": 0,
+    "codes": {
+      "201": 8000
+    },
+    "backlog_at_end": 0,
+    "drain_s_after_end": 0.2
+  }
+}

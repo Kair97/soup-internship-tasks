@@ -1,0 +1,6 @@
+2026-11-10 16:39:01,179 INFO kozlaptop:4032:4ae6b9: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:39:01,186 INFO kozlaptop:4032:4ae6b9: reaped 1 expired lease(s)
+2026-11-10 16:39:08,304 WARNING kozlaptop:4032:4ae6b9: lost lease on 94a6f796-fd02-490c-a238-7571cf598e8e (token 2), abandoning
+2026-11-10 16:39:14,031 INFO kozlaptop:4032:4ae6b9: reaped 1 expired lease(s)
+2026-11-10 16:39:25,378 INFO kozlaptop:4032:4ae6b9: cancelled 16f76a6c-e0af-4933-aab9-7f718d9f0f24 mid-run
+2026-11-10 16:39:26,411 INFO kozlaptop:4032:4ae6b9: reaped 1 expired lease(s)

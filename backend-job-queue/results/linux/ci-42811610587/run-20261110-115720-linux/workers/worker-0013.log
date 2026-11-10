@@ -1,0 +1,4 @@
+2026-11-10 11:57:32,950 INFO 6fad3ac0a6dc:70:ebe897: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:39,536 INFO 6fad3ac0a6dc:70:ebe897: cancelled 4c03de0a-4e60-497d-8318-df6c08213e56 mid-run
+2026-11-10 11:57:46,655 INFO 6fad3ac0a6dc:70:ebe897: reaped 1 expired lease(s)
+2026-11-10 11:57:56,680 INFO 6fad3ac0a6dc:70:ebe897: reaped 1 expired lease(s)

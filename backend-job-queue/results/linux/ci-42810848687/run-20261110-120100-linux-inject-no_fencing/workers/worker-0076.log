@@ -1,0 +1,3 @@
+2026-11-10 12:03:24,114 INFO 74f6f081b3f2:616:4c58aa: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:03:28,743 INFO 74f6f081b3f2:616:4c58aa: cancelled 8e1905ac-01c4-4bb7-bccd-a7a4e7b35188 mid-run
+2026-11-10 12:03:32,439 INFO 74f6f081b3f2:616:4c58aa: cancelled d90d2769-5a44-4260-9bac-17b55a4811ab mid-run

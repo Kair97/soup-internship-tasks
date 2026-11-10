@@ -1,0 +1,2 @@
+2026-11-10 17:01:16,533 INFO kozlaptop:31192:ebaca6: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:01:24,776 INFO kozlaptop:31192:ebaca6: cancelled 99809347-154d-41bc-96cb-b9d5263446a4 mid-run

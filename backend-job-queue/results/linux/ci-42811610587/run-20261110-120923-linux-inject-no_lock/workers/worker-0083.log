@@ -1,0 +1,7 @@
+2026-11-10 12:11:57,498 INFO 6fad3ac0a6dc:766:720e12: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:11:57,502 INFO 6fad3ac0a6dc:766:720e12: reaped 1 expired lease(s)
+2026-11-10 12:12:01,376 WARNING 6fad3ac0a6dc:766:720e12: result for 770ad7a7-48b3-4185-9fae-a30a05cd1d2a rejected, lease was taken over (stale token 1)
+2026-11-10 12:12:01,501 WARNING 6fad3ac0a6dc:766:720e12: result for 3eb8a82b-668f-497e-890e-433d671d0409 rejected, lease was taken over (stale token 1)
+2026-11-10 12:12:01,645 WARNING 6fad3ac0a6dc:766:720e12: result for 0e0159ea-49a8-42c5-bc17-400ca9218223 rejected, lease was taken over (stale token 1)
+2026-11-10 12:12:10,323 WARNING 6fad3ac0a6dc:766:720e12: lost lease on f99f9822-cb2c-42ed-9668-b37fd84e3e24 (token 1), abandoning
+2026-11-10 12:12:10,628 WARNING 6fad3ac0a6dc:766:720e12: result for 800197ae-2054-417e-9c9a-c9193e9d2875 rejected, lease was taken over (stale token 1)

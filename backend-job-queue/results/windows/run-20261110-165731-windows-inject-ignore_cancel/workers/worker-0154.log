@@ -1,0 +1,3 @@
+2026-11-10 17:02:50,060 INFO kozlaptop:27040:82834e: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 17:03:19,822 INFO kozlaptop:27040:82834e: cancelled 6d6c5aec-741e-44e2-8620-0676408df7f7 mid-run
+2026-11-10 17:03:33,855 WARNING kozlaptop:27040:82834e: lost lease on 461b5657-0035-40cf-94f0-f870b6bd5352 (token 1), abandoning

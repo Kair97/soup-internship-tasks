@@ -1,0 +1,7 @@
+2026-11-10 12:05:23,566 INFO 6fad3ac0a6dc:443:7f11ca: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:05:30,816 INFO 6fad3ac0a6dc:443:7f11ca: reaped 1 expired lease(s)
+2026-11-10 12:05:39,839 WARNING 6fad3ac0a6dc:443:7f11ca: lost lease on 58dca4df-6497-474a-8cc2-7ccf0cb1c2d1 (token 1), abandoning
+2026-11-10 12:05:56,297 INFO 6fad3ac0a6dc:443:7f11ca: reaped 1 expired lease(s)
+2026-11-10 12:06:00,494 INFO 6fad3ac0a6dc:443:7f11ca: reaped 1 expired lease(s)
+2026-11-10 12:06:03,646 INFO 6fad3ac0a6dc:443:7f11ca: cancelled c45d732a-2f09-477b-8639-eaa29e3568bd mid-run
+2026-11-10 12:06:09,193 INFO 6fad3ac0a6dc:443:7f11ca: cancelled 9aef71e7-54ff-4999-857d-1e63785a5539 mid-run

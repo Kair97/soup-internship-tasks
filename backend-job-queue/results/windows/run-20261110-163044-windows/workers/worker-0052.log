@@ -1,0 +1,3 @@
+2026-11-10 16:32:20,930 INFO kozlaptop:27488:ebc8f6: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:23,714 INFO kozlaptop:27488:ebc8f6: cancelled ead6b928-8ed6-4377-b6ef-61d7b506b38d mid-run
+2026-11-10 16:32:38,438 INFO kozlaptop:27488:ebc8f6: reaped 1 expired lease(s)

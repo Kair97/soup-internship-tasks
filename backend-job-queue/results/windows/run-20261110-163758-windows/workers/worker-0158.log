@@ -1,0 +1,4 @@
+2026-11-10 16:43:15,493 INFO kozlaptop:18652:871936: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:15,499 INFO kozlaptop:18652:871936: reaped 1 expired lease(s)
+2026-11-10 16:43:46,007 WARNING kozlaptop:18652:871936: lost lease on d1d4bfd3-4683-4922-8ed8-c7de5b5e714a (token 1), abandoning
+2026-11-10 16:43:51,191 INFO kozlaptop:18652:871936: reaped 1 expired lease(s)

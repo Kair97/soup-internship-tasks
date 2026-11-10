@@ -1,0 +1,3 @@
+2026-11-10 16:52:05,659 INFO kozlaptop:10064:cfcef1: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:52:06,020 WARNING kozlaptop:10064:cfcef1: result for 86d6238f-4a97-4368-b51d-856c14aee27d rejected, lease was taken over (stale token 1)
+2026-11-10 16:52:11,877 INFO kozlaptop:10064:cfcef1: reaped 1 expired lease(s)

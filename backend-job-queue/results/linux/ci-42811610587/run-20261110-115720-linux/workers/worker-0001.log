@@ -1,0 +1,7 @@
+2026-11-10 11:57:25,650 INFO 6fad3ac0a6dc:19:c408b3: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 11:57:29,708 INFO 6fad3ac0a6dc:19:c408b3: reaped 1 expired lease(s)
+2026-11-10 11:57:32,647 INFO 6fad3ac0a6dc:19:c408b3: reaped 1 expired lease(s)
+2026-11-10 11:57:34,888 INFO 6fad3ac0a6dc:19:c408b3: reaped 1 expired lease(s)
+2026-11-10 11:57:37,098 INFO 6fad3ac0a6dc:19:c408b3: reaped 1 expired lease(s)
+2026-11-10 11:57:39,317 INFO 6fad3ac0a6dc:19:c408b3: reaped 1 expired lease(s)
+2026-11-10 11:57:51,022 WARNING 6fad3ac0a6dc:19:c408b3: lost lease on 2f34e7fa-cefa-411a-be0d-bc87606efc66 (token 1), abandoning

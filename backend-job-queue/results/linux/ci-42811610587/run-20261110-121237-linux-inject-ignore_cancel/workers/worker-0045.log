@@ -1,0 +1,4 @@
+2026-11-10 12:13:57,995 INFO 6fad3ac0a6dc:884:c68460: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:13:59,022 INFO 6fad3ac0a6dc:884:c68460: reaped 1 expired lease(s)
+2026-11-10 12:14:15,575 INFO 6fad3ac0a6dc:884:c68460: cancelled 9ca34b72-afe0-4350-8373-d30b8929e6be mid-run
+2026-11-10 12:14:30,916 INFO 6fad3ac0a6dc:884:c68460: reaped 1 expired lease(s)

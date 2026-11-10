@@ -1,0 +1,2 @@
+2026-11-10 16:38:44,288 INFO kozlaptop:10280:2d557e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:38:59,948 INFO kozlaptop:10280:2d557e: cancelled 00db1eff-395d-4cfd-81ad-6eb3012a0fcb mid-run

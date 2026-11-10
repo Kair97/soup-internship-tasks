@@ -1,0 +1,4 @@
+2026-11-10 16:39:23,656 INFO kozlaptop:28084:3adfbb: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:39:39,405 WARNING kozlaptop:28084:3adfbb: lost lease on cee76a2c-0b88-4e8c-9cff-4f8a2c3cbdcb (token 1), abandoning
+2026-11-10 16:39:46,736 INFO kozlaptop:28084:3adfbb: reaped 1 expired lease(s)
+2026-11-10 16:39:48,842 INFO kozlaptop:28084:3adfbb: reaped 1 expired lease(s)

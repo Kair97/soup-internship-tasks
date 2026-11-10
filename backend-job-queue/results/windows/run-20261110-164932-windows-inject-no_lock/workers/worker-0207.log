@@ -1,0 +1,3 @@
+2026-11-10 16:56:35,428 INFO kozlaptop:30020:768214: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:56:36,636 WARNING kozlaptop:30020:768214: result for 83158308-a604-45a3-8f43-804428b0fe88 rejected, lease was taken over (stale token 1)
+2026-11-10 16:56:45,082 WARNING kozlaptop:30020:768214: result for 0c014141-a235-48a6-948f-ed97b562a09c rejected, lease was taken over (stale token 1)

@@ -1,0 +1,8 @@
+2026-11-10T12:22:12.911066Z inserting 3,000,000 terminal jobs (~8 hours of 100 rps) + 100 queued
+2026-11-10T12:24:55.677819Z insert+analyze 162.8s; table size 1040 MB
+2026-11-10T12:25:03.081176Z GET /stats (count group by status)     median   1115.1 ms  max   3657.0 ms
+2026-11-10T12:25:03.167374Z GET /jobs?limit=50 (first page)        median      2.1 ms  max     78.3 ms
+2026-11-10T12:25:03.176869Z GET /jobs?status=queued&limit=50       median      1.6 ms  max      2.2 ms
+2026-11-10T12:25:03.217726Z claim_next (100 queued, 3M done)       median      0.9 ms  max     24.3 ms
+2026-11-10T12:25:03.241743Z create_job                             median      0.8 ms  max      8.6 ms
+2026-11-10T12:25:03.241743Z EXPLAIN stats: Finalize GroupAggregate  (cost=80976.83..80977.34 rows=2 width=17)

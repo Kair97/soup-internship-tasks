@@ -1,0 +1,3 @@
+2026-11-10 16:43:50,571 INFO kozlaptop:6800:c1c3c3: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:44:02,397 INFO kozlaptop:6800:c1c3c3: reaped 1 expired lease(s)
+2026-11-10 16:44:07,741 INFO kozlaptop:6800:c1c3c3: reaped 1 expired lease(s)

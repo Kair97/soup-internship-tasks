@@ -1,0 +1,3 @@
+2026-11-10 12:05:17,313 INFO 6fad3ac0a6dc:440:8e996d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:05:21,679 INFO 6fad3ac0a6dc:440:8e996d: reaped 1 expired lease(s)
+2026-11-10 12:05:25,765 INFO 6fad3ac0a6dc:440:8e996d: cancelled ea042a62-ccc3-40ba-97b6-b604e572543a mid-run

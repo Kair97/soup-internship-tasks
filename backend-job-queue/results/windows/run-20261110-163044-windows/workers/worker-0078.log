@@ -1,0 +1,4 @@
+2026-11-10 16:33:15,394 INFO kozlaptop:3248:007deb: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:15,399 INFO kozlaptop:3248:007deb: reaped 2 expired lease(s)
+2026-11-10 16:33:27,594 WARNING kozlaptop:3248:007deb: lost lease on be87e6b5-604d-42db-a0de-da6fe5d179bd (token 1), abandoning
+2026-11-10 16:33:29,687 INFO kozlaptop:3248:007deb: reaped 1 expired lease(s)

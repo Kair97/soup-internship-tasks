@@ -1,0 +1,6 @@
+2026-11-10 12:11:53,678 INFO 6fad3ac0a6dc:764:f55e66: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:11:54,121 WARNING 6fad3ac0a6dc:764:f55e66: result for 8efee7ea-5cb6-42fd-a809-a051e99550a6 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:55,457 WARNING 6fad3ac0a6dc:764:f55e66: result for 19e99691-89da-4f19-8f23-534ba8343cad rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:55,768 WARNING 6fad3ac0a6dc:764:f55e66: result for 47708eeb-0c2c-43bc-8f77-9c15f6999e00 rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:59,448 WARNING 6fad3ac0a6dc:764:f55e66: result for 10f33dff-cc2b-4f44-9196-8cfd5540bb5c rejected, lease was taken over (stale token 1)
+2026-11-10 12:11:59,964 WARNING 6fad3ac0a6dc:764:f55e66: result for 4448de0b-79e7-425c-ae3f-66e8b8a2daf0 rejected, lease was taken over (stale token 1)

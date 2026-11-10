@@ -1,0 +1,4 @@
+2026-11-10 16:53:14,235 INFO kozlaptop:18908:c2a8c7: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 16:53:16,280 WARNING kozlaptop:18908:c2a8c7: result for 86a425d7-f0e7-4eff-b56c-7ffe8997ed96 rejected, lease was taken over (stale token 1)
+2026-11-10 16:53:17,322 WARNING kozlaptop:18908:c2a8c7: result for e238bcea-d203-429d-857b-890353d28321 rejected, lease was taken over (stale token 1)
+2026-11-10 16:53:18,315 INFO kozlaptop:18908:c2a8c7: reaped 1 expired lease(s)

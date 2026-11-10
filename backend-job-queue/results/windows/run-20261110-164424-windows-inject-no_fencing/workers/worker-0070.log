@@ -1,0 +1,5 @@
+2026-11-10 16:46:37,986 INFO kozlaptop:16472:a2fbc6: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 16:46:37,995 INFO kozlaptop:16472:a2fbc6: reaped 1 expired lease(s)
+2026-11-10 16:46:40,042 INFO kozlaptop:16472:a2fbc6: reaped 1 expired lease(s)
+2026-11-10 16:46:42,050 INFO kozlaptop:16472:a2fbc6: cancelled d17255d2-8074-4ba2-b6aa-cc9b6f651e58 mid-run
+2026-11-10 16:46:50,471 INFO kozlaptop:16472:a2fbc6: reaped 1 expired lease(s)

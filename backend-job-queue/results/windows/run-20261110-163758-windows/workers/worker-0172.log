@@ -1,0 +1,5 @@
+2026-11-10 16:43:43,969 INFO kozlaptop:26608:cd652d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:43:48,131 INFO kozlaptop:26608:cd652d: reaped 1 expired lease(s)
+2026-11-10 16:43:56,106 WARNING kozlaptop:26608:cd652d: lost lease on fa593e91-482e-4b22-bee6-fc86ed1256c4 (token 2), abandoning
+2026-11-10 16:44:04,842 WARNING kozlaptop:26608:cd652d: lost lease on 23910b7c-a70a-4874-88d0-e6004d9aff96 (token 1), abandoning
+2026-11-10 16:44:15,322 WARNING kozlaptop:26608:cd652d: lost lease on 61c81184-a9bd-471d-8f0b-e4f5e013c19c (token 1), abandoning

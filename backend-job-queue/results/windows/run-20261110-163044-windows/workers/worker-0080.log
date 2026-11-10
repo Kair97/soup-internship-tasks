@@ -1,0 +1,2 @@
+2026-11-10 16:33:19,020 INFO kozlaptop:30472:8e3cd9: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:33:25,991 INFO kozlaptop:30472:8e3cd9: cancelled 1f24ada5-5b9a-4b95-adb9-fb31b027ad30 mid-run

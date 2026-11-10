@@ -1,0 +1,2 @@
+2026-11-10 12:09:56,316 INFO 74f6f081b3f2:938:d9f629: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:09:59,123 INFO 74f6f081b3f2:938:d9f629: cancelled 9a9526e5-2a47-40bf-b408-ab77dda1833c mid-run

@@ -1,0 +1,4 @@
+2026-11-10 16:31:19,547 INFO kozlaptop:10384:121627: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:31:23,252 INFO kozlaptop:10384:121627: cancelled 3e2ef599-8d08-4856-b913-fc9aa2a5ce9e mid-run
+2026-11-10 16:31:37,149 INFO kozlaptop:10384:121627: cancelled 282bec58-5ee2-49bb-90cb-ecd243e642a0 mid-run
+2026-11-10 16:31:39,202 INFO kozlaptop:10384:121627: reaped 1 expired lease(s)

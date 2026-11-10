@@ -1,0 +1,3 @@
+2026-11-10 12:01:29,638 INFO 6fad3ac0a6dc:265:ecbcbd: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:01:32,418 INFO 6fad3ac0a6dc:265:ecbcbd: cancelled c18cd7bf-44ad-4fe8-b755-20ead69f86f6 mid-run
+2026-11-10 12:01:35,313 INFO 6fad3ac0a6dc:265:ecbcbd: cancelled 51a9113a-f01b-44f9-85fe-8487e39727e9 mid-run

@@ -1,0 +1,4 @@
+2026-11-10 16:31:56,006 INFO kozlaptop:10992:e00380: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:32:00,146 INFO kozlaptop:10992:e00380: reaped 1 expired lease(s)
+2026-11-10 16:32:04,074 INFO kozlaptop:10992:e00380: reaped 1 expired lease(s)
+2026-11-10 16:32:05,897 INFO kozlaptop:10992:e00380: cancelled 979d581a-88a1-46d1-841b-6a05254d5b4e mid-run

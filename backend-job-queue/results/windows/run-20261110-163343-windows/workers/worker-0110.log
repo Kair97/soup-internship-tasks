@@ -1,0 +1,2 @@
+2026-11-10 16:37:17,603 INFO kozlaptop:6832:85f667: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 16:37:30,264 INFO kozlaptop:6832:85f667: cancelled 58f1dd4d-9002-43f4-bc48-ab0e9543a192 mid-run
