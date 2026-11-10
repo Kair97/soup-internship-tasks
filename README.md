@@ -32,5 +32,5 @@ Places where the AI tool was wrong, and how it was caught, are part of the evide
 | First VRAM estimate wrong on 3 points (checkpointing, fp32 upcast, fp32 logits) | Soup's pre-flight refused the run with a 6.6 GB estimate | `results/memory_budget_v1_first_estimate.txt` |
 | The merge check's fixed threshold would have rejected the correct merge; G1 also judged the base model; the memory probe ran in eval mode | numbers that looked wrong, then re-derived | `ai-finetune-verification/results/superseded/` |
 
-> **Before sending:** read each report end to end and add your own notes here. Say which parts you
-> reviewed line by line, which you re-ran yourself, and what you would challenge.
+> Note on raw logs: the local database login in the Windows run logs was replaced with `USER:PASS`.
+> Nothing else in any log was edited.
