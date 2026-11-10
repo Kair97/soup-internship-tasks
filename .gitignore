@@ -1,0 +1,19 @@
+# environments
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large artifacts (re-created by the scripts; hashes are in the reports)
+models/
+ai-finetune-verification/runs/**/merged*/
+ai-finetune-verification/runs/**/q4*/
+ai-finetune-verification/runs/**/checkpoint-*/
+ai-finetune-verification/data/raw/
+*.safetensors
+*.bin
+*.gguf
+
+# local scratch
+scratch-results/
+suite-windows.out

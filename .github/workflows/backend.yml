@@ -1,0 +1,68 @@
+name: backend-job-queue
+
+on:
+  push:
+    paths: ["backend-job-queue/**", ".github/workflows/backend.yml"]
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: backend-job-queue
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pytest inside docker compose (real Postgres 16)
+        run: docker compose --profile test run --rm --build test
+
+  compose-smoke:
+    # "docker compose up" with 4 workers, then kill -9 a worker CONTAINER mid-run.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up -d --build --wait
+      - run: docker compose ps
+      - name: submit 200 jobs of 1.5 s, SIGKILL one worker container while they run
+        run: |
+          for i in $(seq 1 200); do
+            curl -s -o /dev/null -X POST localhost:8000/jobs -H "Idempotency-Key: smoke-$i" \
+                 -H 'Content-Type: application/json' -d '{"duration_ms":1500}'
+          done
+          sleep 3
+          victim=$(docker compose ps -q worker | head -1)
+          echo "$(date -u +%FT%TZ) docker kill --signal=KILL $victim"
+          docker kill --signal=KILL "$victim"
+          for t in $(seq 1 120); do
+            s=$(curl -s localhost:8000/stats); echo "$(date -u +%FT%TZ) $s"
+            echo "$s" | grep -q '"queued":0,"running":0' && break; sleep 2
+          done
+      - name: invariants
+        run: |
+          q() { docker compose exec -T db psql -U postgres -d jobs -tAc "$1"; }
+          echo "status:";            q "select status,count(*) from jobs group by 1"
+          echo "dup effects:";       q "select count(*) from (select job_id from effects group by 1 having count(*)>1) x"
+          echo "succeeded w/o effect:"; q "select count(*) from jobs j where status='succeeded' and not exists (select 1 from effects e where e.job_id=j.id)"
+          echo "requeued after kill:"; q "select count(*) from job_transitions where from_status='running' and to_status='queued'"
+          test "$(q "select count(*) from jobs where status='succeeded'")" = "200"
+          test "$(q "select count(*) from (select job_id from effects group by 1 having count(*)>1) x")" = "0"
+      - if: always()
+        run: docker compose logs --no-color > compose-smoke.log; docker compose down -v
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: compose-smoke-log, path: backend-job-queue/compose-smoke.log }
+
+  chaos:
+    # 3 x (10,000 jobs, 8 workers, SIGKILL ~every 2 s, freezes) + 3 injected-bug runs.
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaos suite
+        run: |
+          mkdir -p results && chmod 777 results
+          docker compose --profile chaos run --rm --build chaos
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: chaos-results-linux, path: backend-job-queue/results/linux }

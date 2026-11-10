@@ -1,0 +1,55 @@
+# docker compose up          -> Postgres + API (:8000) + 4 workers
+# docker compose --profile chaos run --rm chaos   -> full chaos harness (10k jobs, 8 workers, kill -9)
+# docker compose --profile test  run --rm test    -> pytest (race / zombie / isolation / skew tests)
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: jobs
+    command: ["postgres", "-c", "max_connections=300"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d jobs"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    ports: ["5432:5432"]
+
+  api:
+    build: .
+    environment: &env
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/jobs
+      LEASE_SECONDS: "5"
+    ports: ["8000:8000"]
+    depends_on: { db: { condition: service_healthy } }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 3s
+      retries: 20
+
+  worker:
+    build: .
+    command: ["python", "-m", "app.worker"]
+    environment: *env
+    depends_on: { api: { condition: service_healthy } }   # API bootstraps the schema
+    deploy:
+      replicas: 4
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+  chaos:
+    build: .
+    profiles: ["chaos"]
+    command: ["python", "-m", "chaos.run_suite", "--admin-url",
+              "postgresql://postgres:postgres@db:5432/postgres", "--out", "/srv/results/linux"]
+    volumes: ["./results:/srv/results"]
+    depends_on: { db: { condition: service_healthy } }
+
+  test:
+    build: .
+    profiles: ["test"]
+    command: ["pytest", "-q"]
+    environment:
+      ADMIN_DATABASE_URL: postgresql://postgres:postgres@db:5432/postgres
+    depends_on: { db: { condition: service_healthy } }
