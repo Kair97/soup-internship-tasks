@@ -69,4 +69,4 @@ jobs:
           docker compose --profile chaos run --rm --build chaos
       - if: always()
         uses: actions/upload-artifact@v4
-        with: { name: chaos-results-linux, path: backend-job-queue/results/linux }
+        with: { name: chaos-results-linux, path: backend-job-queue/results/ci }

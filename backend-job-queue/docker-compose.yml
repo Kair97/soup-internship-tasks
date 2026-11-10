@@ -42,7 +42,7 @@ services:
     build: .
     profiles: ["chaos"]
     command: ["python", "-m", "chaos.run_suite", "--admin-url",
-              "postgresql://postgres:postgres@db:5432/postgres", "--out", "/srv/results/linux"]
+              "postgresql://postgres:postgres@db:5432/postgres", "--out", "/srv/results/ci"]
     volumes: ["./results:/srv/results"]
     depends_on: { db: { condition: service_healthy } }
 

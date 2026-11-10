@@ -18,3 +18,4 @@ ai-finetune-verification/data/raw/
 scratch-results/
 suite-windows.out
 
+backend-job-queue/results/ci/
