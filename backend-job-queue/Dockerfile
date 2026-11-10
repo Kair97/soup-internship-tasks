@@ -6,5 +6,6 @@ RUN pip install --no-cache-dir -r requirements-dev.txt
 COPY app ./app
 COPY chaos ./chaos
 COPY tests ./tests
+COPY pytest.ini ./
 # Default command = API; the worker/chaos services override it.
 CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
