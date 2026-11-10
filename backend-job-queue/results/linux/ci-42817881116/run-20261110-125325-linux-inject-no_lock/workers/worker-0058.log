@@ -1,0 +1,11 @@
+2026-11-10 12:55:08,363 INFO b2a463332b27:751:8d28e7: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:11,791 WARNING b2a463332b27:751:8d28e7: result for 5e19d2d9-1ae5-4d05-a8dc-6f4e4fdeef19 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:11,885 WARNING b2a463332b27:751:8d28e7: result for 9243484b-dc64-46d9-abad-cd1143b89be9 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:12,718 WARNING b2a463332b27:751:8d28e7: result for 8e6a5dbd-3632-44c6-a509-8988858e0fc9 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:12,822 WARNING b2a463332b27:751:8d28e7: result for 99ae0461-d39f-4ee2-93a6-d3375ebe11d6 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:12,853 WARNING b2a463332b27:751:8d28e7: result for 2c008fa7-9360-46a1-abdc-bf9ff8aba2c7 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:13,857 WARNING b2a463332b27:751:8d28e7: lost lease on a3944528-c423-44a9-bb28-9adbc6cb1aa8 (token 1), abandoning
+2026-11-10 12:55:13,946 WARNING b2a463332b27:751:8d28e7: result for 6cc2b233-07e0-4367-b15c-0ae0c90e0095 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:14,089 WARNING b2a463332b27:751:8d28e7: result for 077d75e7-9ab7-4fba-9e8b-03e197c44490 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:16,571 WARNING b2a463332b27:751:8d28e7: result for 58709635-015d-479e-a115-9cb14bd4d561 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:16,645 WARNING b2a463332b27:751:8d28e7: result for c75c126f-0970-47c2-abe7-0cd122358233 rejected, lease was taken over (stale token 1)

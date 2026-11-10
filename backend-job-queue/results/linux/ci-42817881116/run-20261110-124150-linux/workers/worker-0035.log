@@ -1,0 +1,4 @@
+2026-11-10 12:42:46,555 INFO b2a463332b27:99:9abd48: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:42:51,572 INFO b2a463332b27:99:9abd48: cancelled 12b91d61-88b7-4eaa-970c-56e8da3682f0 mid-run
+2026-11-10 12:42:56,085 INFO b2a463332b27:99:9abd48: cancelled 85b9496c-290f-4c03-be6b-20722d8c45ea mid-run
+2026-11-10 12:42:56,086 INFO b2a463332b27:99:9abd48: reaped 1 expired lease(s)

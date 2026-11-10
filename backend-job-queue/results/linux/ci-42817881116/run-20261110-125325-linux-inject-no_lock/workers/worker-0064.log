@@ -1,0 +1,3 @@
+2026-11-10 12:55:19,786 INFO b2a463332b27:757:7ac78d: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:20,730 WARNING b2a463332b27:757:7ac78d: result for 224627ff-3748-42bb-99c5-f2638e65abc3 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:20,866 WARNING b2a463332b27:757:7ac78d: result for 05bfc0f7-0517-476e-a64a-8aa4377c6804 rejected, lease was taken over (stale token 1)

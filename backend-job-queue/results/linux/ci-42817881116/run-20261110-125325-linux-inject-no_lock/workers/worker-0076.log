@@ -1,0 +1,4 @@
+2026-11-10 12:55:45,107 INFO b2a463332b27:770:ed410c: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:48,037 INFO b2a463332b27:770:ed410c: cancelled 79f1bf5a-8c6d-47a0-b972-6d467bb194d2 mid-run
+2026-11-10 12:55:49,487 WARNING b2a463332b27:770:ed410c: result for f3412ef4-eea3-4afd-9e5e-a6d76dbbdd38 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:50,867 WARNING b2a463332b27:770:ed410c: result for 950c30f5-d5ac-4561-9504-619f783a430e rejected, lease was taken over (stale token 1)

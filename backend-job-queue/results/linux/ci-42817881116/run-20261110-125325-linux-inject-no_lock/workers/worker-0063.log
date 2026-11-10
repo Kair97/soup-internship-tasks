@@ -1,0 +1,9 @@
+2026-11-10 12:55:17,588 INFO b2a463332b27:756:b63db0: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:17,739 WARNING b2a463332b27:756:b63db0: result for bc1a0a82-0bee-4ecd-be82-26d1ddf74706 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:26,531 INFO b2a463332b27:756:b63db0: reaped 1 expired lease(s)
+2026-11-10 12:55:28,117 INFO b2a463332b27:756:b63db0: reaped 1 expired lease(s)
+2026-11-10 12:55:31,242 WARNING b2a463332b27:756:b63db0: result for 97587b0c-a48d-44ce-ac52-8d7519ed6cfa rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:31,363 WARNING b2a463332b27:756:b63db0: result for faf0709f-f196-4c98-ad23-dd14f373e7d8 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:31,468 WARNING b2a463332b27:756:b63db0: result for bcb4d10c-7c87-4e85-9706-6a8448d62339 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:32,470 WARNING b2a463332b27:756:b63db0: lost lease on 0324ab13-ce5e-432c-b114-e0801eb2cbed (token 1), abandoning
+2026-11-10 12:55:33,985 INFO b2a463332b27:756:b63db0: reaped 1 expired lease(s)

@@ -1,0 +1,3 @@
+2026-11-10 12:49:36,008 INFO b2a463332b27:445:070efe: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:49:46,539 INFO b2a463332b27:445:070efe: reaped 1 expired lease(s)
+2026-11-10 12:49:48,860 INFO b2a463332b27:445:070efe: reaped 1 expired lease(s)

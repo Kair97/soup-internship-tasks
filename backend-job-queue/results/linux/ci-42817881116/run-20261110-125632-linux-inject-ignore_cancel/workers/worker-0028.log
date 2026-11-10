@@ -1,0 +1,8 @@
+2026-11-10 12:57:15,576 INFO b2a463332b27:903:052b47: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:57:15,584 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)
+2026-11-10 12:57:17,734 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)
+2026-11-10 12:57:26,645 INFO b2a463332b27:903:052b47: cancelled f4abf5f6-77ea-401e-b3ea-9a7fbc898b1b mid-run
+2026-11-10 12:57:26,645 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)
+2026-11-10 12:57:32,651 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)
+2026-11-10 12:57:35,785 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)
+2026-11-10 12:57:36,809 INFO b2a463332b27:903:052b47: reaped 1 expired lease(s)

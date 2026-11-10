@@ -1,0 +1,3 @@
+2026-11-10 12:45:33,956 INFO b2a463332b27:252:cf193d: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:45:35,275 INFO b2a463332b27:252:cf193d: cancelled 27714fc5-d79d-4e38-b919-b5c77816ef23 mid-run
+2026-11-10 12:45:42,350 WARNING b2a463332b27:252:cf193d: lost lease on 6adbfb52-a25d-4dab-8e92-01ee55b53535 (token 1), abandoning

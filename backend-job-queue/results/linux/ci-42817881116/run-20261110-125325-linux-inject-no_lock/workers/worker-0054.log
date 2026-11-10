@@ -1,0 +1,4 @@
+2026-11-10 12:54:59,597 INFO b2a463332b27:747:78b886: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:01,325 WARNING b2a463332b27:747:78b886: result for 5be0e23b-fe1e-45fa-81dd-b785caefac88 rejected, lease was taken over (stale token 1)
+2026-11-10 12:55:10,571 WARNING b2a463332b27:747:78b886: lost lease on b4c42c18-df82-4c3e-9201-44a1b6379dce (token 1), abandoning
+2026-11-10 12:55:19,258 WARNING b2a463332b27:747:78b886: lost lease on 9dcd8c4e-deef-49b3-94dd-115c24a70ec3 (token 1), abandoning

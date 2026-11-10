@@ -1,0 +1,2 @@
+2026-11-10 12:56:13,781 INFO b2a463332b27:785:ff3a14: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:56:16,475 INFO b2a463332b27:785:ff3a14: reaped 1 expired lease(s)

@@ -1,0 +1,2 @@
+2026-11-10 12:53:08,808 INFO b2a463332b27:618:126c19: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:53:13,421 INFO b2a463332b27:618:126c19: cancelled a2e5e4ab-4700-446c-a4e6-426b22c4fd34 mid-run

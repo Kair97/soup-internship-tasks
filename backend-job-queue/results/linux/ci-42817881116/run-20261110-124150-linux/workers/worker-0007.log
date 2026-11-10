@@ -1,0 +1,2 @@
+2026-11-10 12:41:54,448 INFO b2a463332b27:26:be3180: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:41:58,061 INFO b2a463332b27:26:be3180: cancelled 41ac5f9a-fc39-4306-9576-6b1c70102e29 mid-run

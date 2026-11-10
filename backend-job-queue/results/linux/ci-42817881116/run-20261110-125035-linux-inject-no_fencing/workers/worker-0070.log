@@ -1,0 +1,5 @@
+2026-11-10 12:52:47,725 INFO b2a463332b27:607:5d8c72: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:52:51,973 INFO b2a463332b27:607:5d8c72: reaped 1 expired lease(s)
+2026-11-10 12:52:55,639 INFO b2a463332b27:607:5d8c72: cancelled 1ad99e06-2663-4bdb-98ef-a187c6074344 mid-run
+2026-11-10 12:52:58,594 INFO b2a463332b27:607:5d8c72: cancelled d27485b0-58a3-4701-9d31-f3802111aa70 mid-run
+2026-11-10 12:53:08,722 INFO b2a463332b27:607:5d8c72: cancelled 0af45dcd-cc98-4180-9adf-dd50fbd57d9f mid-run

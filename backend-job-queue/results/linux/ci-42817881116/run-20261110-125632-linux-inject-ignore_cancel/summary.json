@@ -1,0 +1,84 @@
+{
+  "name": "run-20261110-125632-linux-inject-ignore_cancel",
+  "result": "FAIL",
+  "violations": [
+    "CANCEL IGNORED: 130 jobs had cancel accepted (200/202) but finished as Counter({'succeeded': 127, 'failed': 3})"
+  ],
+  "args": {
+    "admin_url": "postgresql://postgres:postgres@db:5432/postgres",
+    "db_name": "jobs_chaos",
+    "jobs": 10000,
+    "workers": 8,
+    "kill_every": 2.0,
+    "freeze_every": 10.0,
+    "lease": 3.0,
+    "duration_ms": [
+      10,
+      150
+    ],
+    "long_rate": 0.03,
+    "long_ms": [
+      500,
+      3000
+    ],
+    "running_cancel_prob": 0.05,
+    "fail_rate": 0.02,
+    "dup_rate": 0.15,
+    "retry_rate": 0.1,
+    "cancel_rate": 0.1,
+    "concurrency": 48,
+    "timeout": 1200,
+    "seed": null,
+    "inject": "ignore_cancel",
+    "out": "/srv/results/linux"
+  },
+  "metrics": {
+    "jobs_in_db": 10000,
+    "keys_with_more_than_one_id": 0,
+    "stuck_non_terminal": 0,
+    "effects_by_status": {
+      "cancelled:0": 1054,
+      "failed:0": 156,
+      "succeeded:1": 8790
+    },
+    "effects_from_stale_token": 0,
+    "transitions": {
+      "running->succeeded": 8790,
+      "running->cancelled": 94,
+      "queued->cancelled": 960,
+      "running->queued": 49,
+      "queued->running (new token)": 9089,
+      "running->failed": 156
+    },
+    "cancel_accepted": 1184,
+    "cancel_too_late": 34,
+    "final_status": {
+      "cancelled": 1054,
+      "failed": 156,
+      "succeeded": 8790
+    },
+    "executions_total": 9089,
+    "jobs_executed_more_than_once": 48,
+    "max_executions_per_job": 3,
+    "stale_writes_rejected": {
+      "heartbeat": 15
+    },
+    "requeued_after_lease_expiry": 49,
+    "elapsed_s": 176.5,
+    "seed": 242664858,
+    "kills": 83,
+    "freezes": 16,
+    "running_cancels_sent": 255,
+    "duplicate_posts": 2465,
+    "create_codes": {
+      "201": 10000,
+      "200": 2465
+    },
+    "cancel_codes": {
+      "200": 960,
+      "202": 240,
+      "409": 35
+    },
+    "client_transport_errors": {}
+  }
+}

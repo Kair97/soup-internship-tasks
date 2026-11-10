@@ -1,0 +1,9 @@
+2026-11-10 12:46:15,373 INFO b2a463332b27:274:59617a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:46:20,675 INFO b2a463332b27:274:59617a: cancelled a9ad53e7-c13f-4b22-9f40-f1266c7302b3 mid-run
+2026-11-10 12:46:23,957 INFO b2a463332b27:274:59617a: cancelled 78a0f663-5604-4c19-b370-fc5baa074a99 mid-run
+2026-11-10 12:46:28,056 INFO b2a463332b27:274:59617a: cancelled 8908e6f3-d253-4ee9-b3f8-c35dd7d52e6c mid-run
+2026-11-10 12:46:28,056 INFO b2a463332b27:274:59617a: reaped 1 expired lease(s)
+2026-11-10 12:46:39,083 WARNING b2a463332b27:274:59617a: lost lease on c0f5fd31-d416-4908-a9cd-ae385bdee722 (token 1), abandoning
+2026-11-10 12:46:46,971 INFO b2a463332b27:274:59617a: reaped 1 expired lease(s)
+2026-11-10 12:47:09,410 INFO b2a463332b27:274:59617a: reaped 1 expired lease(s)
+2026-11-10 12:47:22,398 INFO b2a463332b27:274:59617a: cancelled 6b34357e-fdf9-4597-a00a-74d3f87d60a5 mid-run

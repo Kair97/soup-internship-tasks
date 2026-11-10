@@ -1,0 +1,3 @@
+2026-11-10 12:51:13,116 INFO b2a463332b27:558:fee2c0: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:51:41,348 INFO b2a463332b27:558:fee2c0: cancelled 7eb58c29-1c87-43ce-b38f-dff5bbddd471 mid-run
+2026-11-10 12:52:00,207 INFO b2a463332b27:558:fee2c0: cancelled 7f7b4908-60bc-425b-b737-882e15d6db45 mid-run

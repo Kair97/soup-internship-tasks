@@ -1,0 +1,5 @@
+2026-11-10 12:53:54,498 INFO b2a463332b27:705:a9619e: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:53:54,648 WARNING b2a463332b27:705:a9619e: result for 9e5df8b2-1b12-4a20-88e5-0ec2f89b318e rejected, lease was taken over (stale token 1)
+2026-11-10 12:53:55,245 WARNING b2a463332b27:705:a9619e: result for 2057a4bd-80a3-4be4-afff-80537c8d2e4e rejected, lease was taken over (stale token 2)
+2026-11-10 12:53:55,517 WARNING b2a463332b27:705:a9619e: result for af911ec2-2ca4-4886-9db7-74368778c04e rejected, lease was taken over (stale token 1)
+2026-11-10 12:53:56,405 WARNING b2a463332b27:705:a9619e: result for 6cc4cb4e-79c1-4032-a0ed-1bd40d80ba6a rejected, lease was taken over (stale token 1)

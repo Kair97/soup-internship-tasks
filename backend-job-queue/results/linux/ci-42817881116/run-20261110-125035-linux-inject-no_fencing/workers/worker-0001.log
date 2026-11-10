@@ -1,0 +1,4 @@
+2026-11-10 12:50:38,935 INFO b2a463332b27:486:fea912: started (lease=3.0s heartbeat=1.0s inject='no_fencing')
+2026-11-10 12:50:55,684 INFO b2a463332b27:486:fea912: cancelled 54f02be4-1324-4a62-a3a6-c88f92c7a529 mid-run
+2026-11-10 12:50:56,779 INFO b2a463332b27:486:fea912: reaped 1 expired lease(s)
+2026-11-10 12:50:58,893 INFO b2a463332b27:486:fea912: reaped 1 expired lease(s)

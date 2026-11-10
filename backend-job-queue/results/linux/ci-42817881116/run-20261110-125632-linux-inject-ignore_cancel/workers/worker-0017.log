@@ -1,0 +1,4 @@
+2026-11-10 12:56:52,153 INFO b2a463332b27:890:3bfe16: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:56:59,747 WARNING b2a463332b27:890:3bfe16: lost lease on 8d7dd5b5-5f90-40d9-8e22-c06f014ff64a (token 1), abandoning
+2026-11-10 12:57:02,957 INFO b2a463332b27:890:3bfe16: reaped 1 expired lease(s)
+2026-11-10 12:57:39,942 WARNING b2a463332b27:890:3bfe16: lost lease on ca41f085-78a8-4d97-96dc-d096042acdeb (token 1), abandoning

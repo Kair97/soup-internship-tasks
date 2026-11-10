@@ -1,0 +1,5 @@
+2026-11-10 12:48:10,228 INFO b2a463332b27:397:ffb737: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:48:13,483 INFO b2a463332b27:397:ffb737: cancelled aaa6c3a6-ae05-438c-aef5-c01a6c52cd70 mid-run
+2026-11-10 12:48:18,112 INFO b2a463332b27:397:ffb737: cancelled 9d473b7b-9285-42af-a257-2d48c20c3018 mid-run
+2026-11-10 12:48:25,664 INFO b2a463332b27:397:ffb737: reaped 1 expired lease(s)
+2026-11-10 12:48:40,556 INFO b2a463332b27:397:ffb737: reaped 1 expired lease(s)

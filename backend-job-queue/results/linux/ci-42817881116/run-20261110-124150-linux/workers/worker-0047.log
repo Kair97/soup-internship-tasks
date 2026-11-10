@@ -1,0 +1,3 @@
+2026-11-10 12:43:11,770 INFO b2a463332b27:113:aa7195: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:43:18,442 INFO b2a463332b27:113:aa7195: reaped 1 expired lease(s)
+2026-11-10 12:43:37,021 INFO b2a463332b27:113:aa7195: reaped 1 expired lease(s)

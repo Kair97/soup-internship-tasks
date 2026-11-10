@@ -1,0 +1,6 @@
+2026-11-10 12:44:22,108 INFO b2a463332b27:148:ad284a: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:44:23,116 INFO b2a463332b27:148:ad284a: reaped 1 expired lease(s)
+2026-11-10 12:44:24,353 INFO b2a463332b27:148:ad284a: cancelled 1c8f3cfa-80d2-4ad8-8ce7-970632bdeeec mid-run
+2026-11-10 12:44:26,492 INFO b2a463332b27:148:ad284a: cancelled 5881e188-cb6a-411b-b219-310ec788a4d1 mid-run
+2026-11-10 12:44:28,912 INFO b2a463332b27:148:ad284a: cancelled 05a56340-0cb9-43a0-8ef9-3d9c158dbdca mid-run
+2026-11-10 12:44:31,740 INFO b2a463332b27:148:ad284a: cancelled f6559343-7b6b-4633-a0ec-640e40b38ee0 mid-run

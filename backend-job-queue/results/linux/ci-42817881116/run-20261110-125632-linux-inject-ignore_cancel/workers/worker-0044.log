@@ -1,0 +1,3 @@
+2026-11-10 12:57:47,425 INFO b2a463332b27:920:672f74: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:57:48,628 INFO b2a463332b27:920:672f74: cancelled e77f712e-d56f-4bd8-aea1-f647eafb48fa mid-run
+2026-11-10 12:57:52,686 INFO b2a463332b27:920:672f74: cancelled d9d0d9b4-4228-4276-84d0-995a510c3ae6 mid-run

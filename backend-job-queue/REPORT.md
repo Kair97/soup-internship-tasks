@@ -1,7 +1,7 @@
 # Report: will the job queue survive production?
 
 **Verdict at 100 rps: DON'T SHIP yet.** The queue *semantics* held under every failure I could produce:
-90,000 jobs, 890 `kill -9`, 172 freezes, 0 lost jobs, 0 duplicate effects. The 100 rps request path measured
+120,000 jobs, 1,133 `kill -9`, 220 freezes, 0 lost jobs, 0 duplicate effects. The 100 rps request path measured
 p99 = 45 ms. What fails is **operations, within days**: nothing ever deletes jobs, and `/stats` already
 takes 1.1–3.7 s after the equivalent of 8 hours at 100 rps. Fix list at the end.
 
@@ -30,19 +30,19 @@ After the drain, and after every zombie has woken up and had a grace period, inv
 | where | runs (10k jobs each) | result | kills | freezes | zombie writes rejected | requeued after lease expiry | jobs executed >1× |
 |---|---|---|---|---|---|---|---|
 | Windows 11, PG 17 ([results/windows](results/windows/SUMMARY.md)) | 3 | 3 × PASS | 378 | 74 | 64 | 215 | 204 |
-| Linux (GitHub Actions, Docker, PG 16), 2 CI runs ([results/linux](results/linux)) | 6 | 6 × PASS | 512 | 98 | 96 | 328 | 327 |
-| **total** | **9 = 90,000 jobs** | **0 violations** | **890** | **172** | **160** | **543** | **531** (max 3 runs of one job) |
+| Linux (GitHub Actions, Docker, PG 16), 3 CI runs ([results/linux](results/linux)) | 9 | 9 × PASS | 755 | 146 | 143 | 489 | 487 |
+| **total** | **12 = 120,000 jobs** | **0 violations** | **1,133** | **220** | **207** | **704** | **715** (max 3 runs of one job) |
 
-Across those runs: 22,590 duplicate POSTs and 9,065 accepted cancels (2,195 of them aimed at running jobs).
+Across those runs: 30,037 duplicate POSTs and 12,645 accepted cancels (3,039 of them aimed at running jobs).
 
-**Is the harness able to fail?** Each run is repeated against three bugs planted with `--inject`. All 9 such runs
-FAILED, as they must:
+**Is the harness able to fail?** Each suite also runs against three bugs planted with `--inject`. All such runs
+FAILED, as they must (12 of 12):
 
-| planted bug | Windows | Linux (2 runs) |
+| planted bug | Windows | Linux (3 CI runs) |
 |---|---|---|
-| `no_fencing`: zombie writes not checked against the token | 10 duplicate effects | 6 / 9 |
-| `no_lock`: claim without `FOR UPDATE SKIP LOCKED` | 1,503 double claims | 602 / 701 |
-| `ignore_cancel`: completion ignores `cancel_requested` | 25 cancels ignored | 115 / 127 |
+| `no_fencing`: zombie writes not checked against the token | 10 duplicate effects | 6 / 9 / 6 |
+| `no_lock`: claim without `FOR UPDATE SKIP LOCKED` | 1,503 double claims | 602 / 701 / 702 |
+| `ignore_cancel`: completion ignores `cancel_requested` | 25 cancels ignored | 115 / 127 / 130 |
 
 The first two versions of the harness **said PASS on two of these bugs.** The zombie case never happened
 because frozen workers were idle, and cancels never hit running jobs. Then a Windows launcher-PID problem
@@ -57,9 +57,9 @@ which is the design's defence in depth working.
 - Long-run problems: bloat, the growth of `job_transitions`/`executions`, memory leaks, connection-pool exhaustion.
   Each run lasts 3–8 minutes.
 - More than one API replica, a load balancer, client retries with backoff storms, and fairness or starvation.
-- A zombie waking up *exactly* between computing its result and committing it. In the clean runs zombies were
-  always caught at their next heartbeat (all 160 rejections are `heartbeat`). The `complete` rejection path is
-  covered deterministically by `tests/test_silent_failures.py::test_zombie_*`.
+- A zombie waking up *exactly* between computing its result and committing it is rare. Of the 207 zombie
+  rejections, 205 happened at the next heartbeat and only 2 at the final commit. That is why the `complete` path
+  is also forced deterministically in `tests/test_silent_failures.py::test_zombie_*`.
 - Rare interleavings in general. Repetition reduces, but cannot remove, the chance of missing them.
 
 ## 2. Silent failures: how each one was checked
@@ -67,9 +67,9 @@ which is the design's defence in depth working.
 | failure (no error is raised) | defence in the code | evidence |
 |---|---|---|
 | **double claim** | one-statement claim with `FOR UPDATE SKIP LOCKED`; the transition trigger logs every claim | `test_no_double_claim_under_concurrency` (16 threads, 400 jobs, 400 unique claims); planted `no_lock` caught (602–1,503 double claims) |
-| **zombie after lease expiry writes a stale result** | fencing token on every write; the reaper re-checks expiry after locking | `test_zombie_after_lease_expiry_cannot_write`, `test_zombie_wakes_before_takeover_finishes`; 160 heartbeat rejections in chaos; planted `no_fencing` caught |
+| **zombie after lease expiry writes a stale result** | fencing token on every write; the reaper re-checks expiry after locking | `test_zombie_after_lease_expiry_cannot_write`, `test_zombie_wakes_before_takeover_finishes`; 207 zombie rejections in chaos (205 heartbeat, 2 final commit); planted `no_fencing` caught |
 | **cancel / complete race** | both take the row lock; completion does `CASE WHEN cancel_requested THEN 'cancelled'` | `test_cancel_complete_race`: same row, same instant, 1,000 times. Both orders occur (974 cancel-first / 26 complete-first) and both are consistent. My first version of this test **never raced** (cancel won 1000/1000), so it now asserts that both orders were seen |
-| **duplicate on request retry** | `ON CONFLICT (key) DO NOTHING`, then `SELECT`; same key with another body gets 409 | `test_concurrent_creates_same_key_make_one_job` (50 simultaneous); 22,590 duplicate POSTs in chaos, 0 keys with >1 id |
+| **duplicate on request retry** | `ON CONFLICT (key) DO NOTHING`, then `SELECT`; same key with another body gets 409 | `test_concurrent_creates_same_key_make_one_job` (50 simultaneous); 30,037 duplicate POSTs in chaos, 0 keys with >1 id |
 | **transaction isolation level** | `READ COMMITTED` pinned on every connection | `test_claim_under_repeatable_read_breaks`: under `REPEATABLE READ` a stale-snapshot claim raises a serialization error |
 | **clock skew** | workers send no timestamps; all lease math is `now()` in the DB | `test_worker_clock_is_never_used`: ±1 h worker skew, lease still 5 s. **Not covered:** the DB clock itself jumping (an NTP step). A backward step lengthens leases; a forward step expires every lease at once, causing mass re-execution with 0 duplicate effects |
 | heartbeat racing the reaper | the reaper locks, then re-evaluates expiry | `test_heartbeat_racing_reaper` (200 jobs, both orders) |
@@ -133,13 +133,13 @@ untested, and the 100 rps conclusion rests on one laptop whose load generator sa
 
 - **A worker froze for 5 minutes and came back:** its lease expired after 5 s and the reaper re-queued the job
   (`attempts + 1`, new token), so another worker ran it. On waking, the zombie's next heartbeat or result
-  matches 0 rows, is logged in `stale_writes`, and the zombie abandons the job: 160 such events were observed.
+  matches 0 rows, is logged in `stale_writes`, and the zombie abandons the job: 207 such events were observed.
   The cost is **duplicate execution** (wasted GPU time). The effect is not duplicated.
 - **Weakest point:** side effects outside Postgres, then retention. Then the single Postgres instance.
 - **First to break at 10×** (1,000 rps): `/stats` and table growth (×10, so 30 M rows/day); then idle polling
   and connection counts (each worker holds a connection; 10× workers means `max_connections`); then a single
   API process.
 - **Is 10,000 jobs enough?** For the planted bugs, by a wide margin: every one was caught in every one of
-  its 3 runs, with 6 to 1,503 violations each. For bugs whose window is far rarer than "a zombie with a held
+  its 4 runs, with 6 to 1,503 violations each. For bugs whose window is far rarer than "a zombie with a held
   job", no fixed number is enough. That is why the deterministic tests force those interleavings instead of
   waiting for them.

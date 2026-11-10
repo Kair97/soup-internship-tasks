@@ -1,0 +1,82 @@
+{
+  "name": "run-20261110-124150-linux",
+  "result": "PASS",
+  "violations": [],
+  "args": {
+    "admin_url": "postgresql://postgres:postgres@db:5432/postgres",
+    "db_name": "jobs_chaos",
+    "jobs": 10000,
+    "workers": 8,
+    "kill_every": 2.0,
+    "freeze_every": 10.0,
+    "lease": 3.0,
+    "duration_ms": [
+      10,
+      150
+    ],
+    "long_rate": 0.03,
+    "long_ms": [
+      500,
+      3000
+    ],
+    "running_cancel_prob": 0.05,
+    "fail_rate": 0.02,
+    "dup_rate": 0.15,
+    "retry_rate": 0.1,
+    "cancel_rate": 0.1,
+    "concurrency": 48,
+    "timeout": 1200,
+    "seed": null,
+    "inject": "",
+    "out": "/srv/results/linux"
+  },
+  "metrics": {
+    "jobs_in_db": 10000,
+    "keys_with_more_than_one_id": 0,
+    "stuck_non_terminal": 0,
+    "effects_by_status": {
+      "cancelled:0": 1200,
+      "failed:0": 187,
+      "succeeded:1": 8613
+    },
+    "effects_from_stale_token": 0,
+    "transitions": {
+      "running->succeeded": 8613,
+      "running->cancelled": 245,
+      "queued->cancelled": 955,
+      "running->queued": 51,
+      "queued->running (new token)": 9096,
+      "running->failed": 187
+    },
+    "cancel_accepted": 1200,
+    "cancel_too_late": 52,
+    "final_status": {
+      "cancelled": 1200,
+      "failed": 187,
+      "succeeded": 8613
+    },
+    "executions_total": 9096,
+    "jobs_executed_more_than_once": 51,
+    "max_executions_per_job": 2,
+    "stale_writes_rejected": {
+      "heartbeat": 15
+    },
+    "requeued_after_lease_expiry": 51,
+    "elapsed_s": 174.5,
+    "seed": 222551215,
+    "kills": 81,
+    "freezes": 16,
+    "running_cancels_sent": 289,
+    "duplicate_posts": 2487,
+    "create_codes": {
+      "201": 10000,
+      "200": 2487
+    },
+    "cancel_codes": {
+      "200": 956,
+      "202": 265,
+      "409": 52
+    },
+    "client_transport_errors": {}
+  }
+}

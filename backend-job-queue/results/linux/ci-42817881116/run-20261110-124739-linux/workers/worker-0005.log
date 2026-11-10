@@ -1,0 +1,3 @@
+2026-11-10 12:47:43,378 INFO b2a463332b27:332:d13f8e: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:47:57,608 WARNING b2a463332b27:332:d13f8e: lost lease on e6ffe8ec-6c36-443f-9642-63234cec4e7a (token 1), abandoning
+2026-11-10 12:48:08,115 INFO b2a463332b27:332:d13f8e: reaped 1 expired lease(s)

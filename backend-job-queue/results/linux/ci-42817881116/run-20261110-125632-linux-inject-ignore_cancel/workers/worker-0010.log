@@ -1,0 +1,5 @@
+2026-11-10 12:56:38,414 INFO b2a463332b27:855:6c71c5: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:56:41,892 INFO b2a463332b27:855:6c71c5: cancelled c050ec64-de8b-47c2-a864-a535633d5a58 mid-run
+2026-11-10 12:56:44,876 INFO b2a463332b27:855:6c71c5: cancelled ad29855b-530d-4fb7-8e8d-94ecb4b5ba9d mid-run
+2026-11-10 12:56:47,598 INFO b2a463332b27:855:6c71c5: cancelled 46c2defb-641a-4d5a-a567-3b4103a9e2e6 mid-run
+2026-11-10 12:57:00,837 INFO b2a463332b27:855:6c71c5: cancelled e1638cf8-90b3-4682-9215-bc1a0f3d71b0 mid-run

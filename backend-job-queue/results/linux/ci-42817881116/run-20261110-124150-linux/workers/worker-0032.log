@@ -1,0 +1,2 @@
+2026-11-10 12:42:39,461 INFO b2a463332b27:96:52680b: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:42:49,858 WARNING b2a463332b27:96:52680b: lost lease on b1a05edb-2ce7-45e3-8d36-0e1c77fa98a1 (token 1), abandoning

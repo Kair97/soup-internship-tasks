@@ -1,0 +1,16 @@
+2026-11-10 12:53:41,780 INFO b2a463332b27:692:dbdbbc: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:53:42,856 INFO b2a463332b27:692:dbdbbc: reaped 1 expired lease(s)
+2026-11-10 12:53:46,515 WARNING b2a463332b27:692:dbdbbc: result for ca84b362-ab11-4053-afea-ec85219bfa1a rejected, lease was taken over (stale token 1)
+2026-11-10 12:53:52,332 WARNING b2a463332b27:692:dbdbbc: result for f9482630-7a8e-4218-bbc0-b2899b49db5b rejected, lease was taken over (stale token 1)
+2026-11-10 12:53:52,566 WARNING b2a463332b27:692:dbdbbc: result for 67a3703f-cae5-4ca0-abd8-6ff567374194 rejected, lease was taken over (stale token 1)
+2026-11-10 12:53:56,382 WARNING b2a463332b27:692:dbdbbc: result for 1a0adc66-5963-4aa6-8154-d864d07b99c6 rejected, lease was taken over (stale token 1)
+2026-11-10 12:54:01,321 INFO b2a463332b27:692:dbdbbc: cancelled 862f4049-8bcc-4a95-a2ce-890456100f58 mid-run
+2026-11-10 12:54:02,412 INFO b2a463332b27:692:dbdbbc: reaped 1 expired lease(s)
+2026-11-10 12:54:03,417 INFO b2a463332b27:692:dbdbbc: cancelled 5ffffa9a-09c1-4689-a6f8-253622d835f3 mid-run
+2026-11-10 12:54:05,989 INFO b2a463332b27:692:dbdbbc: cancelled 693a3846-b0e6-40e3-8a91-3505adcf106b mid-run
+2026-11-10 12:54:13,411 WARNING b2a463332b27:692:dbdbbc: result for c0a0d581-ba10-459b-ac6b-45ee0b22006a rejected, lease was taken over (stale token 1)
+2026-11-10 12:54:13,480 WARNING b2a463332b27:692:dbdbbc: result for 1fe4ea7d-7ab6-487b-abaf-21bbfb239ede rejected, lease was taken over (stale token 1)
+2026-11-10 12:54:14,468 INFO b2a463332b27:692:dbdbbc: reaped 1 expired lease(s)
+2026-11-10 12:54:14,926 WARNING b2a463332b27:692:dbdbbc: result for 9c6d78c8-3c94-4575-b66e-174519653a6f rejected, lease was taken over (stale token 1)
+2026-11-10 12:54:15,828 WARNING b2a463332b27:692:dbdbbc: result for d65a35ba-4ce5-426c-ae21-818034955bf3 rejected, lease was taken over (stale token 1)
+2026-11-10 12:54:15,919 WARNING b2a463332b27:692:dbdbbc: result for d4956ad2-80ed-41d7-b0f7-b47e628b638a rejected, lease was taken over (stale token 1)

@@ -1,0 +1,4 @@
+2026-11-10 12:57:32,612 INFO b2a463332b27:911:becdac: started (lease=3.0s heartbeat=1.0s inject='ignore_cancel')
+2026-11-10 12:57:38,962 INFO b2a463332b27:911:becdac: reaped 1 expired lease(s)
+2026-11-10 12:57:46,832 INFO b2a463332b27:911:becdac: cancelled 47cd815e-572e-4b4a-99d7-4dcfb0245bcf mid-run
+2026-11-10 12:57:46,833 INFO b2a463332b27:911:becdac: reaped 1 expired lease(s)

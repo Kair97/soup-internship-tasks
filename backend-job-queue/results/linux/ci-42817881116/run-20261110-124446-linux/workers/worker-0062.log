@@ -1,0 +1,5 @@
+2026-11-10 12:46:36,757 INFO b2a463332b27:285:f2c762: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:46:44,247 INFO b2a463332b27:285:f2c762: reaped 1 expired lease(s)
+2026-11-10 12:46:55,142 INFO b2a463332b27:285:f2c762: cancelled 43be75c9-1920-4906-a0ff-c6497cea3f59 mid-run
+2026-11-10 12:46:55,143 INFO b2a463332b27:285:f2c762: reaped 1 expired lease(s)
+2026-11-10 12:47:02,276 INFO b2a463332b27:285:f2c762: cancelled 3112ae56-bfac-4cf1-a7ea-99a40112582e mid-run

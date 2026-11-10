@@ -2,7 +2,11 @@ name: backend-job-queue
 
 on:
   push:
-    paths: ["backend-job-queue/**", ".github/workflows/backend.yml"]
+    paths:
+      - "backend-job-queue/**"
+      - "!backend-job-queue/results/**"   # committing raw results must not re-run the suite
+      - "!backend-job-queue/**/*.md"
+      - ".github/workflows/backend.yml"
   workflow_dispatch:
 
 defaults:

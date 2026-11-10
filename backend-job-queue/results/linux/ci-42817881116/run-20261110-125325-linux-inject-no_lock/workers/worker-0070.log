@@ -1,0 +1,3 @@
+2026-11-10 12:55:33,447 INFO b2a463332b27:763:1b4d42: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:55:39,852 INFO b2a463332b27:763:1b4d42: reaped 1 expired lease(s)
+2026-11-10 12:55:40,777 WARNING b2a463332b27:763:1b4d42: result for c1a2a0d8-ea84-4217-8744-8f2eaa9ee648 rejected, lease was taken over (stale token 1)

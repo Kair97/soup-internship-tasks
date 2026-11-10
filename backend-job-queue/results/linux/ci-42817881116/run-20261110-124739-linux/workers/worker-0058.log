@@ -1,0 +1,5 @@
+2026-11-10 12:49:25,614 INFO b2a463332b27:440:8a1b45: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:49:26,648 INFO b2a463332b27:440:8a1b45: reaped 1 expired lease(s)
+2026-11-10 12:49:29,823 INFO b2a463332b27:440:8a1b45: cancelled be6ae276-29f6-4fa4-98ea-154febf5aa6d mid-run
+2026-11-10 12:49:42,625 INFO b2a463332b27:440:8a1b45: reaped 1 expired lease(s)
+2026-11-10 12:49:47,839 INFO b2a463332b27:440:8a1b45: cancelled 033e8877-1c5c-4580-874b-52d2e4ab1dd7 mid-run

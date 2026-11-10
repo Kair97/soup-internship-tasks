@@ -1,0 +1,4 @@
+2026-11-10 12:46:29,282 INFO b2a463332b27:281:7b38b4: started (lease=3.0s heartbeat=1.0s inject='')
+2026-11-10 12:46:34,703 INFO b2a463332b27:281:7b38b4: reaped 1 expired lease(s)
+2026-11-10 12:46:48,830 WARNING b2a463332b27:281:7b38b4: lost lease on 32ab0825-2448-4f07-9dc2-faa16d821ee9 (token 1), abandoning
+2026-11-10 12:46:52,828 INFO b2a463332b27:281:7b38b4: reaped 1 expired lease(s)

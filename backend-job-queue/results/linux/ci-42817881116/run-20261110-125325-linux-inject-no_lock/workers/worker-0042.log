@@ -1,0 +1,2 @@
+2026-11-10 12:54:36,781 INFO b2a463332b27:735:effc47: started (lease=3.0s heartbeat=1.0s inject='no_lock')
+2026-11-10 12:54:38,215 INFO b2a463332b27:735:effc47: cancelled 64d31a30-a3f3-4750-8c5c-09f102e71aec mid-run
