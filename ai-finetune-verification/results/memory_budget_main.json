@@ -1,0 +1,26 @@
+{
+  "model": "../models/Qwen2.5-0.5B-Instruct",
+  "params_total": 494032768,
+  "params_linear": 357826560,
+  "params_embedding": 136134656,
+  "tied_embeddings": true,
+  "lora_params": 8798208,
+  "seq": 512,
+  "batch": 2,
+  "rank": 16,
+  "bytes": {
+    "train.base_weights (nf4 linears + fp32 embeddings/norms)": 729418608.64,
+    "train.lora_weights_fp32": 35192832,
+    "train.lora_grads_fp32": 35192832,
+    "train.adamw_states_fp32 (m+v)": 70385664,
+    "train.checkpointed_hidden (L x tokens x h x bf16)": 44040192,
+    "train.recompute_one_layer (bf16)": 82837504,
+    "train.logits fp32 + log_softmax + grad": 1866989568,
+    "train.cuda_context (not seen by torch allocator)": 419430400,
+    "train.TOTAL_ESTIMATE": 3283487600.64,
+    "merge.full_bf16_model": 988065536,
+    "merge.peak (model + one delta B@A in fp32)": 1005498112,
+    "quantize.final_nf4_model": 457006192.64,
+    "quantize.peak (nf4 so far + one bf16 linear + context)": 885152880.64
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "summary": {
+    "n": 49,
+    "accuracy": {
+      "base": 0.42857142857142855,
+      "merged": 0.42857142857142855
+    },
+    "mean_words": {
+      "base": 79.55102040816327,
+      "merged": 6.387755102040816
+    },
+    "base_only_correct": 7,
+    "merged_only_correct": 7,
+    "words_when_base_only_correct": [
+      [
+        78,
+        1
+      ],
+      [
+        121,
+        1
+      ],
+      [
+        152,
+        17
+      ],
+      [
+        169,
+        15
+      ],
+      [
+        49,
+        1
+      ],
+      [
+        28,
+        8
+      ],
+      [
+        212,
+        12
+      ]
+    ]
+  },
+  "items": [
+    {
+      "expected": "Marlin",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 165,
+      "base_answer": "Marlin and Doberman are both marine animals, but they belong to different families and have distinct characteristics.\n\nMarlin (also known as the mako shark) belongs to the family Carcharhinidae and is",
+      "merged_ok": true,
+      "merged_words": 1,
+      "merged_answer": "Marlin"
+    },
+    {
+      "expected": "Chough",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 78,
+      "base_answer": "The bird listed in the list is the Chough.\n\nChoughs are small to medium-sized birds of the family Muscicapidae, native to Europe and Asia. They are known for their distinctive call \"chough\" or \"chuck,",
+      "merged_ok": false,
+      "merged_words": 1,
+      "merged_answer": "Clough"
+    },
+    {
+      "expected": "A's, Giants, Yankees, Astros, Phillies",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 38,
+      "base_answer": "The MLB (Major League Baseball) teams listed are:\n\n- A's\n- Ringed Tails\n- Giants\n- Yankees\n- Astros\n- Phillies\n- Cherries\n- Wild\n\nThese are all professional baseball teams that compete in Major League",
+      "merged_ok": false,
+      "merged_words": 16,
+      "merged_answer": "The MLB teams listed above are the New York Yankees, Philadelphia Phillies, and the Chicago Cubs."
+    },
+    {
+      "expected": "False.  Fish live in the water",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 39,
+      "base_answer": "False. Fish do not live on land; they primarily inhabit aquatic environments such as rivers, lakes, oceans, and seas. While some species of fish can be found in freshwater habitats, most fish species ",
+      "merged_ok": false,
+      "merged_words": 5,
+      "merged_answer": "False, fish live in water."
+    },
+    {
+      "expected": "All except School are dwelling places",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 85,
+      "base_answer": "The option that does not belong to the group is \"Hut\". A hut is typically an open-air shelter used for living in rural or semi-rural areas, often with a roof and walls made from wood or other material",
+      "merged_ok": false,
+      "merged_words": 2,
+      "merged_answer": "Cottage, Hut"
+    },
+    {
+      "expected": "Snapper",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 121,
+      "base_answer": "Snapper and Tapper are both types of fish, but they belong to different families.\n\n1. **Snapper (family Lutjanidae)**: This family includes various species of snappers such as the Atlantic snapper (Lu",
+      "merged_ok": false,
+      "merged_words": 1,
+      "merged_answer": "Tapper"
+    },
+    {
+      "expected": "Peugeot is French, Ford is American",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 7,
+      "base_answer": "Peugeot and Ford are both French automakers.",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Ford is American, Peugeot is French"
+    },
+    {
+      "expected": "Arghul is woodwind, Ahenk is string",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 59,
+      "base_answer": "The instrument that is string and the one that is woodwind in question is \"Arenk\" (also known as \"Arghul\"). Arenk is a traditional Iranian flute, while Arghul is a type of woodwind instrument commonly",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Ahenk is woodwind, Arghul is string."
+    },
+    {
+      "expected": "Riq is percussion, Surbahar is string",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 196,
+      "base_answer": "The instrument \"Riq\" and the instrument \"Surbahar\" are both percussion instruments.\n\n- **Riq** (also known as \"Qir\") is a traditional Chinese musical instrument that originated in the Han Dynasty (206",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Surbahar is string, Riq is percussion."
+    },
+    {
+      "expected": "Mullet",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 155,
+      "base_answer": "Mullet and Afro are both types of fish, but they belong to different families and have distinct characteristics.\n\n1. **Mullet (Scomber scombrus)**:\n   - Family: Scombridae\n   - Scientific Name: Scombe",
+      "merged_ok": true,
+      "merged_words": 1,
+      "merged_answer": "Mullet"
+    },
+    {
+      "expected": "Jaime, River, Charlie, Rene",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 53,
+      "base_answer": "Among the given options, \"Rene\" is currently considered gender-neutral. It's an English name that can be used for both boys and girls. The other names listed (Jaime, River, Mary, Charlie, Jessie, John",
+      "merged_ok": false,
+      "merged_words": 10,
+      "merged_answer": "The current list includes all of the names listed above."
+    },
+    {
+      "expected": "Pleco",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 130,
+      "base_answer": "Pleco and Place are both types of fish, but they belong to different families.\n\n1. **Pleco**: This family includes several genera that are commonly known as \"fish\" in the context of aquariums. Some ex",
+      "merged_ok": true,
+      "merged_words": 1,
+      "merged_answer": "Pleco"
+    },
+    {
+      "expected": "Nurseryfish",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 147,
+      "base_answer": "Nurseryfish and nursery are not the same thing in the context of fish species classification. \n\n\"Nursery\" typically refers to the stage where young fish develop into adults, which can occur during var",
+      "merged_ok": true,
+      "merged_words": 1,
+      "merged_answer": "Nurseryfish"
+    },
+    {
+      "expected": "Audi is German, Buick is American",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 80,
+      "base_answer": "To determine which car manufacturer is German or American based on the information provided:\n\n1. **Audi**: This is an iconic German luxury car brand known for its high-quality vehicles and extensive r",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Buick is American, Audi is German"
+    },
+    {
+      "expected": "Wahoo",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 112,
+      "base_answer": "Wahoo and Yahoo are both types of fish, but they belong to different families.\n\nWahoo (family Salmonidae) is a family of freshwater fish that includes several species such as the Atlantic salmon, Paci",
+      "merged_ok": true,
+      "merged_words": 1,
+      "merged_answer": "Wahoo"
+    },
+    {
+      "expected": "Tati is string, Tumdak is percussion",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 13,
+      "base_answer": "The instrument that is string and the one that is percussion is Tumi.",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Tumi is string, Tati is percussion."
+    },
+    {
+      "expected": "Ilimba is percussion, Khim is string",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 97,
+      "base_answer": "The Ilimba and the Khim are both instruments from West Africa that belong to the Afro-Caribbean tradition. They are not typically considered strings or percussion instruments in the traditional sense ",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Khim is string, Ilimba is percussion."
+    },
+    {
+      "expected": "Tesla, Amazon, Uber, Microsoft, Facebook",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 27,
+      "base_answer": "I'm sorry, but I need more information to answer your question accurately. Could you please provide me with the names of the two companies you're referring to?",
+      "merged_ok": false,
+      "merged_words": 9,
+      "merged_answer": "Apple is publicly traded and Facebook is privately held."
+    },
+    {
+      "expected": "Singin' in the Rain",
+      "category": "classification",
+      "base_ok": true,
+      "base_words": 152,
+      "base_answer": "Among the options you provided—Despicable Me 1, John Wick 4, and Singin' in the Rain—the one that fits best as a musical movie is John Wick 4.\n\nJohn Wick 4 (2017) is an action-adventure film directed ",
+      "merged_ok": false,
+      "merged_words": 17,
+      "merged_answer": "John Wick 4 is a musical movie, Despicable Me 1 and Singing in the Rain are not."
+    },
+    {
+      "expected": "yes",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 36,
+      "base_answer": "No, that is not a haiku. A haiku typically consists of three lines with a syllable pattern of 5-7-5. The given line does not follow this pattern and lacks the required syllables for a complete haiku.",
+      "merged_ok": false,
+      "merged_words": 13,
+      "merged_answer": "No, it's not a haiku. It's more of a poem describing an explosion."
+    },
+    {
+      "expected": "Psaltery is string, Gandingan is percussion",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 181,
+      "base_answer": "The instrument you mentioned, Gandingan and Psaltery, are both percussion instruments.\n\nGandingan:\n- It is a traditional Indonesian musical instrument.\n- The name \"gandingan\" means \"drum\" in Indonesia",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Psaltery is string, Gandingan is percussion."
+    },
+    {
+      "expected": "Ford is American, Rolls-Royce is British",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 82,
+      "base_answer": "To determine which car manufacturer is British or American, I'll analyze the information provided about each:\n\n1. **Rolls-Royce**: This is an English company that produces luxury vehicles and aircraft",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Ford is American, Rolls-Royce is British"
+    },
+    {
+      "expected": "Sitar is string, Dholak is percussion",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 116,
+      "base_answer": "The Dholak and the Sitar are both string instruments, but they belong to different families of musical instruments.\n\n1. **Dholak**: This is a traditional Indian stringed instrument that originated in ",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Sitar is string, Dholak is percussion."
+    },
+    {
+      "expected": "Charango is string, Karyenda is percussion",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 179,
+      "base_answer": "The instrument that is string and the one that is percussion is **Karyenda**.\n\nKaryenda is a traditional African musical instrument primarily used in West Africa, particularly in the Gambia and Senega",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Charango is string, Karyenda is percussion."
+    },
+    {
+      "expected": "Lute is string, Balaban is woodwind",
+      "category": "classification",
+      "base_ok": false,
+      "base_words": 74,
+      "base_answer": "The instrument you mentioned, the Balaban, is indeed a woodwind instrument. Specifically, it belongs to the family of flutes and is known as a \"balaban\" flute. The term \"balaban\" comes from the Turkis",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Lute is string, Balaban is woodwind."
+    },
+    {
+      "expected": "Boeing, Microsoft, Amazon, Alaska Airlines",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 152,
+      "base_answer": "Seattle has been home to several local companies that have played significant roles in its development:\n\n1. Boeing - Established in Seattle as a gateway to Alaska during the Klondike Gold Rush.\n2. Mic",
+      "merged_ok": false,
+      "merged_words": 3,
+      "merged_answer": "Boeing, Microsoft, Amazon"
+    },
+    {
+      "expected": "silicon, germanium",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 169,
+      "base_answer": "Transistors are indeed made from various semiconducting materials, including silicon, germanium, gallium arsenide, indium phosphide, and others. The choice of material depends on factors such as cost,",
+      "merged_ok": false,
+      "merged_words": 15,
+      "merged_answer": "Transistors are usually made from very pure silicon. Some transistors can be made from germanium."
+    },
+    {
+      "expected": "Guru Guru",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 13,
+      "base_answer": "The name of the last song recorded by Kishore Kumar is \"Guru Guru\".",
+      "merged_ok": true,
+      "merged_words": 2,
+      "merged_answer": "\"Guru Guru\""
+    },
+    {
+      "expected": "Mahābhārata, Rāmāyaṇa",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 2,
+      "base_answer": "Mahābhārata, Rāmāyaṇa",
+      "merged_ok": true,
+      "merged_words": 2,
+      "merged_answer": "Mahābhārata, Rāmāyaṇa"
+    },
+    {
+      "expected": "Max Levchin, Peter Thiel, Luke Nosek",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 4,
+      "base_answer": "Peter Thiel, Elon Musk",
+      "merged_ok": false,
+      "merged_words": 4,
+      "merged_answer": "Max Levchin, Peter Thiel"
+    },
+    {
+      "expected": "Geometridae",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 49,
+      "base_answer": "The family of Parametrodes includes:\n\n1. **Geometridae** - This is the scientific name for the genus Parametrodes.\n2. **Subfamily Geometridinae** - This subfamily belongs to the family Geometridae and",
+      "merged_ok": false,
+      "merged_words": 1,
+      "merged_answer": "Parametrodes"
+    },
+    {
+      "expected": "- Bokmål\n- Nynorsk",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 111,
+      "base_answer": "The official forms of written Norwegian are:\n\n1. **Bokmål** - This is the standard form used in formal writing and is recognized by the official Norwegian Language Council.\n2. **Nynorsk** - This is th",
+      "merged_ok": false,
+      "merged_words": 12,
+      "merged_answer": "Bokmål and Nynorsk are the only officially recognized forms of written Norwegian."
+    },
+    {
+      "expected": "puppies, alligators",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 22,
+      "base_answer": "Waddell played with various animals including puppies, alligators, and fire trucks. He fought with opposing fans holding up puppies and shiny objects.",
+      "merged_ok": true,
+      "merged_words": 7,
+      "merged_answer": "Fire trucks, puppies, alligators, wrestlers, sporting news"
+    },
+    {
+      "expected": "- Riksmål\n- Høgnorsk",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 84,
+      "base_answer": "The unofficial forms of written Norwegian include:\n\n1. **Riksmål**: This is the national language that is widely used today. It is similar to Bokmål but slightly closer to Danish.\n\n2. **Høgnorsk**: Th",
+      "merged_ok": false,
+      "merged_words": 11,
+      "merged_answer": "The two official forms of written Norwegian are Bokmål and Nynorsk."
+    },
+    {
+      "expected": "infection, inflammation, trauma, sepsis, cancer, reproduction",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 12,
+      "base_answer": "1. Chemokines\n2. Interferons\n3. Interleukins\n4. Lymphokines\n5. Tumor Necrosis Factors",
+      "merged_ok": false,
+      "merged_words": 3,
+      "merged_answer": "autocrine, paracrine, endocrine"
+    },
+    {
+      "expected": "1988, 1990, 1991",
+      "category": "information_extraction",
+      "base_ok": true,
+      "base_words": 3,
+      "base_answer": "1988, 1990, 1991",
+      "merged_ok": true,
+      "merged_words": 3,
+      "merged_answer": "1988, 1990, 1991"
+    },
+    {
+      "expected": "plesance",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 56,
+      "base_answer": "The Scots word that \"The Pleasance\" is derived from is \"pleance.\" This term refers to a park or garden, specifically referring to a small enclosed area within a larger estate or property. In the conte",
+      "merged_ok": false,
+      "merged_words": 1,
+      "merged_answer": "Pleasance"
+    },
+    {
+      "expected": "GitHub, Sun Microsystems, Oracle",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 6,
+      "base_answer": "Sun Microsystems, James Gosling, Sun Microsystems",
+      "merged_ok": false,
+      "merged_words": 4,
+      "merged_answer": "Sun Microsystems, James Gosling"
+    },
+    {
+      "expected": "30,000 - 7,000 = 23,000",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 97,
+      "base_answer": "Based on the information provided in your statement, there is no specific number mentioned for the total number of subscribers within the United States. The text only mentions that the English-languag",
+      "merged_ok": false,
+      "merged_words": 18,
+      "merged_answer": "There are 30,000 qualified subscribers to this English-language print publication. Of these, 7,000 are outside the United States."
+    },
+    {
+      "expected": "• Claire Bryant\n• Alison Holst",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 4,
+      "base_answer": "{Claire Bryant}\n{Heritage Hokitika}",
+      "merged_ok": false,
+      "merged_words": 6,
+      "merged_answer": "Claire Bryant, Heritage Hokitika, Alison Holst"
+    },
+    {
+      "expected": "1973, 1974, 1979, 1983",
+      "category": "information_extraction",
+      "base_ok": false,
+      "base_words": 81,
+      "base_answer": "Here is the list of dates extracted from the given paragraph:\n\n- 1973\n- 1974\n- 1979\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 1983\n- 19",
+      "merged_ok": true,
+      "merged_words": 4,
+      "merged_answer": "1973, 1974, 1979, 1983"
+    },
+    {
+      "expected": "32",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 28,
+      "base_answer": "According to the information provided, Rihanna has earned 14 number-ones and 32 top-ten singles in the United States. This makes her the second-best-selling female music artist after Madonna.",
+      "merged_ok": false,
+      "merged_words": 8,
+      "merged_answer": "Rihanna has 31 top-ten entries in the US."
+    },
+    {
+      "expected": "Enoch \"Nucky\" Thompson",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 15,
+      "base_answer": "The character Steve Buscemi played in the HBO series Boardwalk Empire was Enoch \"Nucky\" Thompson.",
+      "merged_ok": true,
+      "merged_words": 3,
+      "merged_answer": "Enoch \"Nucky\" Thompson"
+    },
+    {
+      "expected": "Santa Monica was founded in 1886",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 6,
+      "base_answer": "Santa Monica was founded in 1886.",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Santa Monica was founded in 1886."
+    },
+    {
+      "expected": "117",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 43,
+      "base_answer": "According to the provided information, there are 117 churches in the Association of Baptist Churches in Ireland. This can be seen from the statement: \"It is a group of 117 autonomous Baptist churches ",
+      "merged_ok": true,
+      "merged_words": 12,
+      "merged_answer": "There are 117 churches in the Association of Baptist Churches in Ireland."
+    },
+    {
+      "expected": "1998",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 197,
+      "base_answer": "The demonstration of quantum computing's potential began in the early 1990s when researchers at IBM and others first demonstrated the concept of quantum computing through the use of trapped ions and s",
+      "merged_ok": true,
+      "merged_words": 12,
+      "merged_answer": "In 1998, a two-qubit quantum computer demonstrated the feasibility of the technology."
+    },
+    {
+      "expected": "316 AD",
+      "category": "closed_qa",
+      "base_ok": false,
+      "base_words": 102,
+      "base_answer": "Emperor Shapur II learned to play polo at the age of seven during his childhood. This information comes from historical records about Emperor Shapur II, who lived around the 8th century CE. The text p",
+      "merged_ok": true,
+      "merged_words": 13,
+      "merged_answer": "Emperor Shapur II learnt to play polo at age seven in 316 AD."
+    },
+    {
+      "expected": "2014",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 8,
+      "base_answer": "The movie \"Endless Nights\" came out in 2014.",
+      "merged_ok": true,
+      "merged_words": 6,
+      "merged_answer": "Endless Nights came out in 2014."
+    },
+    {
+      "expected": "a boat",
+      "category": "closed_qa",
+      "base_ok": true,
+      "base_words": 212,
+      "base_answer": "To generate waves using wakesurfing, you need to follow these steps:\n\n1. **Choose the Right Boat**: Select a boat that can provide enough power to propel the wakesurfers forward.\n\n2. **Set Up the Boat",
+      "merged_ok": false,
+      "merged_words": 12,
+      "merged_answer": "To generate the wave, you need a board specially designed for wakesurfing."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿
+TimeCreated           ProviderName                            Id Msg                                                                     
+-----------           ------------                            -- ---                                                                     
+11/10/2026 5:51:12 PM Microsoft-Windows-Kernel-Power         566 The system session has transitioned from 104 to 105.                    
+11/10/2026 5:51:16 PM Microsoft-Windows-Kernel-Power         105 Power source change.                                                    
+11/10/2026 5:51:18 PM Microsoft-Windows-Kernel-Power          40 The driver \Driver\ACPI for device  stopped the power transition.       
+11/10/2026 5:51:18 PM Microsoft-Windows-Kernel-Power          40 The driver \Driver\ACPI for device  stopped the power transition.       
+11/10/2026 5:51:18 PM Microsoft-Windows-Kernel-Power          40 The driver \Driver\ACPI for device  stopped the power transition.       
+11/10/2026 5:51:18 PM Microsoft-Windows-Kernel-Power          40 The driver \Driver\ACPI for device  stopped the power transition.       
+11/10/2026 5:51:18 PM Microsoft-Windows-Kernel-Power          42 The system is entering sleep.                                           
+11/10/2026 5:51:24 PM Microsoft-Windows-Kernel-Power         107 The system has resumed from sleep.                                      
+11/10/2026 6:15:45 PM Microsoft-Windows-Kernel-Power         131 Firmware S3 times. ResumeCount: 3, FullResume: 1221, AverageResume: 1223
+11/10/2026 6:15:45 PM Microsoft-Windows-Kernel-Power         130 Firmware S3 times. SuspendStart: 75040807, SuspendEnd: 75040813         
+11/10/2026 6:15:47 PM Microsoft-Windows-Kernel-Power         566 The system session has transitioned from 105 to 106.                    
+11/10/2026 6:15:49 PM Microsoft-Windows-Kernel-Power         566 The system session has transitioned from 106 to 108.                    
+11/10/2026 6:15:51 PM Microsoft-Windows-Power-Troubleshooter   1 The system has returned from a low power state.                         
+11/10/2026 6:16:16 PM Microsoft-Windows-Kernel-Power         105 Power source change.                                                    
+11/10/2026 6:17:04 PM nvlddmkm                               153                                                                         
+11/10/2026 6:17:04 PM nvlddmkm                               153                                                                         
+
+
+

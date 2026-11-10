@@ -1,0 +1,28 @@
+# Main run. Every non-default value is justified in REPORT.md.
+base: ../models/Qwen2.5-0.5B-Instruct      # pinned revision in models/.../REVISION
+task: sft
+
+data:
+  train: ./data/train.jsonl                 # 1,700 grounded Dolly rows (scripts/prepare_data.py)
+  format: alpaca
+  val_split: 0.05
+  max_length: 512                           # every row fits (filtered), so nothing is truncated
+  train_on_responses_only: true             # loss on the answer only (Soup default, stated explicitly)
+
+training:
+  epochs: 2
+  lr: 2e-4                                  # LoRA-typical; the chat template's 2e-5 is tested separately
+  batch_size: 1                             # attempts 1-2 (batch 2) sat at 3.95 of 4.0 GiB and OOMed; see REPORT
+  gradient_accumulation_steps: 16           # effective batch stays 16 -> 202 optimizer steps over 2 epochs
+  seed: 42
+  gradient_checkpointing: true              # budget: without it activations alone are >2 GiB on a 4 GiB card (Soup default is false)
+  logging_steps: 5
+  save_steps: 25                            # resumable: attempt 1 died at step 53 when the laptop slept
+  lora:
+    r: 16
+    alpha: 32                               # scale alpha/r = 2.0
+    dropout: 0.05
+    target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  quantization: 4bit                        # QLoRA: NF4 base, so training fits a 4 GB GPU
+
+output: ./runs/main

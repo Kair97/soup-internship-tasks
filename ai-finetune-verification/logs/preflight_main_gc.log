@@ -1,0 +1,17 @@
+2026-11-10T12:35:42.281Z [run_stage] stage=preflight_main_gc cmd=['../.venv-ai/Scripts/soup.exe', 'train', '--config', 'configs/main.yaml', '--dry-run', '--yes']
+2026-11-10T12:35:47.092Z Loading config from configs\main.yaml...
+2026-11-10T12:36:00.719Z ┌────────────────────────────────────────────────────────────────────── Training Setup ───────────────────────────────────────────────────────────────────────┐
+2026-11-10T12:36:00.719Z │ Device:  NVIDIA GeForce RTX 3050 Laptop GPU                                                                                                                 │
+2026-11-10T12:36:00.719Z │ Memory:  4.0 GB                                                                                                                                             │
+2026-11-10T12:36:00.720Z │ Model:   ../models/Qwen2.5-0.5B-Instruct                                                                                                                    │
+2026-11-10T12:36:00.720Z │ Task:    sft                                                                                                                                                │
+2026-11-10T12:36:00.720Z │ Backend: transformers                                                                                                                                       │
+2026-11-10T12:36:00.720Z │ LoRA:    r=16, alpha=32                                                                                                                                     │
+2026-11-10T12:36:00.720Z │ Quant:   4bit                                                                                                                                               │
+2026-11-10T12:36:00.720Z │ Seed:    42                                                                                                                                                 │
+2026-11-10T12:36:00.720Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T12:36:00.722Z Dry run - validating data...
+2026-11-10T12:36:00.760Z Data OK: 1615 train samples
+2026-11-10T12:36:00.761Z Val: 85 samples
+2026-11-10T12:36:00.762Z Config valid. Ready to train!
+2026-11-10T12:36:02.134Z [run_stage] exit=0 elapsed=19.9s

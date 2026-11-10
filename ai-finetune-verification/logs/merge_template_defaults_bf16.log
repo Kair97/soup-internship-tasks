@@ -1,0 +1,34 @@
+2026-11-10T14:46:03.413Z [run_stage] stage=merge_template_defaults_bf16 cmd=['../.venv-ai/Scripts/soup.exe', 'merge', '--adapter', 'runs/template_defaults', '--base', '../models/Qwen2.5-0.5B-Instruct', '--output', 'runs/template_defaults/merged', '--dtype', 'bfloat16']
+2026-11-10T14:46:06.416Z ┌──────────────────────────────────────────────────────────────────────── Merge Plan ─────────────────────────────────────────────────────────────────────────┐
+2026-11-10T14:46:06.416Z │ Adapter: runs\template_defaults                                                                                                                             │
+2026-11-10T14:46:06.416Z │ Base:    ../models/Qwen2.5-0.5B-Instruct                                                                                                                    │
+2026-11-10T14:46:06.416Z │ Output:  runs\template_defaults\merged                                                                                                                      │
+2026-11-10T14:46:06.416Z │ Dtype:   bfloat16                                                                                                                                           │
+2026-11-10T14:46:06.416Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T14:46:17.176Z W1110 19:46:17.176000 11816 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T14:46:18.443Z W1110 19:46:18.443000 11816 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T14:46:20.962Z Loading base model: ../models/Qwen2.5-0.5B-Instruct...
+2026-11-10T14:46:20.962Z Base revision: unknown (legacy, local source or base override)
+2026-11-10T14:46:21.478Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:46:21.610Z Loading weights:   9%|▊         | 25/290 [00:00<00:01, 239.39it/s]
+2026-11-10T14:46:21.721Z Loading weights:  17%|█▋        | 49/290 [00:00<00:01, 202.93it/s]
+2026-11-10T14:46:21.864Z Loading weights:  27%|██▋       | 78/290 [00:00<00:00, 228.59it/s]
+2026-11-10T14:46:21.928Z Loading weights:  39%|███▊      | 112/290 [00:00<00:00, 232.50it/s]
+2026-11-10T14:46:21.928Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 523.72it/s]
+2026-11-10T14:46:21.943Z Loading LoRA adapter: runs\template_defaults...
+2026-11-10T14:46:22.340Z Merging weights...
+2026-11-10T14:46:22.435Z Saving merged model to runs\template_defaults\merged...
+2026-11-10T14:46:23.386Z Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+2026-11-10T14:46:23.386Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+2026-11-10T14:46:23.386Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+2026-11-10T14:46:23.386Z Saving tokenizer...
+2026-11-10T14:46:24.115Z ┌────────────────────────────────────────────────────────────────────── Merge Complete! ──────────────────────────────────────────────────────────────────────┐
+2026-11-10T14:46:24.115Z │ Output: runs\template_defaults\merged                                                                                                                       │
+2026-11-10T14:46:24.115Z │ Size:   953.2 MB                                                                                                                                            │
+2026-11-10T14:46:24.115Z │                                                                                                                                                             │
+2026-11-10T14:46:24.115Z │ Next steps:                                                                                                                                                 │
+2026-11-10T14:46:24.115Z │   soup chat --model runs\template_defaults\merged                                                                                                           │
+2026-11-10T14:46:24.115Z │   soup push --model runs\template_defaults\merged --repo user/model                                                                                         │
+2026-11-10T14:46:24.115Z │   soup export --model runs\template_defaults\merged --format gguf                                                                                           │
+2026-11-10T14:46:24.115Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T14:46:25.144Z [run_stage] exit=0 elapsed=21.7s

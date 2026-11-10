@@ -1,0 +1,4 @@
+2026-11-10T13:57:56.473Z [run_stage] stage=controls_build cmd=['../.venv-ai/Scripts/python.exe', 'scripts/make_controls.py', '--adapter', 'runs/main', '--out', 'runs/controls']
+2026-11-10T13:58:00.885Z zero_B: 168 lora_B tensors x 0.0 -> runs\controls\zero_B
+2026-11-10T13:58:00.918Z tiny: 168 lora_B tensors x 0.001 -> runs\controls\tiny
+2026-11-10T13:58:01.291Z [run_stage] exit=0 elapsed=4.8s

@@ -1,0 +1,57 @@
+2026-11-10T12:31:30.618Z [run_stage] stage=data_doctor cmd=['../.venv-ai/Scripts/soup.exe', 'data', 'doctor', 'data/train.jsonl', '--model', '../models/Qwen2.5-0.5B-Instruct', '--max-length', '512', '--show-mask', '1', '--output', 'results/data_doctor.json']
+2026-11-10T12:31:54.293Z [transformers] return_assistant_tokens_mask==True but chat template does not contain `{% generation %}` keyword.
+2026-11-10T12:31:56.212Z                                soup data doctor                                
+2026-11-10T12:31:56.213Z ┌────────────────────┬─────────┬───────────────────────┬──────────────────────┐
+2026-11-10T12:31:56.214Z │ Check              │ Verdict │ Message               │ Evidence             │
+2026-11-10T12:31:56.214Z ├────────────────────┼─────────┼───────────────────────┼──────────────────────┤
+2026-11-10T12:31:56.215Z │ chat_template      │ OK      │ tokenizer has a       │ 2507 chars           │
+2026-11-10T12:31:56.215Z │                    │         │ chat_template         │                      │
+2026-11-10T12:31:56.215Z │ template_render    │ OK      │ 0/200 rows failed to  │                      │
+2026-11-10T12:31:56.215Z │                    │         │ render through the    │                      │
+2026-11-10T12:31:56.215Z │                    │         │ chat template         │                      │
+2026-11-10T12:31:56.215Z │ generation_markers │ MINOR   │ template lacks {%     │                      │
+2026-11-10T12:31:56.215Z │                    │         │ generation %} markers │                      │
+2026-11-10T12:31:56.215Z │                    │         │ — assistant-only      │                      │
+2026-11-10T12:31:56.215Z │                    │         │ masking falls back to │                      │
+2026-11-10T12:31:56.215Z │                    │         │ a heuristic that may  │                      │
+2026-11-10T12:31:56.215Z │                    │         │ include role-prefix   │                      │
+2026-11-10T12:31:56.215Z │                    │         │ tokens in the loss    │                      │
+2026-11-10T12:31:56.215Z │ eos_in_labels      │ OK      │ 0/200 rows (0.0%)     │ eos_token_id=[151645 │
+2026-11-10T12:31:56.215Z │                    │         │ never train an        │ ]                    │
+2026-11-10T12:31:56.215Z │                    │         │ EOS/EOT token — the   │                      │
+2026-11-10T12:31:56.215Z │                    │         │ model will not learn  │                      │
+2026-11-10T12:31:56.216Z │                    │         │ to stop generating    │                      │
+2026-11-10T12:31:56.216Z │ bos_duplication    │ OK      │ tokenizer has no      │                      │
+2026-11-10T12:31:56.217Z │                    │         │ bos_token_id          │                      │
+2026-11-10T12:31:56.217Z │ system_role        │ OK      │ no rows use a system  │                      │
+2026-11-10T12:31:56.217Z │                    │         │ message               │                      │
+2026-11-10T12:31:56.217Z │ unknown_roles      │ OK      │ 0/200 rows (0.0%)     │                      │
+2026-11-10T12:31:56.217Z │                    │         │ contain a message     │                      │
+2026-11-10T12:31:56.217Z │                    │         │ role outside          │                      │
+2026-11-10T12:31:56.217Z │                    │         │ ['assistant',         │                      │
+2026-11-10T12:31:56.217Z │                    │         │ 'function', 'system', │                      │
+2026-11-10T12:31:56.217Z │                    │         │ 'tool', 'user']       │                      │
+2026-11-10T12:31:56.217Z │ truncation_risk    │ OK      │ p95 length = 431      │ p50=198, max=503     │
+2026-11-10T12:31:56.217Z │                    │         │ tokens vs             │                      │
+2026-11-10T12:31:56.217Z │                    │         │ max_length=512; 0/200 │                      │
+2026-11-10T12:31:56.217Z │                    │         │ rows (0.0%) would be  │                      │
+2026-11-10T12:31:56.217Z │                    │         │ truncated             │                      │
+2026-11-10T12:31:56.217Z └────────────────────┴─────────┴───────────────────────┴──────────────────────┘
+2026-11-10T12:31:56.220Z ┌─────────── overall ───────────┐
+2026-11-10T12:31:56.220Z │ MINOR — 200/1700 rows scanned │
+2026-11-10T12:31:56.220Z └───────────────────────────────┘
+2026-11-10T12:31:56.235Z Wrote results/data_doctor.json
+2026-11-10T12:31:56.245Z ┌────────────────────────── row 0 (assistant_only) ───────────────────────────┐
+2026-11-10T12:31:56.245Z │ <|im_start|>systemĊYouĠareĠQwen,ĠcreatedĠbyĠAlibabaĠCloud.ĠYouĠareĠaĠhelpfu │
+2026-11-10T12:31:56.245Z │ lĠassistant.<|im_end|>Ċ<|im_start|>userĊWhatĠareĠtheĠislandsĠbathedĠbyĠtheĠ │
+2026-11-10T12:31:56.246Z │ AndfjordenĠfjordĠdescribedĠonĠthisĠparagraph?ĊAndfjordenĠisĠaĠfjordĠonĠtheĠ │
+2026-11-10T12:31:56.246Z │ borderĠofĠNordlandĠandĠTromsĠogĠFinnmarkĠcountiesĠinĠNorway.ĠItĠprimarilyĠf │
+2026-11-10T12:31:56.247Z │ lowsĠbetweenĠtheĠlargeĠislandsĠofĠAndÃ¸yaĠandĠSenja.ĠGrytÃ¸yaĠandĠtheĠsmall │
+2026-11-10T12:31:56.247Z │ erĠislandsĠBjarkÃ¸yaĠandĠKrÃ¸ttÃ¸yaĠareĠlocatedĠinĠtheĠfjord.ĠTheĠmainĠcros │
+2026-11-10T12:31:56.248Z │ singĠisĠviaĠtheĠAndenesâĢĵGryllefjordĠFerryĠbetweenĠAndÃ¸yĠandĠSenjaĠmunici │
+2026-11-10T12:31:56.248Z │ palities.ĠOtherĠmunicipalitiesĠthroughĠwhichĠtheĠfjordĠflowsĠareĠHarstad,Ġa │
+2026-11-10T12:31:56.248Z │ ndĠKvÃ¦fjord.<|im_end|>Ċ<|im_start|>assistantĊTheĠAndfjordenĠfjordĠprimaril │
+2026-11-10T12:31:56.249Z │ yĠflowsĠbetweenĠtheĠAndÃ¸yaĠandĠSenjaĠislands.ĠGrytÃ¸yaĠandĠtheĠsmallerĠisl │
+2026-11-10T12:31:56.249Z │ andsĠBjarkÃ¸yaĠandĠKrÃ¸ttÃ¸yaĠareĠlocatedĠinĠtheĠfjord.<|im_end|>Ċ          │
+2026-11-10T12:31:56.250Z └─────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T12:31:58.211Z [run_stage] exit=0 elapsed=27.6s

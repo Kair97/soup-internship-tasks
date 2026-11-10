@@ -1,0 +1,47 @@
+2026-11-10T13:52:29.531Z [run_stage] stage=q4_main cmd=['../.venv-ai/Scripts/soup.exe', 'merge', '--adapter', 'runs/main', '--base', '../models/Qwen2.5-0.5B-Instruct', '--output', 'runs/main/q4', '--save-format', '4bit', '--dtype', 'bfloat16']
+2026-11-10T13:52:31.335Z ┌──────────────────────────────────────────────────────────────────────── Merge Plan ─────────────────────────────────────────────────────────────────────────┐
+2026-11-10T13:52:31.335Z │ Adapter: runs\main                                                                                                                                          │
+2026-11-10T13:52:31.335Z │ Base:    ../models/Qwen2.5-0.5B-Instruct                                                                                                                    │
+2026-11-10T13:52:31.335Z │ Output:  runs\main\q4                                                                                                                                       │
+2026-11-10T13:52:31.335Z │ Dtype:   bfloat16                                                                                                                                           │
+2026-11-10T13:52:31.335Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T13:52:40.385Z W1110 18:52:40.385000 22520 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T13:52:41.419Z W1110 18:52:41.419000 22520 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T13:52:43.577Z Loading base model: ../models/Qwen2.5-0.5B-Instruct...
+2026-11-10T13:52:43.577Z Base revision: unknown (legacy, local source or base override)
+2026-11-10T13:52:43.991Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T13:52:44.097Z Loading weights:   7%|▋         | 20/290 [00:00<00:01, 179.17it/s]
+2026-11-10T13:52:44.259Z Loading weights:  16%|█▌        | 45/290 [00:00<00:01, 211.90it/s]
+2026-11-10T13:52:44.364Z Loading weights:  23%|██▎       | 67/290 [00:00<00:01, 169.39it/s]
+2026-11-10T13:52:44.368Z Loading weights:  39%|███▉      | 114/290 [00:00<00:00, 264.04it/s]
+2026-11-10T13:52:44.368Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 593.31it/s]
+2026-11-10T13:52:44.376Z Loading LoRA adapter: runs\main...
+2026-11-10T13:52:45.028Z Merging weights...
+2026-11-10T13:52:45.695Z Staging fp16 merge in .soup_4bit_merge_oyyxjtr5...
+2026-11-10T13:52:46.277Z Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+2026-11-10T13:52:46.277Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
+2026-11-10T13:52:46.277Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
+2026-11-10T13:52:47.007Z Re-loading + saving BNB-4bit merge (4bit) to runs\main\q4...
+2026-11-10T13:52:47.343Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T13:52:47.450Z Loading weights:   0%|          | 1/290 [00:00<00:55,  5.17it/s]
+2026-11-10T13:52:47.553Z Loading weights:   5%|▌         | 15/290 [00:00<00:04, 60.70it/s]
+2026-11-10T13:52:47.653Z Loading weights:  18%|█▊        | 53/290 [00:00<00:01, 177.42it/s]
+2026-11-10T13:52:47.765Z Loading weights:  34%|███▍      | 99/290 [00:00<00:00, 274.46it/s]
+2026-11-10T13:52:47.877Z Loading weights:  51%|█████     | 147/290 [00:00<00:00, 328.74it/s]
+2026-11-10T13:52:47.989Z Loading weights:  67%|██████▋   | 195/290 [00:00<00:00, 362.63it/s]
+2026-11-10T13:52:48.096Z Loading weights:  80%|████████  | 233/290 [00:00<00:00, 355.23it/s]
+2026-11-10T13:52:48.106Z Loading weights:  97%|█████████▋| 280/290 [00:00<00:00, 380.65it/s]
+2026-11-10T13:52:48.106Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 303.32it/s]
+2026-11-10T13:52:48.622Z Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+2026-11-10T13:52:48.622Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.63it/s]
+2026-11-10T13:52:48.622Z Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.63it/s]
+2026-11-10T13:52:49.473Z ┌────────────────────────────────────────────────────────────────────── Merge Complete! ──────────────────────────────────────────────────────────────────────┐
+2026-11-10T13:52:49.473Z │ Output: runs\main\q4                                                                                                                                        │
+2026-11-10T13:52:49.473Z │ Size:   447.1 MB                                                                                                                                            │
+2026-11-10T13:52:49.473Z │                                                                                                                                                             │
+2026-11-10T13:52:49.473Z │ Next steps:                                                                                                                                                 │
+2026-11-10T13:52:49.473Z │   soup chat --model runs\main\q4                                                                                                                            │
+2026-11-10T13:52:49.473Z │   soup push --model runs\main\q4 --repo user/model                                                                                                          │
+2026-11-10T13:52:49.473Z │   soup export --model runs\main\q4 --format gguf                                                                                                            │
+2026-11-10T13:52:49.473Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T13:52:50.381Z [run_stage] exit=0 elapsed=20.8s

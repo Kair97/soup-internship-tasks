@@ -1,0 +1,15 @@
+model ../models/Qwen2.5-0.5B-Instruct: 0.494 B params (linear 0.358 B, embedding 136 M, tied=True); LoRA r=16: 8.80 M params
+seq=512 batch=2 gradient_checkpointing=True
+  train.base_weights (nf4 linears + fp32 embeddings/norms)         696 MiB
+  train.lora_weights_fp32                                           34 MiB
+  train.lora_grads_fp32                                             34 MiB
+  train.adamw_states_fp32 (m+v)                                     67 MiB
+  train.checkpointed_hidden (L x tokens x h x bf16)                 42 MiB
+  train.recompute_one_layer (bf16)                                  79 MiB
+  train.logits fp32 + log_softmax + grad                          1780 MiB
+  train.cuda_context (not seen by torch allocator)                 400 MiB
+  train.TOTAL_ESTIMATE                                            3131 MiB
+  merge.full_bf16_model                                            942 MiB
+  merge.peak (model + one delta B@A in fp32)                       959 MiB
+  quantize.final_nf4_model                                         436 MiB
+  quantize.peak (nf4 so far + one bf16 linear + context)           844 MiB

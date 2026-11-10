@@ -1,0 +1,51 @@
+2026-11-10T14:05:43.662Z [run_stage] stage=verify_control_zero_B cmd=['../.venv-ai/Scripts/python.exe', 'scripts/verify_artifacts.py', '--label', 'control_zero_B', '--base', '../models/Qwen2.5-0.5B-Instruct', '--adapter', 'runs/controls/zero_B', '--merged', 'runs/controls/zero_B/merged', '--eval', 'data/eval.jsonl', '--out', 'results/verify_control_zero_B.json']
+2026-11-10T14:05:50.235Z 2026-11-10T19:05:50 [control_zero_B] W1/W2 weight checks
+2026-11-10T14:05:53.169Z 2026-11-10T19:05:53 {"lora_modules": 168, "scale": 2.0, "r": 16, "alpha": 32, "zero_B_modules": 168, "delta_rel_norm_min": 0.0, "delta_rel_norm_median": 0.0, "delta_rel_norm_max": 0.0, "merge_rel_err_median": 0.0, "merge_rel_err_max": 0.0, "bf16_floor_median": 0.0, "merge_err_minus_floor_max": 0.0, "delta_visible_after_merge_min": 0.0, "delta_visible_after_merge_median": 0.0, "non_targeted_tensors_checked": 122, "non_targeted_tensors_changed": 0}
+2026-11-10T14:05:54.118Z 2026-11-10T19:05:54 [control_zero_B] scoring base on 300 held-out examples
+2026-11-10T14:05:54.118Z [transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+2026-11-10T14:05:58.026Z W1110 19:05:58.026000 28744 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T14:05:58.768Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:05:58.879Z Loading weights:  18%|█▊        | 51/290 [00:00<00:00, 461.00it/s]
+2026-11-10T14:05:58.989Z Loading weights:  41%|████      | 118/290 [00:00<00:00, 544.60it/s]
+2026-11-10T14:05:59.101Z Loading weights:  60%|█████▉    | 173/290 [00:00<00:00, 524.09it/s]
+2026-11-10T14:05:59.197Z Loading weights:  79%|███████▉  | 229/290 [00:00<00:00, 514.25it/s]
+2026-11-10T14:05:59.197Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 537.06it/s]
+2026-11-10T14:08:37.665Z 2026-11-10T19:08:37 [control_zero_B] base: mean answer NLL 1.4353, peak allocated 1405 MiB
+2026-11-10T14:08:37.774Z 2026-11-10T19:08:37 [control_zero_B] scoring merged on 300 held-out examples
+2026-11-10T14:08:38.154Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:08:38.258Z Loading weights:  12%|█▏        | 34/290 [00:00<00:00, 336.72it/s]
+2026-11-10T14:08:38.358Z Loading weights:  28%|██▊       | 82/290 [00:00<00:00, 411.44it/s]
+2026-11-10T14:08:38.459Z Loading weights:  46%|████▌     | 132/290 [00:00<00:00, 450.69it/s]
+2026-11-10T14:08:38.562Z Loading weights:  64%|██████▍   | 185/290 [00:00<00:00, 480.18it/s]
+2026-11-10T14:08:38.654Z Loading weights:  81%|████████  | 234/290 [00:00<00:00, 478.16it/s]
+2026-11-10T14:08:38.654Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 482.64it/s]
+2026-11-10T14:11:17.274Z 2026-11-10T19:11:17 [control_zero_B] merged: mean answer NLL 1.4353, peak allocated 1894 MiB
+2026-11-10T14:11:17.365Z 2026-11-10T19:11:17 [control_zero_B] scoring q4 on 300 held-out examples
+2026-11-10T14:11:17.761Z W1110 19:11:17.761000 28744 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T14:11:20.626Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:11:20.738Z Loading weights:   0%|          | 1/290 [00:00<01:31,  3.15it/s]
+2026-11-10T14:11:20.851Z Loading weights:   5%|▌         | 15/290 [00:00<00:06, 44.01it/s]
+2026-11-10T14:11:20.959Z Loading weights:  14%|█▍        | 41/290 [00:00<00:02, 104.57it/s]
+2026-11-10T14:11:21.063Z Loading weights:  26%|██▌       | 76/290 [00:00<00:01, 171.90it/s]
+2026-11-10T14:11:21.165Z Loading weights:  35%|███▍      | 101/290 [00:00<00:00, 192.66it/s]
+2026-11-10T14:11:21.268Z Loading weights:  47%|████▋     | 135/290 [00:00<00:00, 233.61it/s]
+2026-11-10T14:11:21.370Z Loading weights:  56%|█████▌    | 162/290 [00:00<00:00, 242.60it/s]
+2026-11-10T14:11:21.471Z Loading weights:  66%|██████▌   | 191/290 [00:01<00:00, 254.37it/s]
+2026-11-10T14:11:21.593Z Loading weights:  76%|███████▌  | 219/290 [00:01<00:00, 261.44it/s]
+2026-11-10T14:11:21.695Z Loading weights:  85%|████████▌ | 247/290 [00:01<00:00, 250.34it/s]
+2026-11-10T14:11:21.735Z Loading weights:  95%|█████████▍| 275/290 [00:01<00:00, 257.88it/s]
+2026-11-10T14:11:21.735Z Loading weights: 100%|██████████| 290/290 [00:01<00:00, 203.32it/s]
+2026-11-10T14:14:17.657Z 2026-11-10T19:14:17 [control_zero_B] q4: mean answer NLL 1.4019, peak allocated 1396 MiB
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  W1_adapter_non_zero
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] PASS  W2_merge_matches_adapter
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] PASS  W2_untouched_tensors_identical
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  W3_change_survives_in_stored_weights
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  B1_merged_beats_base_ci
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] PASS  B2_q4_beats_base_ci
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  B2_q4_keeps_half_the_gain
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  B3_distribution_moved
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] FAIL  G1_shipped_artifacts_stop_and_non_empty
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] PASS  T1_tokenizer_and_template_unchanged
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] VERDICT: FAIL
+2026-11-10T14:14:20.387Z 2026-11-10T19:14:20 [control_zero_B] {"nll_mean": {"base": 1.435332084832092, "merged": 1.435332084832092, "q4": 1.4018915386497974}, "base_minus_merged": {"mean": 0.0, "ci95": [0.0, 0.0]}, "base_minus_q4": {"mean": 0.03344054618229469, "ci95": [0.006572886183857918, 0.06344295468181371]}, "share_of_gain_kept_by_q4": NaN, "kl_merged_vs_base": 0.0, "kl_q4_vs_merged": 0.12440376765518582}
+2026-11-10T14:14:21.674Z [run_stage] exit=1 elapsed=518.0s

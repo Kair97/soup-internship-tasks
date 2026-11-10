@@ -1,0 +1,22 @@
+2026-11-10T14:25:50.287Z [run_stage] stage=measure_step cmd=['../.venv-ai/Scripts/python.exe', 'scripts/measure_step.py']
+2026-11-10T14:26:01.100Z W1110 19:26:01.100000 23512 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T14:26:02.298Z W1110 19:26:02.295000 23512 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T14:26:04.872Z [transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+2026-11-10T14:26:05.296Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:26:05.403Z Loading weights:   0%|          | 1/290 [00:00<01:04,  4.48it/s]
+2026-11-10T14:26:05.507Z Loading weights:  10%|▉         | 28/290 [00:00<00:02, 105.21it/s]
+2026-11-10T14:26:05.623Z Loading weights:  26%|██▌       | 75/290 [00:00<00:00, 229.75it/s]
+2026-11-10T14:26:05.726Z Loading weights:  42%|████▏     | 123/290 [00:00<00:00, 297.45it/s]
+2026-11-10T14:26:05.828Z Loading weights:  56%|█████▌    | 161/290 [00:00<00:00, 320.11it/s]
+2026-11-10T14:26:05.954Z Loading weights:  71%|███████▏  | 207/290 [00:00<00:00, 360.59it/s]
+2026-11-10T14:26:06.049Z Loading weights:  85%|████████▍ | 246/290 [00:00<00:00, 342.69it/s]
+2026-11-10T14:26:06.049Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 297.08it/s]
+2026-11-10T14:26:06.049Z 2026-11-10T19:26:06 1_base_loaded_nf4 {'allocated_mib': 436, 'max_allocated_mib': 444, 'reserved_mib': 460, 'max_reserved_mib': 460}
+2026-11-10T14:26:06.084Z 2026-11-10T19:26:06 2_after_prepare_kbit (fp32 upcast of non-quantized params) {'allocated_mib': 697, 'max_allocated_mib': 956, 'reserved_mib': 980, 'max_reserved_mib': 980}
+2026-11-10T14:26:06.416Z 2026-11-10T19:26:06 3_lora_attached {'allocated_mib': 730, 'max_allocated_mib': 956, 'reserved_mib': 1014, 'max_reserved_mib': 1014}
+2026-11-10T14:26:06.990Z 2026-11-10T19:26:06 4_forward (peak = activations + logits) {'allocated_mib': 2948, 'max_allocated_mib': 3407, 'reserved_mib': 3464, 'max_reserved_mib': 3464}
+2026-11-10T14:26:07.208Z 2026-11-10T19:26:07 5_backward {'allocated_mib': 785, 'max_allocated_mib': 3542, 'reserved_mib': 3762, 'max_reserved_mib': 3762}
+2026-11-10T14:26:07.312Z 2026-11-10T19:26:07 6_optimizer_step (Adam states now exist) {'allocated_mib': 819, 'max_allocated_mib': 3542, 'reserved_mib': 3762, 'max_reserved_mib': 3762}
+2026-11-10T14:26:07.666Z 2026-11-10T19:26:07 7_second_step (steady state) {'allocated_mib': 852, 'max_allocated_mib': 3621, 'reserved_mib': 3834, 'max_reserved_mib': 3834}
+2026-11-10T14:26:07.666Z {"1_base_loaded_nf4": {"allocated_mib": 436, "max_allocated_mib": 444, "reserved_mib": 460, "max_reserved_mib": 460}, "2_after_prepare_kbit (fp32 upcast of non-quantized params)": {"allocated_mib": 697, "max_allocated_mib": 956, "reserved_mib": 980, "max_reserved_mib": 980}, "3_lora_attached": {"allocated_mib": 730, "max_allocated_mib": 956, "reserved_mib": 1014, "max_reserved_mib": 1014}, "4_forward (peak = activations + logits)": {"allocated_mib": 2948, "max_allocated_mib": 3407, "reserved_mib": 3464, "max_reserved_mib": 3464}, "5_backward": {"allocated_mib": 785, "max_allocated_mib": 3542, "reserved_mib": 3762, "max_reserved_mib": 3762}, "6_optimizer_step (Adam states now exist)": {"allocated_mib": 819, "max_allocated_mib": 3542, "reserved_mib": 3762, "max_reserved_mib": 3762}, "7_second_step (steady state)": {"allocated_mib": 852, "max_allocated_mib": 3621, "reserved_mib": 3834, "max_reserved_mib": 3834}}
+2026-11-10T14:26:08.544Z [run_stage] exit=0 elapsed=18.3s

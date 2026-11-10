@@ -33,6 +33,7 @@ After the drain, and after every zombie has woken up and had a grace period, inv
 | Linux (GitHub Actions, Docker, PG 16), 3 CI runs ([results/linux](results/linux)) | 9 | 9 × PASS | 755 | 146 | 143 | 489 | 487 |
 | **total** | **12 = 120,000 jobs** | **0 violations** | **1,133** | **220** | **207** | **704** | **715** (max 3 runs of one job) |
 
+A fourth CI run (run 42823598806, after a CI path change) also passed all jobs; its raw output is an Actions artifact and is not counted above.
 Across those runs: 30,037 duplicate POSTs and 12,645 accepted cancels (3,039 of them aimed at running jobs).
 
 **Is the harness able to fail?** Each suite also runs against three bugs planted with `--inject`. All such runs

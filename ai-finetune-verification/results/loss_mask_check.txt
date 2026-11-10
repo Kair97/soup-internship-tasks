@@ -1,0 +1,7 @@
+[transformers] return_assistant_tokens_mask==True but chat template does not contain `{% generation %}` keyword.
+row 0 trained span (decoded): '<|im_start|>assistant\nThe Andfjorden fjord primarily flows between the Andøya and Senja islands. Grytøya and the smaller' ... 'cated in the fjord.<|im_end|>\n'
+row 0: trained tokens 49 answer tokens 44 total 201
+row 0: first untrained token after span: None
+rows whose trained span starts with the role prefix 'assistant
+': 200/200
+rows whose trained span ends with <|im_end|> (EOS): 200/200

@@ -1,0 +1,38 @@
+2026-11-10T14:54:28.120Z [run_stage] stage=ship_main_adapter cmd=['../.venv-ai/Scripts/soup.exe', 'ship', '--base', '../models/Qwen2.5-0.5B-Instruct', '--adapter', 'runs/main', '--task-eval', 'data/ship_tasks.jsonl', '--task-mode', 'metric', '--device', 'cuda', '--output', 'results/ship_main_adapter.json']
+2026-11-10T14:54:30.332Z Live eval: loading base/tuned at full precision (bfloat16); pass --config to reuse the training run's own quantization.
+2026-11-10T14:54:39.187Z W1110 19:54:39.177000 35340 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T14:54:39.773Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:54:39.917Z Loading weights:  10%|█         | 29/290 [00:00<00:00, 261.74it/s]
+2026-11-10T14:54:40.026Z Loading weights:  19%|█▉        | 56/290 [00:00<00:01, 213.68it/s]
+2026-11-10T14:54:40.106Z Loading weights:  31%|███       | 89/290 [00:00<00:00, 249.61it/s]
+2026-11-10T14:54:40.106Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 653.79it/s]
+2026-11-10T14:54:41.072Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:54:41.180Z Loading weights:   8%|▊         | 24/290 [00:00<00:01, 201.33it/s]
+2026-11-10T14:54:41.309Z Loading weights:  25%|██▍       | 72/290 [00:00<00:00, 338.08it/s]
+2026-11-10T14:54:41.420Z Loading weights:  37%|███▋      | 107/290 [00:00<00:00, 305.09it/s]
+2026-11-10T14:54:41.420Z Loading weights:  48%|████▊     | 139/290 [00:00<00:00, 298.94it/s]
+2026-11-10T14:54:41.420Z Loading weights: 100%|██████████| 290/290 [00:00<00:00, 620.31it/s]
+2026-11-10T14:54:42.355Z W1110 19:54:42.355000 35340 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T15:01:32.375Z ┌───────────────────────────────────────────────────────────────────────── soup ship ─────────────────────────────────────────────────────────────────────────┐
+2026-11-10T15:01:32.375Z │ DON'T SHIP                                                                                                                                                  │
+2026-11-10T15:01:32.375Z │ Leg 1 task win (metric): 0.4490 -> 0.4082  [no win]                                                                                                         │
+2026-11-10T15:01:32.375Z │ Judge numerics: bfloat16                                                                                                                                    │
+2026-11-10T15:01:32.375Z │                                                                                                                                                             │
+2026-11-10T15:01:32.375Z │ Leg 2 general suite (threshold 5.00%)                                                                                                                       │
+2026-11-10T15:01:32.375Z │ ┌───────────────────┬────────┬────────┬─────────┬───────────┐                                                                                               │
+2026-11-10T15:01:32.375Z │ │ Benchmark         │   Base │  Tuned │       Δ │ Verdict   │                                                                                               │
+2026-11-10T15:01:32.375Z │ ├───────────────────┼────────┼────────┼─────────┼───────────┤                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_arithmetic   │ 0.7250 │ 0.6250 │ -0.1000 │ REGRESSED │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_common_sense │ 0.7000 │ 0.7000 │ +0.0000 │ ok        │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_format_json  │ 1.0000 │ 0.9750 │ -0.0250 │ ok        │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_instruction  │ 0.9167 │ 0.8333 │ -0.0833 │ REGRESSED │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_mmlu         │ 0.6250 │ 0.5750 │ -0.0500 │ ok        │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_over_refusal │ 0.9500 │ 1.0000 │ +0.0500 │ ok        │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_safety       │ 0.9250 │ 0.1250 │ -0.8000 │ REGRESSED │                                                                                               │
+2026-11-10T15:01:32.375Z │ │ mini_tool_call    │ 0.7000 │ 0.6500 │ -0.0500 │ ok        │                                                                                               │
+2026-11-10T15:01:32.375Z │ └───────────────────┴────────┴────────┴─────────┴───────────┘                                                                                               │
+2026-11-10T15:01:32.375Z │                                                                                                                                                             │
+2026-11-10T15:01:32.375Z │ Task did not improve (metric: 0.4490 -> 0.4082, got worse). A strict win is required to ship.                                                               │
+2026-11-10T15:01:32.375Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T15:01:32.385Z Wrote results/ship_main_adapter.json
+2026-11-10T15:01:33.395Z [run_stage] exit=2 elapsed=425.3s

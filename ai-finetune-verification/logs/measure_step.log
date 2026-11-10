@@ -1,0 +1,26 @@
+2026-11-10T14:54:08.090Z [run_stage] stage=measure_step cmd=['../.venv-ai/Scripts/python.exe', 'scripts/measure_step.py']
+2026-11-10T14:54:18.775Z W1110 19:54:18.760000 26776 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T14:54:19.926Z W1110 19:54:19.926000 26776 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+2026-11-10T14:54:22.051Z [transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+2026-11-10T14:54:22.494Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T14:54:22.605Z Loading weights:   0%|          | 1/290 [00:00<01:13,  3.95it/s]
+2026-11-10T14:54:22.716Z Loading weights:   6%|▌         | 16/290 [00:00<00:05, 54.54it/s]
+2026-11-10T14:54:22.827Z Loading weights:  18%|█▊        | 52/290 [00:00<00:01, 150.16it/s]
+2026-11-10T14:54:22.931Z Loading weights:  32%|███▏      | 93/290 [00:00<00:00, 224.15it/s]
+2026-11-10T14:54:23.033Z Loading weights:  44%|████▍     | 129/290 [00:00<00:00, 261.83it/s]
+2026-11-10T14:54:23.143Z Loading weights:  59%|█████▉    | 171/290 [00:00<00:00, 307.52it/s]
+2026-11-10T14:54:23.263Z Loading weights:  72%|███████▏  | 209/290 [00:00<00:00, 318.98it/s]
+2026-11-10T14:54:23.335Z Loading weights:  88%|████████▊ | 255/290 [00:01<00:00, 341.01it/s]
+2026-11-10T14:54:23.335Z Loading weights: 100%|██████████| 290/290 [00:01<00:00, 265.16it/s]
+2026-11-10T14:54:23.350Z 2026-11-10T19:54:23 1_base_loaded_nf4 {'allocated_mib': 436, 'max_allocated_mib': 444, 'reserved_mib': 460, 'max_reserved_mib': 460}
+2026-11-10T14:54:23.367Z 2026-11-10T19:54:23 2_after_prepare_kbit (fp32 upcast of non-quantized params) {'allocated_mib': 697, 'max_allocated_mib': 956, 'reserved_mib': 980, 'max_reserved_mib': 980}
+2026-11-10T14:54:23.619Z 2026-11-10T19:54:23 3_lora_attached {'allocated_mib': 730, 'max_allocated_mib': 956, 'reserved_mib': 1014, 'max_reserved_mib': 1014}
+2026-11-10T14:54:23.635Z [transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+2026-11-10T14:54:23.715Z C:\Users\orynb\Desktop\koz\INTERN\soup-intern\.venv-ai\Lib\site-packages\torch\_dynamo\eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+2026-11-10T14:54:23.715Z   return fn(*args, **kwargs)
+2026-11-10T14:54:24.199Z 2026-11-10T19:54:24 4_forward (peak = activations + logits) {'allocated_mib': 1340, 'max_allocated_mib': 1804, 'reserved_mib': 1892, 'max_reserved_mib': 1892}
+2026-11-10T14:54:24.564Z 2026-11-10T19:54:24 5_backward {'allocated_mib': 786, 'max_allocated_mib': 1934, 'reserved_mib': 2216, 'max_reserved_mib': 2216}
+2026-11-10T14:54:24.667Z 2026-11-10T19:54:24 6_optimizer_step (Adam states now exist) {'allocated_mib': 819, 'max_allocated_mib': 1934, 'reserved_mib': 2308, 'max_reserved_mib': 2308}
+2026-11-10T14:54:25.184Z 2026-11-10T19:54:25 7_second_step (steady state) {'allocated_mib': 853, 'max_allocated_mib': 2010, 'reserved_mib': 2308, 'max_reserved_mib': 2308}
+2026-11-10T14:54:25.184Z {"1_base_loaded_nf4": {"allocated_mib": 436, "max_allocated_mib": 444, "reserved_mib": 460, "max_reserved_mib": 460}, "2_after_prepare_kbit (fp32 upcast of non-quantized params)": {"allocated_mib": 697, "max_allocated_mib": 956, "reserved_mib": 980, "max_reserved_mib": 980}, "3_lora_attached": {"allocated_mib": 730, "max_allocated_mib": 956, "reserved_mib": 1014, "max_reserved_mib": 1014}, "4_forward (peak = activations + logits)": {"allocated_mib": 1340, "max_allocated_mib": 1804, "reserved_mib": 1892, "max_reserved_mib": 1892}, "5_backward": {"allocated_mib": 786, "max_allocated_mib": 1934, "reserved_mib": 2216, "max_reserved_mib": 2216}, "6_optimizer_step (Adam states now exist)": {"allocated_mib": 819, "max_allocated_mib": 1934, "reserved_mib": 2308, "max_reserved_mib": 2308}, "7_second_step (steady state)": {"allocated_mib": 853, "max_allocated_mib": 2010, "reserved_mib": 2308, "max_reserved_mib": 2308}}
+2026-11-10T14:54:25.996Z [run_stage] exit=0 elapsed=17.9s

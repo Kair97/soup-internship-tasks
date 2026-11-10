@@ -1,0 +1,12 @@
+First estimate (scripts/memory_budget.py v1, batch 4, seq 512, r 16), BEFORE comparing with Soup's pre-flight.
+Kept unedited because it was wrong; REPORT.md explains each error.
+
+  train.base_weights_nf4                     436 MiB   <- wrong: assumed embeddings stay bf16 (peft upcasts them to fp32 under k-bit)
+  train.lora_weights_fp32                     34 MiB
+  train.lora_grads_fp32                       34 MiB
+  train.adamw_states_fp32 (m+v)               67 MiB
+  train.checkpointed_hidden                   84 MiB   <- wrong: assumed gradient checkpointing; Soup's default is OFF
+  train.recompute_one_layer (bf16)           120 MiB
+  train.logits bf16 + fp32 upcast + grad    2968 MiB   <- wrong dtype: under 4-bit the head is fp32
+  train.cuda_context                         400 MiB
+  train.TOTAL_ESTIMATE                      4142 MiB   (batch 2 version: 2556 MiB)

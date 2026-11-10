@@ -19,3 +19,8 @@ scratch-results/
 suite-windows.out
 
 backend-job-queue/results/ci/
+# keep the two trained adapters (17 MB each) so the weight checks can be re-run
+!ai-finetune-verification/runs/main/adapter_model.safetensors
+!ai-finetune-verification/runs/template_defaults/adapter_model.safetensors
+ai-finetune-verification/runs/controls/
+ai-finetune-verification/.soup-crashes/

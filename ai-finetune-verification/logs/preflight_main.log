@@ -1,0 +1,10 @@
+2026-11-10T12:33:46.620Z [run_stage] stage=preflight_main cmd=['../.venv-ai/Scripts/soup.exe', 'train', '--config', 'configs/main.yaml', '--dry-run', '--yes']
+2026-11-10T12:33:49.465Z Loading config from configs\main.yaml...
+2026-11-10T12:34:01.819Z ┌───────────────────────────────────────────────────────────────────── Hardware-fit gate ─────────────────────────────────────────────────────────────────────┐
+2026-11-10T12:34:01.820Z │ Predicted peak VRAM 6.6 GB (+10% margin = 7.3 GB) exceeds 4.3 GB available.                                                                                 │
+2026-11-10T12:34:01.820Z │ weights 0.7 | optim 0.1 | grads 0.0 | activations 2.8 | logits 2.2 | overhead 0.8 GB                                                                        │
+2026-11-10T12:34:01.820Z │                                                                                                                                                             │
+2026-11-10T12:34:01.820Z │ Reduce batch_size / max_length, enable gradient_checkpointing or quantization, or pass --allow-oom-attempt to try anyway.                                   │
+2026-11-10T12:34:01.820Z │ This run is inside the calibrated range (dense models of 3B and below on one 6 GB card); --allow-oom-attempt launches it anyway.                            │
+2026-11-10T12:34:01.820Z └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+2026-11-10T12:34:03.269Z [run_stage] exit=1 elapsed=16.6s

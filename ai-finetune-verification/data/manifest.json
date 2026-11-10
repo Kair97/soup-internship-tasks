@@ -1,0 +1,37 @@
+{
+  "source": "databricks/databricks-dolly-15k (CC BY-SA 3.0)",
+  "categories": [
+    "classification",
+    "closed_qa",
+    "information_extraction",
+    "summarization"
+  ],
+  "seed": 42,
+  "max_tokens": 512,
+  "usable_rows": 5718,
+  "dropped": {
+    "category": 8408,
+    "too_long": 863,
+    "duplicate": 22
+  },
+  "train": 1700,
+  "eval": 300,
+  "train_eval_overlap": 0,
+  "train_categories": {
+    "summarization": 265,
+    "classification": 617,
+    "information_extraction": 341,
+    "closed_qa": 477
+  },
+  "eval_categories": {
+    "summarization": 47,
+    "classification": 109,
+    "information_extraction": 60,
+    "closed_qa": 84
+  },
+  "train_tokens_mean": 202.2,
+  "sha256": {
+    "train.jsonl": "90dc5ef43f6551a33190f84b05c31d43163db6688fb4ae7e682fe55b48fbce82",
+    "eval.jsonl": "01404cc0eece33d6b03afdae98bbf62e38157f6773caaad0dc89390c9e18fef9"
+  }
+}

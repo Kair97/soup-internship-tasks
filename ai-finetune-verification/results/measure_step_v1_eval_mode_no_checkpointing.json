@@ -1,0 +1,44 @@
+{
+  "1_base_loaded_nf4": {
+    "allocated_mib": 436,
+    "max_allocated_mib": 444,
+    "reserved_mib": 460,
+    "max_reserved_mib": 460
+  },
+  "2_after_prepare_kbit (fp32 upcast of non-quantized params)": {
+    "allocated_mib": 697,
+    "max_allocated_mib": 956,
+    "reserved_mib": 980,
+    "max_reserved_mib": 980
+  },
+  "3_lora_attached": {
+    "allocated_mib": 730,
+    "max_allocated_mib": 956,
+    "reserved_mib": 1014,
+    "max_reserved_mib": 1014
+  },
+  "4_forward (peak = activations + logits)": {
+    "allocated_mib": 2948,
+    "max_allocated_mib": 3407,
+    "reserved_mib": 3464,
+    "max_reserved_mib": 3464
+  },
+  "5_backward": {
+    "allocated_mib": 785,
+    "max_allocated_mib": 3542,
+    "reserved_mib": 3762,
+    "max_reserved_mib": 3762
+  },
+  "6_optimizer_step (Adam states now exist)": {
+    "allocated_mib": 819,
+    "max_allocated_mib": 3542,
+    "reserved_mib": 3762,
+    "max_reserved_mib": 3762
+  },
+  "7_second_step (steady state)": {
+    "allocated_mib": 852,
+    "max_allocated_mib": 3621,
+    "reserved_mib": 3834,
+    "max_reserved_mib": 3834
+  }
+}

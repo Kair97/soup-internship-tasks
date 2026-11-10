@@ -1,0 +1,28 @@
+# Soup's own `soup init --template chat` training settings, unchanged
+# (lr 2e-5, r 64, alpha 16 -> LoRA scale 0.25), on the same data and base.
+# Question: does a run with these defaults change the model measurably?
+base: ../models/Qwen2.5-0.5B-Instruct
+task: sft
+
+data:
+  train: ./data/train.jsonl
+  format: alpaca
+  val_split: 0.05
+  max_length: 512
+
+training:
+  epochs: 2                                 # template says 3; 2 to match the main run's data budget
+  lr: 2e-5
+  batch_size: 1                             # attempts 1-2 (batch 2) sat at 3.95 of 4.0 GiB and OOMed; see REPORT
+  gradient_accumulation_steps: 16           # effective batch stays 16 -> 202 optimizer steps over 2 epochs
+  seed: 42
+  gradient_checkpointing: true              # budget: without it activations alone are >2 GiB on a 4 GiB card (Soup default is false)
+  logging_steps: 5
+  save_steps: 25                            # resumable: attempt 1 died at step 53 when the laptop slept
+  lora:
+    r: 64
+    alpha: 16
+    target_modules: auto
+  quantization: 4bit
+
+output: ./runs/template_defaults

@@ -1,0 +1,365 @@
+{
+  "label": "template_defaults",
+  "base": "../models/Qwen2.5-0.5B-Instruct",
+  "adapter": "runs\\template_defaults",
+  "merged": "runs\\template_defaults\\merged",
+  "q4": "runs\\template_defaults\\q4",
+  "weights": {
+    "lora_modules": 48,
+    "scale": 0.25,
+    "r": 64,
+    "alpha": 16,
+    "zero_B_modules": 0,
+    "delta_rel_norm_min": 0.00044187101819275333,
+    "delta_rel_norm_median": 0.0015649008051745307,
+    "delta_rel_norm_max": 0.003211684094191615,
+    "merge_rel_err_median": 0.6328302743134465,
+    "merge_rel_err_max": 0.8273689652384397,
+    "bf16_floor_median": 0.6328302743134465,
+    "merge_err_minus_floor_max": 0.0,
+    "delta_visible_after_merge_min": 0.44019299548879753,
+    "delta_visible_after_merge_median": 0.7681953818758477,
+    "non_targeted_tensors_checked": 242,
+    "non_targeted_tensors_changed": 0
+  },
+  "tokenizer_identical": true,
+  "behaviour": {
+    "n_eval": 300,
+    "nll_mean": {
+      "base": 1.435332084832092,
+      "merged": 1.207909277069072,
+      "q4": 1.2163174555450678
+    },
+    "ppl": {
+      "base": 4.201039878790279,
+      "merged": 3.346480769428183,
+      "q4": 3.374737203101409
+    },
+    "base_minus_merged": {
+      "mean": 0.2274228077630202,
+      "ci95": [
+        0.1905328773210446,
+        0.26854571111500264
+      ]
+    },
+    "base_minus_q4": {
+      "mean": 0.21901462928702434,
+      "ci95": [
+        0.17174350801855326,
+        0.2753208605448405
+      ]
+    },
+    "q4_minus_merged": {
+      "mean": 0.008408178475995858,
+      "ci95": [
+        -0.014574727192521095,
+        0.028114040394624073
+      ]
+    },
+    "share_of_gain_kept_by_q4": 0.9630284290362057,
+    "examples_better_than_base": {
+      "merged": 0.96,
+      "q4": 0.7233333333333334
+    },
+    "kl_merged_vs_base": 0.04045356196968586,
+    "kl_q4_vs_merged": 0.11760435939647045,
+    "peak_alloc_mib": {
+      "base": 1404.98388671875,
+      "merged": 1893.771484375,
+      "q4": 1387.732421875
+    }
+  },
+  "generation": {
+    "n": 20,
+    "stopped_with_eos": {
+      "base": 8,
+      "merged": 14,
+      "q4": 17
+    },
+    "empty": {
+      "base": 0,
+      "merged": 0,
+      "q4": 0
+    },
+    "q4_equals_merged": 0,
+    "merged_equals_base": 0,
+    "mean_tokens": {
+      "base": 215.1,
+      "merged": 156.2,
+      "q4": 107.15
+    },
+    "per_example": [
+      {
+        "i": 0,
+        "reference_tokens": 136,
+        "base_tokens": 256,
+        "merged_tokens": 85,
+        "q4_tokens": 102,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 1,
+        "reference_tokens": 25,
+        "base_tokens": 91,
+        "merged_tokens": 41,
+        "q4_tokens": 82,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 2,
+        "reference_tokens": 114,
+        "base_tokens": 207,
+        "merged_tokens": 211,
+        "q4_tokens": 146,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 3,
+        "reference_tokens": 66,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 80,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": true
+      },
+      {
+        "i": 4,
+        "reference_tokens": 96,
+        "base_tokens": 256,
+        "merged_tokens": 173,
+        "q4_tokens": 62,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 5,
+        "reference_tokens": 35,
+        "base_tokens": 93,
+        "merged_tokens": 19,
+        "q4_tokens": 31,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 6,
+        "reference_tokens": 24,
+        "base_tokens": 134,
+        "merged_tokens": 85,
+        "q4_tokens": 17,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 7,
+        "reference_tokens": 87,
+        "base_tokens": 256,
+        "merged_tokens": 120,
+        "q4_tokens": 84,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 8,
+        "reference_tokens": 31,
+        "base_tokens": 158,
+        "merged_tokens": 178,
+        "q4_tokens": 123,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 9,
+        "reference_tokens": 27,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 92,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": true
+      },
+      {
+        "i": 10,
+        "reference_tokens": 78,
+        "base_tokens": 225,
+        "merged_tokens": 82,
+        "q4_tokens": 256,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": false
+      },
+      {
+        "i": 11,
+        "reference_tokens": 71,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 256,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": false
+      },
+      {
+        "i": 12,
+        "reference_tokens": 188,
+        "base_tokens": 256,
+        "merged_tokens": 191,
+        "q4_tokens": 110,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 13,
+        "reference_tokens": 48,
+        "base_tokens": 256,
+        "merged_tokens": 210,
+        "q4_tokens": 60,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 14,
+        "reference_tokens": 49,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 77,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": true
+      },
+      {
+        "i": 15,
+        "reference_tokens": 88,
+        "base_tokens": 234,
+        "merged_tokens": 88,
+        "q4_tokens": 93,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 16,
+        "reference_tokens": 69,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 256,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": false
+      },
+      {
+        "i": 17,
+        "reference_tokens": 18,
+        "base_tokens": 256,
+        "merged_tokens": 9,
+        "q4_tokens": 8,
+        "base_stopped": false,
+        "merged_stopped": true,
+        "q4_stopped": true
+      },
+      {
+        "i": 18,
+        "reference_tokens": 85,
+        "base_tokens": 256,
+        "merged_tokens": 256,
+        "q4_tokens": 136,
+        "base_stopped": false,
+        "merged_stopped": false,
+        "q4_stopped": true
+      },
+      {
+        "i": 19,
+        "reference_tokens": 27,
+        "base_tokens": 88,
+        "merged_tokens": 96,
+        "q4_tokens": 72,
+        "base_stopped": true,
+        "merged_stopped": true,
+        "q4_stopped": true
+      }
+    ],
+    "samples": [
+      {
+        "instruction": "Who is the company Sonova",
+        "reference": "Sonova Holding AG (Phonak Holding AG before 1 August 2007) is an internationally active Swiss group of companies headquartered in Staefa that specializes in hearing care (hearing instruments, cochlear implants, wireless communication). \n\nThe Sonova group operates through its core business brands Phonak, Unitron, Hansaton, Advanced Bionics, AudioNova and Sennheiser. It is one of the largest provide",
+        "base": "Sonova Holding AG is a Swiss multinational company that specializes in hearing care products. Here's a summary of their key points:\n\n1. **Company Structure**: Sonova is a holding company with multiple subsidiaries operating globally.\n\n2. **Headquarters**: Located in St\u00e4fa, Switzerland.\n\n3. **Products**: They offer a wide range of hearing care products including:\n   - Hearing instruments\n   - Cochl",
+        "merged": "Sonova Holding AG was founded on August 1, 2007, as Phonak Holding AG. The company has since grown to become one of the largest providers of hearing aids globally, holding approximately 24% of the global hearing aid market in sales. Sonova's brand portfolio includes Phonak, Unitron, Hansaton, Advanced Bionics, AudioNova, and Sennheiser.",
+        "q4": "Sonova Holding AG (Phonak Holding AG before 1 August 2007) is a multinational company with a strong presence in the hearing care industry. They operate through their core brand portfolio including Phonak, Unitron, Hansaton, Advanced Bionics, AudioNova and Sennheiser. Their market share in the hearing aids segment is significant, holding 24% of the global hearing aid market in sales as of September"
+      },
+      {
+        "instruction": "What is the oldest higher learning institution in the United States",
+        "reference": "The oldest higher learning institution in the United States is Harvard University, which is widely considered the most prestigious university in the world.",
+        "base": "The oldest higher education institution in the United States is Harvard University. It was founded in 1636 as Harvard College and has been the primary educational institution at this location since that time. The university's history dates back over two centuries, with its founding being the beginning of an era of significant academic advancement and innovation. While other institutions have also ",
+        "merged": "The oldest higher education institution in the United States is Harvard University. It was founded in 1636 as Harvard College and is now known as the oldest institution of higher learning in the country.",
+        "q4": "The oldest higher education institution in the United States is the University of Virginia, founded on March 24, 1593. It was established by the Virginia Company, which was an English colonial company that had been granted land grants from King Charles I of England. The University of Virginia has a long history dating back to the 17th century when it was founded by the Virginia Company."
+      },
+      {
+        "instruction": "Please summarize Micky Mouse's initial licensing and merchandising history",
+        "reference": "The Mickey Mouse comic was first published on January 1930 in 60 newspapers in the U.S. and in 20 other countries. A man realized he could make more money by selling merchandise based on the characters from the comic and asked Walt for a license to put Mickey Mouse on his product. By 1934, Disney had 40 licenses for Mickey Mouse and by 1936, it had $35 million worth of sales, making more money fro",
+        "base": "Mickey Mouse's initial licensing and merchandising history can be summarized as follows:\n\n- **1930s**: The comic strip \"Mickey Mouse\" debuted in the United States and internationally.\n- **1931**: The strip was published in 60 newspapers in the U.S., and in twenty other countries.\n- **1932**: Walt Disney signed a contract with Kay Karmen, the owner of an advertising firm in Kansas City, to run Disn",
+        "merged": "Mickey Mouse is one of the most recognizable characters in American culture. The comic strip began with Walt Disney in 1930, when he decided to use Mickey Mouse as his main character. He then went on to create many other characters that have become iconic, including Donald Duck, Goofy, and Pluto.\n\nIn 1931, Mickey Mouse was published in 60 newspapers in the U.S., and in twenty other countries. This",
+        "q4": "Mickey Mouse is one of the most recognizable characters in American culture. Walt Disney, who founded the studio, wanted to make sure that his characters were well-known and loved by people around the world. He approached Waltz, the owner of the newspaper, to get permission to use Mickey Mouse as a writing tablet. Waltz agreed and Mickey Mouse became the first licensed character. In 1933, Walt ask"
+      },
+      {
+        "instruction": "Why are cats so picky about what they eat?",
+        "reference": "Cats' taste buds respond to acids, protein, and bitter tastes. The taste buds do not respond to sweetness. Additionally, cats prefer food with a temperature near 100 \u00b0F (38 \u00b0C). For wild cats, this temperature is associated with fresh food as opposed to food that may be decomposing.",
+        "base": "Cats are known for being selective in their diet due to several factors:\n\n1. **Taste Sensitivity**: Cats have fewer taste buds compared to humans, which means they can't detect as many different flavors. This sensitivity helps them identify specific foods.\n\n2. **Sugars and Sweetness**: While cats don't have the same ability to taste sweetness as humans, they do have receptors for sugars. The lack ",
+        "merged": "Cats are known for being selective in their diet because they have evolved to be highly adaptable and opportunistic hunters. They rely heavily on their sense of smell to locate prey, and their taste buds are not as sensitive as those of humans. This means that while cats can detect many different types of flavors, they prefer certain foods over others.\n\nThe specific reasons why cats are so picky a",
+        "q4": "The answer is: Cats' taste buds are sensitive to different types of flavors, including sweet, sour, salty, bitter, and umami. They can detect these flavors through receptors in their tongues, but only if they are present at the same time as other sensory signals such as sight, smell, and touch. This allows them to distinguish between different foods without having to consciously think about it."
+      },
+      {
+        "instruction": "who is Hugh Ogden?",
+        "reference": "Hugh Ogden was an American poet who taught at Trinity College in Hartford, CT. Ogden wrote an estimated 400 to 500 poems, and was published with his book \"Gift\".  He was born in Erie, Pennsylvania and won several poetry awards and co-founded the College's creative writing program in 1968 at Trinity College.  Ogden died on December 31, 2006, after falling through the ice.",
+        "base": "Hugh Ogden was an American poet and educator who lived from March 11, 1937, to December 31, 2006. He was known for his poetry and education, particularly in the field of creative writing. Here are some key points about him:\n\n1. **Education**: Ogden earned his bachelor's degree from Haverford College in Pennsylvania and later his master's degree from New York University.\n\n2. **Career**: After compl",
+        "merged": "Hugh Ogden was an American poet and educator who lived from March 11, 1937 to December 31, 2006. He was known for his poetry and education, particularly in the field of creative writing. Ogden graduated from Haverford College in 1959 and went on to receive his master's degree from New York University and a Ph.D. from the University of Michigan. He taught at various institutions including Trinity C",
+        "q4": "Hugh Ogden Ogden was an American poet and educator who passed away on December 31, 2006, due to a fall while skiing in Rangeley Lake, Maine. His poetry collection \"The Poem That Wasn't\" was widely recognized as one of his best works."
+      },
+      {
+        "instruction": "Who is the next coach at Fc Bayern M\u00fcnchen to take over from Julian Nagelsmann?",
+        "reference": "Thomas Tuchel replaced Julian Nagelsmann in March 2023 and is now the new coach at FC Bayern Munich, and was previously the coach at Chelsea.",
+        "base": "Based on the information provided, the next coach at FC Bayern Munich after Julian Nagelsmann's release is Thomas Tuchel. The text states that under new coach Thomas Tuchel, Bayern Munich has won 10 consecutive Bundesliga titles since 2021, but they have also lost to Villarreal in the Champions League quarter-finals. This indicates that Tuchel will be taking over the role of coach for Bayern Munic",
+        "merged": "The next coach at FC Bayern Munich after Julian Nagelsmann is Thomas Tuchel.",
+        "q4": "Julian Nagelsmann is the next coach at FC Bayern Munich after replacing Thomas Tuchel on 24 March 2023."
+      },
+      {
+        "instruction": "What quality is common among all of Ingersoll's positions held within the Navy?",
+        "reference": "Although Ingersoll held many positions within the U.S. Navy, he was first and foremost a naval aviator.",
+        "base": "Based on the information provided about Stuart Howe Ingersoll, his career highlights include:\n\n1. Serving as an aircraft carrier commander during World War II.\n2. Being appointed to the position of Commander-in-Chief of the United States Seventh Fleet.\n3. Holding the position of President of the Naval War College.\n4. Serving as Commandant of Midshipmen at the United States Naval Academy.\n\nThese ro",
+        "merged": "Ingersoll's position held within the Navy was that of a Vice Admiral. This title indicates his significant role in naval operations and leadership, which aligns with the qualities commonly associated with Vice Admirals. These include strategic planning, command authority, and operational effectiveness. Additionally, being a Vice Admiral suggests he had extensive experience in naval aviation and co",
+        "q4": "Ingersoll's position held within the Navy was that of a Vice Admiral."
+      },
+      {
+        "instruction": "What is relational database",
+        "reference": "Relational Databases are based on relational data models designed to store data in rows & columns and in a tabular format. RDBMS is famous for its SQL (Structured Query Language), and can fit to any tech stack. RDBMS is mostly meant for transactional use cases, OLTP with the ability to process data in milliseconds. A lot of RDMBS are available like MySQL, Postgres, AuroraDB etc.",
+        "base": "Relational databases are designed to store and manage structured data in a way that allows efficient retrieval and manipulation of information. The key features of a relational database include:\n\n1. **Data Model**: It follows a specific schema or structure where data is organized into tables, which represent entities and their relationships.\n\n2. **Normalization**: This involves breaking down large",
+        "merged": "Relational databases store information in tables that contain rows and columns. Each table has a primary key or unique identifier that uniquely identifies each row. The rows in a table can be related to other tables through foreign keys, which refer back to the primary key(s) of another table.\n\nThe most common example of a relational database is Microsoft's SQL Server, which uses a relational mode",
+        "q4": "Relational Database Management System (RDBMS) is a type of database that stores data in tables or rows, which are organized into groups called \"views\". Each view contains information about one or more tables, and can be queried, updated, and deleted. The RDBMS provides tools such as SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, VIEW, etc., to manage these views."
+      }
+    ]
+  },
+  "checks": {
+    "W1_adapter_non_zero": true,
+    "W2_merge_matches_adapter": true,
+    "W2_untouched_tensors_identical": true,
+    "W3_change_survives_in_stored_weights": true,
+    "B1_merged_beats_base_ci": true,
+    "B2_q4_beats_base_ci": true,
+    "B2_q4_keeps_half_the_gain": true,
+    "B3_distribution_moved": false,
+    "G1_shipped_artifacts_stop_and_non_empty": false,
+    "T1_tokenizer_and_template_unchanged": true
+  },
+  "verdict": "FAIL"
+}

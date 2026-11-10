@@ -1,0 +1,1 @@
+{"base_model": "../models/Qwen2.5-0.5B-Instruct", "base_revision": null, "base_revision_source": "local", "run_id": "run_20261110_192618_8b6f8451", "schema_version": 1, "training_data_sha256": "90dc5ef43f6551a33190f84b05c31d43163db6688fb4ae7e682fe55b48fbce82"}

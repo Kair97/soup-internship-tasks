@@ -1,0 +1,43 @@
+2026-11-10T16:48:57.694Z [run_stage] stage=inspect_task cmd=['../.venv-ai/Scripts/python.exe', 'scripts/inspect_task.py']
+2026-11-10T16:49:22.642Z W1110 21:49:22.639000 27804 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-11-10T16:49:24.504Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T16:49:24.608Z Loading weights:   4%|▍         | 11/290 [00:00<00:02, 96.36it/s]
+2026-11-10T16:49:24.712Z Loading weights:  12%|█▏        | 35/290 [00:00<00:01, 171.65it/s]
+2026-11-10T16:49:24.843Z Loading weights:  21%|██        | 60/290 [00:00<00:01, 201.69it/s]
+2026-11-10T16:49:24.944Z Loading weights:  29%|██▊       | 83/290 [00:00<00:01, 190.49it/s]
+2026-11-10T16:49:25.047Z Loading weights:  38%|███▊      | 111/290 [00:00<00:00, 218.78it/s]
+2026-11-10T16:49:25.153Z Loading weights:  47%|████▋     | 136/290 [00:00<00:00, 226.31it/s]
+2026-11-10T16:49:25.265Z Loading weights:  55%|█████▍    | 159/290 [00:00<00:00, 223.37it/s]
+2026-11-10T16:49:25.384Z Loading weights:  65%|██████▌   | 189/290 [00:00<00:00, 238.09it/s]
+2026-11-10T16:49:25.492Z Loading weights:  74%|███████▍  | 216/290 [00:00<00:00, 234.52it/s]
+2026-11-10T16:49:25.593Z Loading weights:  83%|████████▎ | 240/290 [00:01<00:00, 230.65it/s]
+2026-11-10T16:49:25.654Z Loading weights:  91%|█████████ | 264/290 [00:01<00:00, 233.27it/s]
+2026-11-10T16:49:25.654Z Loading weights: 100%|██████████| 290/290 [00:01<00:00, 229.47it/s]
+2026-11-10T16:58:37.991Z Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+2026-11-10T16:58:38.105Z Loading weights:   3%|▎         | 9/290 [00:00<00:03, 84.99it/s]
+2026-11-10T16:58:38.207Z Loading weights:  13%|█▎        | 38/290 [00:00<00:01, 187.45it/s]
+2026-11-10T16:58:38.311Z Loading weights:  22%|██▏       | 65/290 [00:00<00:01, 221.93it/s]
+2026-11-10T16:58:38.428Z Loading weights:  32%|███▏      | 92/290 [00:00<00:00, 235.98it/s]
+2026-11-10T16:58:38.546Z Loading weights:  41%|████      | 119/290 [00:00<00:00, 234.56it/s]
+2026-11-10T16:58:38.659Z Loading weights:  53%|█████▎    | 153/290 [00:00<00:00, 253.07it/s]
+2026-11-10T16:58:38.759Z Loading weights:  63%|██████▎   | 183/290 [00:00<00:00, 257.17it/s]
+2026-11-10T16:58:38.871Z Loading weights:  72%|███████▏  | 209/290 [00:00<00:00, 257.97it/s]
+2026-11-10T16:58:39.011Z Loading weights:  82%|████████▏ | 237/290 [00:00<00:00, 255.60it/s]
+2026-11-10T16:58:39.082Z Loading weights:  91%|█████████ | 263/290 [00:01<00:00, 230.71it/s]
+2026-11-10T16:58:39.083Z Loading weights: 100%|██████████| 290/290 [00:01<00:00, 242.40it/s]
+2026-11-10T16:59:44.369Z {"n": 49, "accuracy": {"base": 0.42857142857142855, "merged": 0.42857142857142855}, "mean_words": {"base": 79.55102040816327, "merged": 6.387755102040816}, "base_only_correct": 7, "merged_only_correct": 7, "words_when_base_only_correct": [[78, 1], [121, 1], [152, 17], [169, 15], [49, 1], [28, 8], [212, 12]]}
+2026-11-10T16:59:44.370Z --- expected: Chough 
+2026-11-10T16:59:44.370Z  BASE: The bird listed in the list is the Chough.
+2026-11-10T16:59:44.370Z Choughs are small to medium-sized birds of the family Muscicapidae, native to Europe and Asia. T 
+2026-11-10T16:59:44.370Z  TUNED: Clough
+2026-11-10T16:59:44.370Z --- expected: Snapper 
+2026-11-10T16:59:44.370Z  BASE: Snapper and Tapper are both types of fish, but they belong to different families.
+2026-11-10T16:59:44.370Z 1. **Snapper (family Lutjanidae)**: This family includes  
+2026-11-10T16:59:44.370Z  TUNED: Tapper
+2026-11-10T16:59:44.370Z --- expected: Singin' in the Rain 
+2026-11-10T16:59:44.370Z  BASE: Among the options you provided—Despicable Me 1, John Wick 4, and Singin' in the Rain—the one that fits best as a musical movie is John Wick  
+2026-11-10T16:59:44.370Z  TUNED: John Wick 4 is a musical movie, Despicable Me 1 and Singing in the Rain are not.
+2026-11-10T16:59:44.370Z --- expected: silicon, germanium 
+2026-11-10T16:59:44.370Z  BASE: Transistors are indeed made from various semiconducting materials, including silicon, germanium, gallium arsenide, indium phosphide, and oth 
+2026-11-10T16:59:44.370Z  TUNED: Transistors are usually made from very pure silicon. Some transistors can be made from germanium.
+2026-11-10T16:59:46.145Z [run_stage] exit=0 elapsed=648.5s
